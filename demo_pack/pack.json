@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "demo_pack",
+  "title": "Demo Pack (FISI style)",
+  "description": "5 question types demo",
+  "language": "de",
+  "tags": [
+    "FISI",
+    "IHK",
+    "demo"
+  ],
+  "groups": [
+    {
+      "id": "net",
+      "title": "Networking",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    {
+      "id": "misc",
+      "title": "Misc",
+      "questionIds": [
+        "q4",
+        "q5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Welche OSI-Schicht ist für Routing zuständig?"
+      },
+      "media": null,
+      "score": {
+        "max": 1.0
+      },
+      "data": {
+        "options": [
+          {
+            "id": "a",
+            "text": "Transport",
+            "explain": "Transport (Schicht 4) ist für Ende-zu-Ende-Übertragung zuständig, nicht fürs Routing."
+          },
+          {
+            "id": "b",
+            "text": "Network",
+            "explain": "Network (Schicht 3) übernimmt Routing zwischen Netzen (IP, Router)."
+          },
+          {
+            "id": "c",
+            "text": "Presentation",
+            "explain": "Presentation (Schicht 6) kümmert sich um Darstellung/Formatierung (z. B. Kodierung, Verschlüsselung), nicht Routing."
+          },
+          {
+            "id": "d",
+            "text": "Physical",
+            "explain": "Physical (Schicht 1) beschreibt Signale/Übertragungsmedium, nicht Routing."
+          }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "Wähle zustandsbehaftete Protokolle (partial scoring)."
+      },
+      "media": "media/state.png",
+      "score": {
+        "max": 1.0
+      },
+      "data": {
+        "options": [
+          {
+            "id": "a",
+            "text": "TCP",
+            "explain": "TCP ist verbindungsorientiert (stateful)."
+          },
+          {
+            "id": "b",
+            "text": "UDP",
+            "explain": "UDP ist verbindungslos (stateless)."
+          },
+          {
+            "id": "c",
+            "text": "FTP",
+            "explain": "FTP nutzt eine Sitzung/Verbindung und arbeitet zustandsbehaftet."
+          },
+          {
+            "id": "d",
+            "text": "ICMP",
+            "explain": "ICMP ist ein Kontrollprotokoll, kein Session-Protokoll."
+          }
+        ],
+        "correctOptionIds": [
+          "a",
+          "c"
+        ],
+        "scoring": {
+          "penalizeWrong": true
+        },
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q3",
+      "type": "order",
+      "prompt": { "text": "Sortiere OSI-Schichten (unten → oben). Partial scoring." },
+      "media": null,
+      "score": { "max": 1.0 },
+      "data": {
+        "items": [
+          {"id":"p","text":"Physical"},
+          {"id":"n","text":"Network"},
+          {"id":"t","text":"Transport"},
+          {"id":"a","text":"Application"}
+        ],
+        "correctOrder": ["p","n","t","a"],
+        "scoring": { "mode": "partial" }
+      }
+    },
+    {
+      "id": "q4",
+      "type": "textInput",
+      "prompt": { "text": "Wie heißt das Protokoll für sichere Web-Verbindungen?" },
+      "media": null,
+      "score": { "max": 1.0 },
+      "data": {
+        "accepted": ["https"],
+        "caseSensitive": false,
+        "trim": true
+      }
+    },
+    {
+      "id": "q5",
+      "type": "numberInput",
+      "prompt": { "text": "Wie viele Bits hat eine IPv4-Adresse?" },
+      "media": null,
+      "score": { "max": 1.0 },
+      "data": {
+        "correct": 32,
+        "tolerance": 0
+      }
+    }
+  ]
+}
