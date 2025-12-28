@@ -438,7 +438,7 @@
     {
       "id": "20",
       "type": "singleChoice",
-      "prompt": { "text": "20) Was bedeutet das Zeichen 'Blauer Engel'?", },
+      "prompt": { "text": "20) Was bedeutet das Zeichen 'Blauer Engel'?" },
 	  "media": "media/blauer_engel.png",
       "score": { "max": 3.33333 },
       "data": {
@@ -543,7 +543,7 @@
     {
       "id": "26",
       "type": "singleChoice",
-      "prompt": { "text": "26) Sie erhalten eine E-Mail, mit folgendem Inhalt: \n„Hallo, wir mussten mit großem Bedauern feststellen, dass wir einige Probleme mit unserem System hatten. Aus gegebenem Grund müssen wir Sie bitten, Ihre Mitgliedschaft im Account mit Ihrem Login sowie Ihren Kreditkarten-Daten zu bestätigen. Bitte folgen Sie dem nachfolgenden Link, und füllen Sie die Felder korrekt aus: http://payment.account.com/ Somit sichern Sie sich weiterhin einen uneingeschränkten Zugriff auf Ihr Konto."\nWelche der folgenden Verhaltensweisen zum Umgang mit dieser Nachricht ist zutreffend?" },
+      "prompt": { "text": "26) Sie erhalten eine E-Mail, mit folgendem Inhalt: \n„Hallo, wir mussten mit großem Bedauern feststellen, dass wir einige Probleme mit unserem System hatten. Aus gegebenem Grund müssen wir Sie bitten, Ihre Mitgliedschaft im Account mit Ihrem Login sowie Ihren Kreditkarten-Daten zu bestätigen. Bitte folgen Sie dem nachfolgenden Link, und füllen Sie die Felder korrekt aus: http://payment.account.com/ Somit sichern Sie sich weiterhin einen uneingeschränkten Zugriff auf Ihr Konto.\nWelche der folgenden Verhaltensweisen zum Umgang mit dieser Nachricht ist zutreffend?" },
       "score": { "max": 3.33333 },
       "data": {
         "options": [
