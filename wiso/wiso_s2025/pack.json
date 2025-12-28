@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "id": "wiso_s2025",
+  "title": "Abschlussprüfung WiSo Sommer 2025",
+  "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde für Fachinformatiker. Termin: 7. Mai 2025.",
+  "language": "de",
+  "tags": [
+    "IHK",
+    "WiSo",
+    "Fachinformatiker"
+  ],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "Alle Aufgaben",
+      "questionIds": [
+        "1", "2", "3", "4", "5", "6", 
+        "7a", "7b", "7c", "7d", "7e", 
+        "8", "9", "10", "11", "12", "13", "14", "15", 
+        "16a", "16b", 
+        "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", 
+        "28", "29", "30"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Ausgangssituation: Die EcoTech GmbH ist ein IT-Dienstleistungsunternehmen mit Sitz in Erfurt. Die folgended Aufgaben beziehen sich auf dieses Unternehnen.\n\n1. Aufgabe\nDie EcoTech GmbH arbeitet mit verschiedenen Kooperationspartnern zusammen.\nWelches der folgenden Unternehmen gehört zum sekundären Wirtschaftssektor?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Spediteur Fahrschnell OHG" },
+          { "id": "2", "text": "Lagerlogistik Peter Müller e. K." },
+          { "id": "3", "text": "Import Keller OHG" },
+          { "id": "4", "text": "Akku- und Ladegerätebau GmbH" },
+          { "id": "5", "text": "Handelsvertretung Show & More GmbH" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "2",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "2. Aufgabe\nEin Mitbewerber der EcoTech GmbH hatte letztes Jahr erstmalig eine App zur Erstellung der Einkommensteuererklärung im Angebot. In diesem Jahr will die EcoTech GmbH eine ähnliche App entwickeln und vertreiben. Sie geht von einer großen Nachfrage durch eine Vielzahl von Käufern aus.\nWelche der folgenden Marktformen würde ab diesem Jahr für diesen Markt vorliegen, wenn es keine weiteren Anbieter gibt?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Angebotsmonopol" },
+          { "id": "2", "text": "Nachfragepolypol" },
+          { "id": "3", "text": "Angebotsoligopol" },
+          { "id": "4", "text": "Angebotspolypol" },
+          { "id": "5", "text": "Nachfrageoligopol" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "3. Aufgabe\nIn welchem der folgenden Fälle handelt die EcoTech GmbH nach dem ökonomischen Maximalprinzip?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Im Zentrallager wurde bei gleicher Umschlagmenge die Anzahl der Beschäftigten von sieben auf fünf gesenkt." },
+          { "id": "2", "text": "In der Verwaltung wurden durch Rationalisierungsmaßnahmen die Kosten um 15 % gesenkt." },
+          { "id": "3", "text": "Der Umsatz wurde bei gleichem Personaleinsatz um 20 % gesteigert." },
+          { "id": "4", "text": "Durch eine Erhöhung des Werbeetats um 10 % wurde die rückläufige Absatzentwicklung gestoppt." },
+          { "id": "5", "text": "Durch Umgestaltung der Vertriebswege für den Absatz für B2B-Kunden wurden die Kosten um 5 % gesenkt." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "4",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "4. Aufgabe\nIn welcher der folgenden Phasen der gesamtwirtschaftlichen Entwicklung befindet sich die EU anhand der drei Angaben in der Spalte „Aktuelles Jahr“ (BIP -1,0%, Inflation 2,2%, Arbeitslosenquote 6,5%)?"
+      },
+      "media": "media/q4-6.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Stillstand/Stagnation" },
+          { "id": "2", "text": "Aufschwung/Expansion" },
+          { "id": "3", "text": "Höchststand/Boom" },
+          { "id": "4", "text": "Abschwung/Rezession" },
+          { "id": "5", "text": "Tiefstand/Depression" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "5",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "5. Aufgabe\nIn der Konferenz wird über die Merkmale von Konjunkturauf- und -abschwüngen diskutiert.\nWelches der folgenden Merkmale ist typisch für eine konjunkturelle Rezession? Zunahme ..."
+      },
+      "media": "media/q4-6.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "... der Investitionen" },
+          { "id": "2", "text": "... des Bruttoinlandsprodukts" },
+          { "id": "3", "text": "... der gesamtwirtschaftlichen Lohnsumme" },
+          { "id": "4", "text": "... der Kapazitätsauslastung" },
+          { "id": "5", "text": "... der Lagerbestände" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "6",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "6. Aufgabe\nIn der Konferenz werden verschiedene Maßnahmen zur Konjunkturbelebung betrachtet.\nWelche der folgenden Maßnahmen belebt die Konjunktur und könnte zu einer besseren Auftragslage führen?"
+      },
+      "media": "media/q4-6.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Erhöhung der staatlichen Investitionen" },
+          { "id": "2", "text": "Erhöhung der Steuern" },
+          { "id": "3", "text": "Erhöhung der Leitzinsen" },
+          { "id": "4", "text": "Kürzung des Kindergeldes" },
+          { "id": "5", "text": "Kürzung des Arbeitslosengeldes" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7a",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe (Zuordnung)\nWelche Art von Ziel ist folgendes Unternehmensziel:\na) Die Chancengleichheit von Frauen und Männern wird sichergestellt."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ökonomisches Ziel" },
+          { "id": "2", "text": "Ökologisches Ziel" },
+          { "id": "3", "text": "Weder ökonomisches noch ökologisches Ziel" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7b",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe (Zuordnung)\nWelche Art von Ziel ist folgendes Unternehmensziel:\nb) Die Mitarbeitenden sollen durch Gewinnbeteiligung zu effizienterer Arbeitsleistung motiviert werden."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ökonomisches Ziel" },
+          { "id": "2", "text": "Ökologisches Ziel" },
+          { "id": "3", "text": "Weder ökonomisches noch ökologisches Ziel" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7c",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe (Zuordnung)\nWelche Art von Ziel ist folgendes Unternehmensziel:\nc) Es sollen ausreichend Gewinne erwirtschaftet werden, damit anstehende Investitionen nicht ausschließlich mit Fremdkapital finanziert werden müssen."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ökonomisches Ziel" },
+          { "id": "2", "text": "Ökologisches Ziel" },
+          { "id": "3", "text": "Weder ökonomisches noch ökologisches Ziel" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7d",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe (Zuordnung)\nWelche Art von Ziel ist folgendes Unternehmensziel:\nd) Die CO2-Emission soll durch Einbau einer Photovoltaikanlage gesenkt werden."
+      },
+	  "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ökonomisches Ziel" },
+          { "id": "2", "text": "Ökologisches Ziel" },
+          { "id": "3", "text": "Weder ökonomisches noch ökologisches Ziel" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7e",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe (Zuordnung)\nWelche Art von Ziel ist folgendes Unternehmensziel:\ne) Es werden modernste Techniken für Lagerlogistik und Transport eingesetzt, damit der Leistungsprozess die natürliche Lebensgrundlage möglichst wenig belastet."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ökonomisches Ziel" },
+          { "id": "2", "text": "Ökologisches Ziel" },
+          { "id": "3", "text": "Weder ökonomisches noch ökologisches Ziel" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "8",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Mario Kerman ist Mitarbeiter und Ansprechpartner bei der EcoTech GmbH im Bereich Aus- und Weiterbildung. \n8. Aufgabe\nAm 1. Februar wird Frau Jung {20 Jahre alt) eine Berufsausbildung zur Fachinformatikerin Anwendungsentwicklung In der EcoTech GmbH beginnen.. Herr Kerman soll den Ausbildungsvertrag überprüfen.\nWelcher der folgenden Vertragsinhalte muss korrigiert werden?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Ausbildungsvergütungen sind bereits für alle Ausbildungsjahre eingetragen." },
+          { "id": "2", "text": "Die Angaben der Eltern sind nicht eingetragen." },
+          { "id": "3", "text": "Die Kündigungsvoraussetzungen sind aufgeführt." },
+          { "id": "4", "text": "Die Probezeit ist mit einer Dauer von sechs Monaten eingetragen.", "explain": "Die Probezeit darf nach BBiG höchstens 4 Monate dauern. 6 Monate sind daher im Ausbildungsvertrag falsch eingetragen." },
+          { "id": "5", "text": "Die Ausbildungsdauer ist mit 36 Monaten eingetragen." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "9",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "Situation: Mario Kerman ist Mitarbeiter und Ansprechpartner bei der EcoTech GmbH im Bereich Aus- und Weiterbildung. \n9. Aufgabe\nHerr Kerman überprüft weitere Abläufe der Berufsausbildung in der EcoTech GmbH.\nWelche der folgenden Situationen entsprechen den Regelungen des Berufsbildungsgesetzes? (2 Antworten)"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Während der Probezeit kann das Berufsausbildungsverhältnis nur mit einer Kündigungsfrist von vier Wochen gekündigt werden." },
+          { "id": "2", "text": "Eine Kündigung des Berufsausbildungsverhältnisses durch eine Auszubildende nach der Probezeit ist möglich, wenn sie eine Ausbildung in einem anderen Ausbildungsberuf beginnen will." },
+          { "id": "3", "text": "Vereinbarungen über eine Weiterbeschäftigung nach der Ausbildung können bereits im Berufsausbildungsvertrag festgelegt werden." },
+          { "id": "4", "text": "Das Ausbildungsverhältnis endet mit Ablauf der Ausbildungszeit, auch wenn die Auszubildende die IHK-Abschlussprüfung vorher besteht." },
+          { "id": "5", "text": "Die EcoTech GmbH muss den Auszubildenden bei Beendigung des Berufsausbildungsverhältnisses auf deren Wunsch ein qualifiziertes Zeugnis ausstellen." },
+          { "id": "6", "text": "Die EcoTech GmbH muss der Auszubildenden am Tag nach dem Bestehen der Abschlussprüfung einen unbefristeten Arbeitsvertrag anbieten." }
+        ],
+        "correctOptionIds": ["2", "5"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "10",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Mario Kerman ist Mitarbeiter und Ansprechpartner bei der EcoTech GmbH im Bereich Aus- und Weiterbildung. \n10. Aufgabe\nHerr Kermann stellt eine Liste der erforderlichen Unterlagen zur Berufsausbildung für die Auszubildenden zusammen.\nWelche der folgenden Unterlagen ist gemäß den Vorschriften des Berufsbildungsgesetzes Teil des Berufsausbildungsvertrages?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Der fachlich gegliederte Stoffplan der Berufsschule" },
+          { "id": "2", "text": "Der gemeinsame Ausbildungsplan der Berufsschule und des Betriebes" },
+          { "id": "3", "text": "Der Rahmenlehrplan der Berufsschule" },
+          { "id": "4", "text": "Der Ausbildungsplan des Ausbildungsbetriebes" },
+          { "id": "5", "text": "Der Einsatz- und der Pausenplan des jeweiligen Betriebes" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "11",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "11. Aufgabe\nNach einigen Monaten Tätigkeit in der EcoTech GmbH möchte sich die Auszubildende Claudia Peters in der Jugend- und Auszubildendenvertretung (JAV) engagieren. Sie interessiert sich dafür, welche Aufgaben die JAV hat.\nWelches der folgenden Gesetze enthält entsprechende Regelungen?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Bürgerliches Gesetzbuch" },
+          { "id": "2", "text": "Arbeitsschutzgesetz" },
+          { "id": "3", "text": "Berufsbildungsgesetz" },
+          { "id": "4", "text": "Jugendarbeitsschutzgesetz" },
+          { "id": "5", "text": "Betriebsverfassungsgesetz" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "12",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "12. Aufgabe\nIn der EcoTech GmbH unterhält sich eine Kollegin mit Frau Peters und möchte wissen, wie die Zusammenarbeit zwischen Mitgliedern der JAV, dem Betriebsrat und der Geschäftsführung der EcoTech GmbH geregelt ist.\nWelche der folgenden Aussagen trifft zu?\nAls Mitglied der Jugend- und Auszubildendenvertretung ..."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "... darf man nur zweimal im Jahr an Sitzungen des Betriebsrates teilnehmen." },
+          { "id": "2", "text": "... darf man für Jugendliche und Auszubildende beim Betriebsrat Maßnahmen zugunsten der Auszubildenden beantragen." },
+          { "id": "3", "text": "... vertritt man alle Jugendinteressen direkt bei der Geschäftsführung." },
+          { "id": "4", "text": "... muss man vor jeder Entscheidung des Betriebsrates gehört werden." },
+          { "id": "5", "text": "... hat man bei allen betrieblichen Belangen ein Mitspracherecht." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "13. Aufgabe\nDie Fachinformatikerin Sofia Hase interessiert sich für eine Mitarbeit im Betriebsrat.\nWelche der folgenden Voraussetzungen muss Frau Hase erfüllen, damit sie in den Betriebsrat gewählt werden kann?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Müssen Mitarbeitende das 18. Lebensjahr vollendet haben und die Ausbildung zwingend abgeschlossen haben." },
+          { "id": "2", "text": "Können sich Mitarbeitende aufstellen lassen, die das 16. Lebensjahr vollendet haben." },
+          { "id": "3", "text": "Müssen Mitarbeitende volljährig sein und seit mindestens sechs Monaten der EcoTech GmbH angehören." },
+          { "id": "4", "text": "Ist die berufliche und strafrechtliche Vorgeschichte der Mitarbeitenden völlig irrelevant." },
+          { "id": "5", "text": "Müssen Mitarbeitende das 18. Lebensjahr vollendet haben und dürfen vorher maximal sechs Monate der EcoTech GmbH angehört haben." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "14",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "14. Aufgabe\nDas Jugendarbeitsschutzgesetz (JArbSchG) gilt für jugendliche Mitarbeitende. Welche der folgenden Regelungen steht im JArbSchG?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Jugendliche dürfen nicht länger als drei Stunden ununterbrochen ohne Ruhepausen beschäftigt werden." },
+          { "id": "2", "text": "Zwischen dem Feierabend und dem Arbeitsbeginn am nächsten Tag muss eine Ruhepause von acht Stunden eingelegt werden." },
+          { "id": "3", "text": "Jugendliche sollen vor einer Gefährdung ihrer Gesundheit oder einer Störung der Entwicklung bewahrt werden." },
+          { "id": "4", "text": "Jugendliche sollen grundsätzlich nicht vor acht Uhr morgens beschäftigt werden." },
+          { "id": "5", "text": "Jugendliche müssen zur besseren Vorbereitung im Rahmen der Abschlussprüfung zwei Arbeitstage vor der Prüfung freigestellt werden." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "15",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "15. Aufgabe\nDer Betriebsrat der EcoTech GmbH lädt zur vierteljährlichen Betriebsversammlung ein.\nWelche der folgenden Personengruppen ist berechtigt, an der Betriebsversammlung teilzunehmen?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Alle Arbeitnehmende des Unternehmens" },
+          { "id": "2", "text": "Nur die Betriebsratsmitglieder und die Gewerkschaftsvertreter" },
+          { "id": "3", "text": "Nur die gewerkschaftlich organisierten Mitarbeitenden" },
+          { "id": "4", "text": "Nur die Vollzeitmitarbeitenden und die Führungskräfte" },
+          { "id": "5", "text": "Nur die Vollzeitmitarbeitenden und die Auszubildenden" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "16a",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "16. Aufgabe (Zuordnung)\nWelche Rechtsquelle ist dem folgenden Sachverhalt zuzuordnen?\na) Die Geschäftsführung der EcoTech GmbH und der Betriebsrat arbeiten unter Beachtung der geltenden Tarifverträge und gesetzlichen Regelungen konstruktiv zusammen."
+      },
+      "score": { "max": 1.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Berufsbildungsgesetz" },
+          { "id": "2", "text": "Handelsgesetzbuch" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Bürgerliches Gesetzbuch" },
+          { "id": "5", "text": "Bundesurlaubsgesetz" },
+          { "id": "6", "text": "Jugendarbeitsschutzgesetz" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "16b",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "16. Aufgabe (Zuordnung)\nWelche Rechtsquelle ist dem folgenden Sachverhalt zuzuordnen?\nb) Die Geschäftsleitung der EcoTech GmbH erarbeitet neue Allgemeine Geschäftsbedingungen."
+      },
+      "score": { "max": 1.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Berufsbildungsgesetz" },
+          { "id": "2", "text": "Handelsgesetzbuch" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Bürgerliches Gesetzbuch" },
+          { "id": "5", "text": "Bundesurlaubsgesetz" },
+          { "id": "6", "text": "Jugendarbeitsschutzgesetz" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "17",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "17. Aufgabe\nDie EcoTech GmbH ist Mitglied eines Arbeitgeberverbandes und tarifgebunden, Bei den laufenden Tarifverhandlungen hat die Arbeitgeberseite kein Angebot vorgelegt und die Forderung der Gewerkschaft abgelehnt, Daraufhin plant die Gewerkschaft Streikmaßnahmen.\nWelche der folgenden Aussagen zu einem unbefristeten Streik trifft zu?\nEin unbefristeter Streik..."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "... muss vom DGB (Deutscher Gewerkschaftsbund) genehmigt werden." },
+          { "id": "2", "text": "... muss beim Bundesministerium für Arbeit und Soziales beantragt werden." },
+          { "id": "3", "text": "... ist nur vor dem Auslaufen eines Tarifvertrags möglich." },
+          { "id": "4", "text": "... wird immer von Tarifverhandlungen begleitet." },
+          { "id": "5", "text": "... kann von den Arbeitgebern mit Aussperrung erwidert werden." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "18",
+      "type": "textInput",
+      "prompt": {
+        "text": "18. Aufgabe\nDer Mitarbeitende Paul Kropp ist seit 01.01.2012 beschäftigt. Die EcoTech GmbH möchte das Arbeitsverhältnis im Dezember 2025 betriebsbedingt zum nächstmöglichen Termin kündigen.\nMit Ablauf welchen Tages endet das Arbeitsverhältnis von Herrn Kropp? (Format: TT.MM.JJJJ)"
+      },
+      "media": "media/622bgb.jpg",
+      "score": { "max": 3.33333 },
+      "data": {
+        "accepted": ["31.05.2026"],
+		"trim": true,
+        "caseSensitive": false
+      }
+    },
+    {
+      "id": "19",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "19. Aufgabe\nDie EcoTech GmbH erstellt für Herrn Kropp ein qualifiziertes Arbeitszeugnis.\nWelcher der folgenden Sachverhalte trifft auf ein qualifiziertes Arbeitszeugnis zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "enthält nur Angaben über Art und Dauer der Beschäftigung." },
+          { "id": "2", "text": "darf neben Art und Dauer der Beschäftigung auf Wunsch auch Aussagen über das private Auftreten enthalten." },
+          { "id": "3", "text": "wird nach Ermessen des Arbeitgebers ausgestellt." },
+          { "id": "4", "text": "wird nur bei sehr guten Leistungen ausgestellt." },
+          { "id": "5", "text": "muss nur auf Verlangen des Arbeitnehmers ausgestellt werden." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "20",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "20. Aufgabe\nEs sollen Personalkosten gesenkt werden. Welches der folgenden Arbeitsverhältnisse könnte am ehesten durch eine ordentliche Kündigung beendet werden (Sozialauswahl)?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Dan Schulze, 19 Jahre, Auszubildender im zweiten Ausbildungsjahr" },
+          { "id": "2", "text": "Leon Berger, 32 Jahre, Fachinformatiker, seit fünf Jahren im Unternehmen, ledig, keine Kinder" },
+          { "id": "3", "text": "Joel Hase, 35 Jahre, schwerbehindert, zwei Kinder, seit zehn Jahren im Unternehmen" },
+          { "id": "4", "text": "Luisa Nova, 28 Jahre, Personalsachbearbeiterin, im fünften Monat schwanger" },
+          { "id": "5", "text": "Till Svensson, 38 Jahre, IT-System-Elektroniker, wurde vor einem Jahr in den Betriebsrat gewählt" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "21",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Zur Reduzierung finanzieller Risiken plant die EcoTech GmbH, den Unternehmensbereich „Allgemeine Dienstleistungen” auszulagern. Denis Trout und Suzi Wegener möchten ein selbstständiges Tochterunternehmen in der Rechtsform der GmbH gründen. Herr Traut beteiligt sich mit 80.000,00 EUR und Frau Wegener mit 40.000 EUR.\n21. Aufgabe\nDie beiden Gesellschafter wollen die GmbH rechtswirksam gründen.\nWelcher der folgenden Sachverhalte ist in diesem Zusammenhang zutreffend?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Frau Wegener muss die Eintragung der GmbH beim Arbeitsgericht beantragen." },
+          { "id": "2", "text": "Das neue Unternehmen könnte auch unter dem Namen EcoTech GmbH firmieren." },
+          { "id": "3", "text": "Frau Wegener oder Herr Trout treten für die GmbH als geschäftsführender Gesellschafter auf." },
+          { "id": "4", "text": "Die Einlagen der beiden Gesellschafter müssen insgesamt mehr als das 5-Fache des gesetzlich geforderten Stammkapitals betragen." },
+          { "id": "5", "text": "Zur Rechtswirksamkeit genügt es, dass der Gesellschaftsvertrag mündlich geschlossen wird." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "22",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Zur Reduzierung finanzieller Risiken plant die EcoTech GmbH, den Unternehmensbereich „Allgemeine Dienstleistungen” auszulagern. Denis Trout und Suzi Wegener möchten ein selbstständiges Tochterunternehmen in der Rechtsform der GmbH gründen. Herr Traut beteiligt sich mit 80.000,00 EUR und Frau Wegener mit 40.000 EUR.\n22. Aufgabe\nDie beiden Gründer wollen im Gesellschaftsvertrag die Geschäftsführung der neuen GmbH festlegen.\nWelche der folgenden Aussagen zur GmbH trifft zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Geschäftsführung muss von allen Gesellschaftern ausgeübt werden." },
+          { "id": "2", "text": "Ein Gesellschafter der GmbH kann als Geschäftsführer eingesetzt werden." },
+          { "id": "3", "text": "Die Gesellschafter haften mit ihrem Privatvermögen für alle Verbindlichkeiten der GmbH." },
+          { "id": "4", "text": "Die GmbH muss nicht im Handelsregister eingetragen werden." },
+          { "id": "5", "text": "Das Stammkapital muss in voller Höhe von der Geschäftsführung geleistet werden." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "23",
+      "type": "numberInput",
+      "prompt": {
+        "text": "Situation: Zur Reduzierung finanzieller Risiken plant die EcoTech GmbH, den Unternehmensbereich „Allgemeine Dienstleistungen” auszulagern. Denis Trout und Suzi Wegener möchten ein selbstständiges Tochterunternehmen in der Rechtsform der GmbH gründen. Herr Traut beteiligt sich mit 80.000,00 EUR und Frau Wegener mit 40.000 EUR.\n23. Aufgabe\nIm ersten Geschäftsjahr wird in dem neu gegründeten Tochterunternehmen ein Gewinn in Höhe von 60.000,00 EUR erwirtschaftet. Für die Gewinnverteilung ist keine vertragliche Regelung vereinbart.\nBerechnen Sie, welcher Gewinnanteil in EUR auf Frau Wegener entfällt."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "correct": 20000,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "24",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "24. Aufgabe\nIn welchen der folgenden Fälle wurde gegen das Allgemeine Gleichbehandlungsgesetz (AGG) verstoßen? (2 Antworten)"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die EcoTech GmbH schaltet eine Stellenanzeige, in der sie „junge Mitarbeiter (m/w/d)“ sucht." },
+          { "id": "2", "text": "Zwei Mitarbeiter werden abgemahnt, weil sie trotz Verbot im Lager zum wiederholten Mal geraucht haben." },
+          { "id": "3", "text": "Alle volljährigen Mitarbeitenden machen an einem 4-Stunden-Arbeitstag keine Pause." },
+          { "id": "4", "text": "Ein Vorschlag einer Mitarbeiterin wird abgelehnt, weil sie eine dunkle Hautfarbe hat." },
+          { "id": "5", "text": "Ein zu 60 % schwerbehinderter Mitarbeiter erhält fünf Urlaubstage mehr als die Nicht-Schwerbehinderten." },
+          { "id": "6", "text": "Ein Bewerber für die Personalabteilung wird abgelehnt, weil er keine PC-Kenntnisse hat." }
+        ],
+        "correctOptionIds": ["1", "4"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "25",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "25. Aufgabe\nDie EcoTech GmbH möchte neue Mitarbeitende einstellen. Auch bei der Einstellung von Personal ist das Allgemeine Gleichbehandlungsgesetz (AGG) zu berücksichtigten.\nWelcher der folgenden Sachverhalte entspricht dem AGG?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Vor der Sichtung der Bewerbungsunterlagen werden Name und Alter der Bewerberinnen und Bewerber offengelegt." },
+          { "id": "2", "text": "In der Stellenanzeige wird darauf hingewiesen, dass Bewerber aus Italien bevorzugt werden." },
+          { "id": "3", "text": "Bei der Auswahl des Personals werden Männer bevorzugt." },
+          { "id": "4", "text": "Bei der Auswahl des Personals werden ausschließlich die Qualifikationen der Bewerberinnen und Bewerber als Auswahlkriterium zugrunde gelegt." },
+          { "id": "5", "text": "In den Stellenanzeigen ist folgender Hinweis aufgenommen worden: „Wir sind ein junges, dynamisches Team, deshalb werden nur Bewerberinnen berücksichtigt, die unter 35 Jahre alt sind.“" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "26",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Bei einer unternehmensinternen Schulung zu Unfallgefahren und deren Vermeidung werden verschiedene Situationen diskutiert.\n26. Aufgabe\nZu welchem der folgenden Zeitpunkte sind die Mitarbeiter der EcoTech GmbH über die Unfall- und Gesundheitsgefahren zu belehren?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Nur bei Aufnahme der Beschäftigung" },
+          { "id": "2", "text": "Bei Aufnahme der Beschäftigung und anschließend in regelmäßigen Abständen" },
+          { "id": "3", "text": "Nach Ablauf der Probezeit" },
+          { "id": "4", "text": "Bei Abschluss des Arbeitsvertrages" },
+          { "id": "5", "text": "Es besteht keine Pflicht des Arbeitgebers" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "27",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "Situation: Bei einer unternehmensinternen Schulung zu Unfallgefahren und deren Vermeidung werden verschiedene Situationen diskutiert.\n27. Aufgabe\nIn der EcoTech GmbH soll Herr Kerman die Aufgabe des Sicherheitsbeauftragten übernehmen.\nAn welche der folgenden zuständigen Einrichtungen muss sich der Sicherheitsbeauftragte wenden, um genauere Informationen zu diesem Thema zu erhalten?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Gewerbeaufsichtsbehörde" },
+          { "id": "2", "text": "Deutscher Gewerkschaftsbund" },
+          { "id": "3", "text": "Berufsgenossenschaft" },
+          { "id": "4", "text": "Industrie- und Handelskammer" },
+          { "id": "5", "text": "Handwerkskammer" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+	{
+	"id": "28",
+      "type": "order",
+      "prompt": { "text": "28. Aufgabe\nEin Praktikant der EcoTech GmbH zeigt Herrn Kerman verschiedene in der EcoTech GmbH vorhandene Zeichen und fragt nach deren Funktion\nWelche der folgenden Schilder sind den nachstehenden Bezeichnu ngen zuzuordnen?" },
+      "media": "media/q28.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "items": [
+          {"id":"a","text":"a) Rettungszeichen"},
+          {"id":"b","text":"b) Verbotszeichen"},
+          {"id":"c","text":"c) Brandschutzzeichen"},
+		  {"id":"d","text":"d) Gebotszeichen"},
+		  {"id":"e","text":"e) Warnzeichen"}
+        ],
+        "correctOrder": ["d","a","b","e","c"],
+        "scoring": { "mode": "partial" }
+      }
+    },
+    {
+      "id": "29",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "29. Aufgabe\nDie EcoTech GmbH hat in ihren Unternehmenszielen die Verbesserung des Umweltschutzes festgelegt.\nWelche der folgenden Maßnahmen trägt NICHT zur Erreichung dieses Ziels bei?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Beleuchtung der Büro- sowie der Verkaufsräume in den Filialen erfolgt mittels LED-Leuchtmitteln anstatt Glühlampen." },
+          { "id": "2", "text": "In der betriebseigenen Kantine wird der Kaffee in Einwegbechern aus Kunststoff ausgegeben." },
+          { "id": "3", "text": "Die Transportlogistik wird mithilfe einer geeigneten Software optimiert." },
+          { "id": "4", "text": "Die Reinigung der Gebäudefenster erfolgt mit biologisch abbaubaren Reinigungsmitteln." },
+          { "id": "5", "text": "In den Büros der EcoTech GmbH wird ausschließlich Recycling-Papier verwendet." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "30",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "30. Aufgabe\nAuf den Verpackungen vieler Produkte befinden sich unterschiedliche Kennzeichnungen.\nWelche der folgenden Abbildungen weist auf das Recyclen von Verpackungen hin?"
+      },
+      "media": "media/q30.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Abbildung 1" },
+          { "id": "2", "text": "Abbildung 2" },
+          { "id": "3", "text": "Abbildung 3" },
+          { "id": "4", "text": "Abbildung 4" },
+          { "id": "5", "text": "Abbildung 5" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    }
+  ]
+}
