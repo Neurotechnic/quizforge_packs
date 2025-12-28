@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "id": "wiso_w2021",
+  "title": "Abschlussprüfung WiSo Winter 2021/22",
+  "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde für Fachinformatiker.",
+  "language": "de",
+  "tags": ["IHK", "WiSo", "Fachinformatiker"],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "Alle Aufgaben",
+      "questionIds": [
+        "1a", "1b", "2", "3a", "3b", "3c", "3d", "3e", "4", "5", "6", 
+        "7", "8", "9", "10", "11", "12", 
+        "13a", "13b", "13c", "14", "15", "16", "17", "18a", "18b", "18c", "18d", "18e", 
+        "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1a",
+      "type": "numberInput",
+      "prompt": { "text": "Situation \nSie sind Mitarbeiter/-in der Koch-IT GmbH. \nDie Koch-IT GmbH ist ein Dienstleistungsunternehmen im Bereich der IT-Sicherheit. \nDie folgenden Aufgaben beziehen sich auf dieses Unternehmen. \n1a) In den Ausbildungsverträgen der Koch-IT GmbH wird auch eine Probezeit vereinbart. \n Wie viele Monate muss die Probezeit eines Auszubildenden nach dem Gesetz mindestens dauern?" },
+      "score": { "max": 1.66666 },
+      "data": { "correct": 1, "tolerance": 0 }
+    },
+    {
+      "id": "1b",
+      "type": "numberInput",
+      "prompt": { "text": "1b) Wie viele Monate darf die Probezeit eines Auszubildenden nach dem Gesetz maximal betragen?" },
+      "score": { "max": 1.66666 },
+      "data": { "correct": 4, "tolerance": 0 }
+    },
+    {
+      "id": "2",
+      "type": "singleChoice",
+      "prompt": { "text": "2) Die Auszubildenden bei der Koch-IT GmbH sind verpflichtet, einen Ausbildungsnachweis (Berichtsheft) zu führen. Ein neuer Auszubildender fragt Sie nach dem Sinn und Zweck eines solchen Berichtshefts. \nWelchem der folgenden Zwecke dient ein Ausbildungsnachweis (Berichtsheft)?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Prüfung der Einhaltung der tariflich vereinbarten Ausbildungszeiten durch die Gewerkschaft" },
+          { "id": "2", "text": "Grundlage für die Benotung der Abschlussprüfung" },
+          { "id": "3", "text": "Information des Ausbilders über den regelmäßigen Berufsschulbesuch" },
+          { "id": "4", "text": "Nachweis über die Tätigkeit des Ausbilders im Betrieb" },
+          { "id": "5", "text": "Dokumentation der vermittelten Ausbildungsinhalte" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3a",
+      "type": "singleChoice",
+      "prompt": { "text": "3a) Die Koch-IT GmbH kann ein Arbeitsverhältnis gegen den Willen eines Arbeitnehmers kündigen. Eine solche Kündigung kann sowohl als ordentliche wie auch als außerordentliche Kündigung erfolgen. Erforderlich ist aber in beiden Fällen ein Kündigungsgrund. \nWelcher Kündigungsgrund liegt vor? \nBeispiel: \nWiederholte Nichtbeachtung des Alkoholverbotes während der Arbeitszeit." },
+      "score": { "max": 0.666666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Personenbedingte Kündigung" },
+          { "id": "2", "text": "Verhaltensbedingte Kündigung" },
+          { "id": "3", "text": "Betriebsbedingte Kündigung" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3b",
+      "type": "singleChoice",
+      "prompt": { "text": "3b) Die Koch-IT GmbH kann ein Arbeitsverhältnis gegen den Willen eines Arbeitnehmers kündigen. Eine solche Kündigung kann sowohl als ordentliche wie auch als außerordentliche Kündigung erfolgen. Erforderlich ist aber in beiden Fällen ein Kündigungsgrund. \nWelcher Kündigungsgrund liegt vor? \nBeispiel: \nNegative Auswirkungen einer Krankheit über langen Zeitraum." },
+      "score": { "max": 0.666666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Personenbedingte Kündigung" },
+          { "id": "2", "text": "Verhaltensbedingte Kündigung" },
+          { "id": "3", "text": "Betriebsbedingte Kündigung" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3c",
+      "type": "singleChoice",
+      "prompt": { "text": "3c) Die Koch-IT GmbH kann ein Arbeitsverhältnis gegen den Willen eines Arbeitnehmers kündigen. Eine solche Kündigung kann sowohl als ordentliche wie auch als außerordentliche Kündigung erfolgen. Erforderlich ist aber in beiden Fällen ein Kündigungsgrund. \nWelcher Kündigungsgrund liegt vor? \nBeispiel: \nLängerfristige kritische wirtschaftliche Lage im Unternehmen." },
+      "score": { "max": 0.666666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Personenbedingte Kündigung" },
+          { "id": "2", "text": "Verhaltensbedingte Kündigung" },
+          { "id": "3", "text": "Betriebsbedingte Kündigung" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3d",
+      "type": "singleChoice",
+      "prompt": { "text": "3d) Die Koch-IT GmbH kann ein Arbeitsverhältnis gegen den Willen eines Arbeitnehmers kündigen. Eine solche Kündigung kann sowohl als ordentliche wie auch als außerordentliche Kündigung erfolgen. Erforderlich ist aber in beiden Fällen ein Kündigungsgrund. \nWelcher Kündigungsgrund liegt vor? \nBeispiel: \nMehrfacher Verstoß gegen das absolute Rauchverbot trotz Abmahnung." },
+      "score": { "max": 0.666666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Personenbedingte Kündigung" },
+          { "id": "2", "text": "Verhaltensbedingte Kündigung" },
+          { "id": "3", "text": "Betriebsbedingte Kündigung" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3e",
+      "type": "singleChoice",
+      "prompt": { "text": "3e) Die Koch-IT GmbH kann ein Arbeitsverhältnis gegen den Willen eines Arbeitnehmers kündigen. Eine solche Kündigung kann sowohl als ordentliche wie auch als außerordentliche Kündigung erfolgen. Erforderlich ist aber in beiden Fällen ein Kündigungsgrund. \nWelcher Kündigungsgrund liegt vor? \nBeispiel: \nAuch nach wiederholter Abmahnung ständige Verspätungen." },
+      "score": { "max": 0.666666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Personenbedingte Kündigung" },
+          { "id": "2", "text": "Verhaltensbedingte Kündigung" },
+          { "id": "3", "text": "Betriebsbedingte Kündigung" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "4",
+      "type": "singleChoice",
+      "prompt": { "text": "4) Zwischen der Koch-IT GmbH und deren Betriebsrat wurde bezüglich der betrieblichen Arbeitszeit und Gleitzeit eine Betriebsvereinbarung getroffen. \nWelche Aussage zu einer Betriebsvereinbarung ist zutreffend?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Vertrag zwischen Unternehmen und Gewerkschaft" },
+          { "id": "2", "text": "Gilt für die ganze Branche" },
+          { "id": "3", "text": "Vertrag mit jedem einzelnen Mitarbeiter als Ergänzung zum Arbeitsvertrag" },
+          { "id": "4", "text": "Schafft verbindliche Normen für alle in der Vereinbarung genannten Mitarbeitergruppen des Betriebs" },
+          { "id": "5", "text": "Ausschluss weiterer Angelegenheiten, wenn ein Tarifvertrag besteht" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "5",
+      "type": "singleChoice",
+      "prompt": { "text": "5) Eine Mitarbeiterin der Koch-IT GmbH ist schwanger - für sie gelten die Regelungen des Mutterschutzgesetzes. \nWelche Aussage zum Mutterschutzgesetz ist zutreffend?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Darf dem Arbeitgeber Schwangerschaft nicht mitteilen" },
+          { "id": "2", "text": "Kann Arbeitszeiten frei wählen" },
+          { "id": "3", "text": "Muss mit Lohneinbußen rechnen (max. 75% Netto)" },
+          { "id": "4", "text": "Besitzt besonderen Kündigungsschutz während der Schwangerschaft und nach der Entbindung" },
+          { "id": "5", "text": "Kann in der Schutzfrist nach der Entbindung beschäftigt werden" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "6",
+      "type": "singleChoice",
+      "prompt": { "text": "6) Im betrieblichen Unterricht der Koch-IT GmbH werden aufgrund anstehender Tarifverhandlungen die Themenbereiche \"Tarifvertrag und Gewerkschaften\" besprochen und die folgende Frage thematisiert: \nWelche Wirkung entfalten Tarifverträge?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Gelten in allen Ländern der EU" },
+          { "id": "2", "text": "Sind rechtlich nicht bindend, nur Empfehlungen" },
+          { "id": "3", "text": "Allgemeinverbindlich erklärte Tarifverträge gelten für alle Arbeitnehmer dieser Branche" },
+          { "id": "4", "text": "Streiks sind während der Laufzeit erlaubt, wenn die Bundesagentur für Arbeit zustimmt" },
+          { "id": "5", "text": "Haustarifverträge gelten für die gesamte Branche" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+	{
+      "id": "7",
+      "type": "order",
+      "prompt": { "text": "7) Bringen Sie die folgenden Schritte bis zum schlussendlichen Zustandekommen eines neuen Tarifvertrages in die richtige Reihenfolge. (Schritt 1 oben, Schritt 6 unten)" },
+      "media": null,
+      "score": { "max": 3.33333 },
+      "data": {
+        "items": [
+          {"id":"a","text":"a) Spruch eines neutralen Schlichters"},
+          {"id":"b","text":"b) Tarifverhandlungen"},
+          {"id":"c","text":"c) Abschluss des neuen Tarifvertrags"},
+		  {"id":"d","text":"d) Annahme der Schlichtung"},
+		  {"id":"e","text":"e) Einleitung einer Schlichtung"},
+          {"id":"f","text":"f) Erklärung des Scheiterns der Tarifverhandlung"}
+        ],
+        "correctOrder": ["b","f","e","a","d","c"],
+        "scoring": { "mode": "partial" }
+      }
+    },
+    {
+      "id": "8",
+      "type": "singleChoice",
+      "prompt": { "text": "8) Der Auszubildende Alex Konstantinus spricht mit seinem Ausbilder über die gesetzliche Altersvorsorge. Herr Konstantinus überlegt, ob es notwendig ist, in eine private Altersvorsorge zu investieren. \nWelche Aussage über die Notwendigkeit einer privaten Altersvorsorge trifft zu?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Private Altersvorsorge ist notwendig, weil die gesetzliche Rente voraussichtlich nicht ausreichen wird" },
+          { "id": "2", "text": "Demografischer Wandel sorgt für steigendes Rentenniveau" },
+          { "id": "3", "text": "Nicht sinnvoll, da Rentenniveau stetig steigt" },
+          { "id": "4", "text": "Lohnt sich nicht, da jedem eine Betriebsrente zusteht" },
+          { "id": "5", "text": "Nur notwendig, wenn die Inflationsrate steigt" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "9",
+      "type": "multiChoice",
+      "prompt": { "text": "9) Die vermögenswirksame Leistung (VL) ist eine staatlich geförderte Sparform. Oftmals gewährt der Arbeitgeber, so auch die Koch-IT GmbH, hierfür unabhängig vom Gehalt eine vereinbarte Geldleistung. Der Auszubildende Alex Konstantinus möchte von dieser Möglichkeit Gebrauch machen. \nWelche zwei Anlageformen werden im Rahmen der vermögenswirksamen Leistungen (VL) staatlich gefördert?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Sparlose bei einer Bank" },
+          { "id": "2", "text": "Aktien der Kaufmarkt AG" },
+          { "id": "3", "text": "Bausparvertrag" },
+          { "id": "4", "text": "Unfallversicherung" },
+          { "id": "5", "text": "Sterbegeldversicherung" },
+          { "id": "6", "text": "Spezieller VL-Sparplan der Bank" }
+        ],
+        "correctOptionIds": ["3", "6"],
+        "shuffleOptions": false,
+		"scoring": {
+          "penalizeWrong": false
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "singleChoice",
+      "prompt": { "text": "10) Herr Heppner, Auszubildender im ersten Jahr bei Koch-IT GmbH, möchte von Ihnen wissen, welche Bestimmungen in einer Ausbildungsordnung geregelt sind. \nWelche Bestimmungen sind in einer Ausbildungsordnung geregelt?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Höhe der Ausbildungsvergütung." },
+          { "id": "2", "text": "Urlaubsdauer der Auszubildenden." },
+          { "id": "3", "text": "Anpassung des Berufsschulunterrichts an den Betrieb." },
+          { "id": "4", "text": "Dauer der überbetrieblichen Ausbildung." },
+          { "id": "5", "text": "Kenntnisse, Fertigkeiten und Fähigkeiten, die zu vermitteln sind." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "11",
+      "type": "singleChoice",
+      "prompt": { "text": "11) Die Koch-IT GmbH hat mit der ledigen, kinderlosen Kauffrau für Digitalisierungsmanagement Petra Remmert einen Einzelarbeitsvertrag geschlossen. \nIn welche Lohnsteuerklasse wird eine ledige, kinderlose Kauffrau eingruppiert?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Lohnsteuerklasse 1" },
+          { "id": "2", "text": "Lohnsteuerklasse 2" },
+          { "id": "3", "text": "Lohnsteuerklasse 3" },
+          { "id": "4", "text": "Lohnsteuerklasse 4" },
+          { "id": "5", "text": "Lohnsteuerklasse 5" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "12",
+      "type": "singleChoice",
+      "prompt": { "text": "12) Herr Rögener hat vor einigen Jahren seine Ausbildung zum Informatikkaufmann bei der Koch-IT-GmbH abgeschlossen und dort gearbeitet. Jetzt überlegt er, selbst eine IT-Dienstleistungs-GmbH zu gründen. \nWelche Aussage zu einer GmbH ist richtig?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Gesellschafter haften mit Privatvermögen" },
+          { "id": "2", "text": "Stammkapital muss mindestens 25.000 EUR betragen" },
+          { "id": "3", "text": "Hat Kommanditisten und Komplementäre" },
+          { "id": "4", "text": "Komplementär leitet die GmbH" },
+          { "id": "5", "text": "Ist eine Personengesellschaft" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13a",
+      "type": "singleChoice",
+      "prompt": { "text": "13a) Die Koch-IT GmbH überlegt, ihre Organisationsstruktur zu vereinfachen. \nWelche Organisationsform? 'Dem Nachteil einer uneinheitlichen Führung steht der Vorteil der kurzen Wege gegenüber.'" },
+	  "media": "media/q13_org.png",
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einliniensystem" },
+          { "id": "2", "text": "Mehrliniensystem" },
+          { "id": "3", "text": "Stabliniensystem" },
+          { "id": "4", "text": "Matrixorganisation" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13b",
+      "type": "singleChoice",
+      "prompt": { "text": "13b) Die Koch-IT GmbH überlegt, ihre Organisationsstruktur zu vereinfachen. \nWelche Organisationsform? 'Besonders hohe Ansprüche an Teamfähigkeit und hoher Kommunikationsbedarf.'" },
+      "media": "media/q13_org.png",
+	  "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einliniensystem" },
+          { "id": "2", "text": "Mehrliniensystem" },
+          { "id": "3", "text": "Stabliniensystem" },
+          { "id": "4", "text": "Matrixorganisation" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13c",
+      "type": "singleChoice",
+      "prompt": { "text": "13c) Die Koch-IT GmbH überlegt, ihre Organisationsstruktur zu vereinfachen. \nWelche Organisationsform? 'Instanzen werden entlastet und Spezialkenntnisse von Stabsstellen genutzt.'" },
+      "media": "media/q13_org.png",
+	  "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einliniensystem" },
+          { "id": "2", "text": "Mehrliniensystem" },
+          { "id": "3", "text": "Stabliniensystem" },
+          { "id": "4", "text": "Matrixorganisation" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "14",
+      "type": "singleChoice",
+      "prompt": { "text": "14) Die Koch-IT GmbH hat als Ausbildungsbetrieb im Rahmen der Berufsausbildung gegenüber der Industrie- und Handelskammer (IHK) Rechte und Pflichten. \nWelche Pflicht/Recht hat der Ausbetrieb gegenüber der IHK?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Auszubildende ohne Zustimmung ausbilden" },
+          { "id": "2", "text": "Verkürzung der Ausbildung von der IHK genehmigen lassen" },
+          { "id": "3", "text": "Jede Fehlzeit sofort melden" },
+          { "id": "4", "text": "Jede Unstimmigkeit dem Schlichtungsausschuss mitteilen" },
+          { "id": "5", "text": "Verschiebung des Prüfungstermins bei hoher Auftragslage verlangen" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "15",
+      "type": "singleChoice",
+      "prompt": { "text": "15) Frau Monion ist seit dem 01.01.2021 in der Koch-IT GmbH beschäftigt. Am 16.04. desselben Jahres wurde sie 18 Jahre alt. Im Mai 2021 wird in dem Betrieb ein neuer Betriebsrat gewählt. \nDarf Frau Monion (wird im April 18, Wahl im Mai) beim Betriebsrat wählen?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Nein, weil zu Beginn des Jahres minderjährig" },
+          { "id": "2", "text": "Nein, zu kurz beschäftigt" },
+          { "id": "3", "text": "Ja, aber nur als Gewerkschaftsmitglied" },
+          { "id": "4", "text": "Ja, weil sie volljährig ist" },
+          { "id": "5", "text": "Ja, wenn Geschäftsleitung einverstanden" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "16",
+      "type": "singleChoice",
+      "prompt": { "text": "16) Der Betriebsrat hat gegenüber dem Arbeitgeber verschiedene Rechte. \nIn welchem Fall hat der Betriebsrat ein Mitbestimmungsrecht?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigung einer Mitarbeiterin in der Probezeit" },
+          { "id": "2", "text": "Anordnung von Mehrarbeit in der Weihnachstsaison" },
+          { "id": "3", "text": "Erhöhung des gesetzlichen Mindestlohns" },
+          { "id": "4", "text": "Neubesetzung der Geschäftsführerstelle" },
+          { "id": "5", "text": "Auszubildende möchte nach Prüfung den Arbeitgeber wechseln" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "17",
+      "type": "singleChoice",
+      "prompt": { "text": "Aufgabe 17: Die Koch-IT GmbH stellt einen neuen Mitarbeiter ein. \nWer ist für die Unterweisung nach Unfallverhütungsvorschrift verantwortlich?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Fachkraft für Arbeitssicherheit" },
+          { "id": "2", "text": "Betriebsrat" },
+          { "id": "3", "text": "Arbeitgeber bzw. betriebliche Vorgesetzte" },
+          { "id": "4", "text": "Mitarbeiter in Eigenverantwortung" },
+          { "id": "5", "text": "Externe spezialisierte Unternehmen" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "18a", "type": "singleChoice", "score": { "max": 0.666666 }, "prompt": { "text": "18a) Die Koch-IT GmbH ist an verschiedene Arbeitsschutzgesetze gebunden. \nWelches Gesetz regelt Regelung eines besonderen Kündigungsschutzes von Arbeitnehmern, der 36 Monate oder länger betragen kann?" }, "data": { "options": [{"id":"1","text":"Schwerbehindertengesetz"},{"id":"2","text":"Arbeitszeitgesetz"},{"id":"3","text":"Bundesurlaubsgesetz"},{"id":"4","text":"Entgeltfortzahlungsgesetz"},{"id":"5","text":"Elternzeitgesetz"}], "correctOptionId": "5", "shuffleOptions": false }
+    },
+    {
+      "id": "18b", "type": "singleChoice", "score": { "max": 0.666666 }, "prompt": { "text": "18b) Welches Gesetz regelt den Mindestanspruch von 24 Werktagen Urlaub?" }, "data": { "options": [{"id":"1","text":"Schwerbehindertengesetz"},{"id":"2","text":"Arbeitszeitgesetz"},{"id":"3","text":"Bundesurlaubsgesetz"},{"id":"4","text":"Entgeltfortzahlungsgesetz"},{"id":"5","text":"Elternzeitgesetz"}], "correctOptionId": "3", "shuffleOptions": false }
+    },
+    {
+      "id": "18c", "type": "singleChoice", "score": { "max": 0.666666 }, "prompt": { "text": "18c) Welches Gesetz regelt die Entgeltfortzahlung an Feiertagen?" }, "data": { "options": [{"id":"1","text":"Schwerbehindertengesetz"},{"id":"2","text":"Arbeitszeitgesetz"},{"id":"3","text":"Bundesurlaubsgesetz"},{"id":"4","text":"Entgeltfortzahlungsgesetz"},{"id":"5","text":"Elternzeitgesetz"}], "correctOptionId": "4", "shuffleOptions": false }
+    },
+    {
+      "id": "18d", "type": "singleChoice", "score": { "max": 0.666666 }, "prompt": { "text": "18d) Welches Gesetz schreibt die tägliche Arbeitszeit von acht Stunden fest?" }, "data": { "options": [{"id":"1","text":"Schwerbehindertengesetz"},{"id":"2","text":"Arbeitszeitgesetz"},{"id":"3","text":"Bundesurlaubsgesetz"},{"id":"4","text":"Entgeltfortzahlungsgesetz"},{"id":"5","text":"Elternzeitgesetz"}], "correctOptionId": "2", "shuffleOptions": false }
+    },
+    {
+      "id": "18e", "type": "singleChoice", "score": { "max": 0.666666 }, "prompt": { "text": "18e) Welches Gesetz regelt den besonderen Kündigungsschutz von Arbeitenden und deren Anspruch auf einen zusätzlichen Urlaub von fünf Tagen?" }, "data": { "options": [{"id":"1","text":"Schwerbehindertengesetz"},{"id":"2","text":"Arbeitszeitgesetz"},{"id":"3","text":"Bundesurlaubsgesetz"},{"id":"4","text":"Entgeltfortzahlungsgesetz"},{"id":"5","text":"Elternzeitgesetz"}], "correctOptionId": "1", "shuffleOptions": false }
+    },
+    {
+      "id": "19",
+      "type": "singleChoice",
+      "prompt": { "text": "19) Welche Maßnahme dient NICHT dem Umweltschutz?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Nachfüllbare Textmarker" },
+          { "id": "2", "text": "Recyclingpapier beim Kopieren" },
+          { "id": "3", "text": "Vermeidung von Plastik-Verpackungsmüll" },
+          { "id": "4", "text": "Verwendung von Hochglanzkatalogen bei Werbemaßnahmen" },
+          { "id": "5", "text": "Vermeidung von Kleinpackungsbestellungen" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "20",
+      "type": "singleChoice",
+      "prompt": { "text": "20) Was bedeutet das Zeichen 'Blauer Engel'?", },
+	  "media": "media/blauer_engel.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Besonders haltbar" },
+          { "id": "2", "text": "Besonders sicher in der Handhabung" },
+          { "id": "3", "text": "Umweltschonend produziert" },
+          { "id": "4", "text": "Hat mehrere Umweltpreise gewonnen" },
+          { "id": "5", "text": "Ausschließlich über Duales System entsorgbar" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "21",
+      "type": "singleChoice",
+      "prompt": { "text": "21) In der Koch-IT GmbH ereignet sich ein Arbeitsunfall, eine Mitarbeiterin verbrennt sich dabei. \nRichtige Verhaltensweise eines Ersthelfers bei Brandwunden?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Stelle erwärmen" },
+          { "id": "2", "text": "Wunden mit keimfreien Brandwunden-Verbandpäckchen bedecken" },
+          { "id": "3", "text": "Mit Öl, Salben oder Talk bedecken" },
+          { "id": "4", "text": "Auswaschen und Brandblasen öffnen" },
+          { "id": "5", "text": "Unfallhergang fotografieren" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "22",
+      "type": "multiChoice",
+      "prompt": { "text": "22) Ulli Mayer, 26 Jahre, will sich nach Abschluss seiner Ausbildung als Fachinformatiker für Daten- und Prozessanalyse auf die folgende Stellenanzeige bewerben. \nWelche Positionen in der Stellenanzeige verstoßen gegen das Allgemeine Gleichbehandlungsgesetz (AGG)?" },
+      "media": "media/stellenanzeige.png",
+	  "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Position 1" },
+          { "id": "2", "text": "Position 2" },
+          { "id": "3", "text": "Position 3" },
+          { "id": "4", "text": "Position 4" },
+          { "id": "5", "text": "Position 5" },
+          { "id": "6", "text": "Position 6" }
+        ],
+        "correctOptionIds": ["1", "2"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "23",
+      "type": "singleChoice",
+      "prompt": { "text": "23) Als Mitarbeiter/-in in Festanstellung bei der Koch-IT GmbH haben Sie ein Programm entwickelt, das mit großem Erfolg verkauft wird. \nWelche Aussage zum Urheberrecht an Programmen im Arbeitsverhältnis ist richtig?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Mitarbeiter besitzt Urheberrecht, Arbeitgeber die Verwertungsrechte" },
+          { "id": "2", "text": "Urheber kann weitere Nutzung verbieten" },
+          { "id": "3", "text": "Anspruch auf Beteiligung am Verkaufserlös" },
+          { "id": "4", "text": "Autor haftet persönlich für Fehler gegenüber Anwendern" },
+          { "id": "5", "text": "Autor kann Herausgabe des Quelltextes verweigern" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "24",
+      "type": "singleChoice",
+      "prompt": { "text": "24) Frau Mevis, Auszubildende bei der Koch-IT GmbH, möchte acht Wochen ihrer Berufsausbildung im Ausland durchführen. \nIn diesem Zusammenhang wurde sie auf den Europass hingewiesen. \nZu welchem Zweck wurde der Europass geschaffen?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Ersetzt Reisepässe für Auszubildende" },
+          { "id": "2", "text": "Vereinheitlichtes Dokument für Qualifikationen europaweit" },
+          { "id": "3", "text": "Kostenloses Bahnfahren in der EU" },
+          { "id": "4", "text": "Formlose Unternehmensgründung in der EU" },
+          { "id": "5", "text": "Kostenlose medizinische Versorgung" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "25",
+      "type": "singleChoice",
+      "prompt": { "text": "25) Bei der Koch-IT GmbH gab es in den letzten Monaten ein erhöhtes Aufkommen an sogenannten Phishing-Mails. \nAnhand welchem der folgenden Merkmale erkennen Sie Phishing-Mails?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Immer mit Signatur und persönlicher Anrede" },
+          { "id": "2", "text": "Zielen auf Zugangsdaten ab, enthalten meist einen Link zur Eingabe" },
+          { "id": "3", "text": "Absender stimmt mit Anzeigenamen überein" },
+          { "id": "4", "text": "Haben nie Anhänge" },
+          { "id": "5", "text": "Übermittlung über HTTPS" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "26",
+      "type": "singleChoice",
+      "prompt": { "text": "26) Sie erhalten eine E-Mail, mit folgendem Inhalt: \n„Hallo, wir mussten mit großem Bedauern feststellen, dass wir einige Probleme mit unserem System hatten. Aus gegebenem Grund müssen wir Sie bitten, Ihre Mitgliedschaft im Account mit Ihrem Login sowie Ihren Kreditkarten-Daten zu bestätigen. Bitte folgen Sie dem nachfolgenden Link, und füllen Sie die Felder korrekt aus: http://payment.account.com/ Somit sichern Sie sich weiterhin einen uneingeschränkten Zugriff auf Ihr Konto."\nWelche der folgenden Verhaltensweisen zum Umgang mit dieser Nachricht ist zutreffend?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Link öffnen und Daten eingeben" },
+          { "id": "2", "text": "Mailprogramm beenden und Rechner neu booten" },
+          { "id": "3", "text": "An alle Kontakte weiterleiten" },
+          { "id": "4", "text": "E-Mail löschen und IT-Abteilung benachrichtigen" },
+          { "id": "5", "text": "Ausdrucken und archivieren" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "27",
+      "type": "singleChoice",
+      "prompt": { "text": "27) Sie besuchen häufig die Webseiten eines Geschäftspartners.\nWelche der folgenden Einschätzungen zur Sicherheit in dieser Situation ist zutreffend?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Keine Sorgen nötig bei häufigem Besuch" },
+          { "id": "2", "text": "Nichts kann passieren bei seriösem Inhalt" },
+          { "id": "3", "text": "Auch bei vertrauenswürdigen Seiten müssen Standardsicherheitsmaßnahmen beachtet werden" },
+          { "id": "4", "text": "Gefahr nur bei Animationen" },
+          { "id": "5", "text": "Nur Seiten mit Werbung sind unsicher" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "28",
+      "type": "singleChoice",
+      "prompt": { "text": "28) Im Rahmen einer Geschäftsreise überlegen Sie, ein öffentliches unverschlüsseltes WLAN geschäftlich zu nutzen.\nWelche der folgenden Aussagen zur Nutzung öffentlicher WLAN-Zugänge ist richtig?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Das E-Mail-Programm kann in jedem Fall benutzt werden, da alle E-Mail-Programme automatisch verschlüsseln." },
+          { "id": "2", "text": "Im öffentlichen WLAN kann kein Computernutzer die Daten mitlesen." },
+          { "id": "3", "text": "ird ein WLAN-Zugang z. B. in einem Café zur Verfügung gestellt, kann man davon ausgehen, dass die Betreiber sich ausreichend um die Sicherheit des Netzes kümmern." },
+          { "id": "4", "text": "Mithilfe einer VPN-Lösung können alle Dinge in einem offenen WLAN wie im abgesicherten Unternehmensnetz genutzt werden." },
+          { "id": "5", "text": "Ein öffentliches WLAN ist nur sicher, wenn zum Einloggen die E-Mail-Adresse angeben werden muss." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "29",
+      "type": "singleChoice",
+      "prompt": { "text": "29) Bei einer Datenübertragung wird die aus den Ausgangsdaten errechnete Kontrollsumme immer mit übertragen. Der Empfänger berechnet nach dem vollständigen Empfang aus den Daten eine weitere Kontrollsumme und vergleicht die beiden Kontrollsummen.\nWelchen der folgenden Zwecke erfüllt dieses Verfahren?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Verfügbarkeit" },
+          { "id": "2", "text": "Integrität" },
+          { "id": "3", "text": "Vertraulichkeit" },
+          { "id": "4", "text": "Lesbarkeit" },
+          { "id": "5", "text": "Verständlichkeit" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "30",
+      "type": "singleChoice",
+      "prompt": { "text": "30) Die Medien berichten regelmäßig über Vorfälle, bei denen Unternehmen gegen allgemeine und selbst gesetzte Regelungen verstoßen. Ein Verstoß liegt vor, wenn Geschäftspartner durch persönliche Zuwendungen beeinflusst werden sollen.\nWelchem der folgenden Felder werden derartige Verstöße zugerechnet?" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Datenschutz" },
+          { "id": "2", "text": "Compliance" },
+          { "id": "3", "text": "Incidence" },
+          { "id": "4", "text": "Consilience" },
+          { "id": "5", "text": "Disruption" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    }
+  ]
+}
