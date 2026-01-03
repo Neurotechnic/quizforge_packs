@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "id": "wiso_w2020",
+  "title": "Abschlussprüfung WiSo Winter 2020/21",
+  "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde für Fachinformatiker. Termin: 25. November 2020.",
+  "language": "de",
+  "tags": ["IHK", "WiSo", "Fachinformatiker"],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "Alle Aufgaben",
+      "questionIds": [
+        "1a", "1b", "1c", "2", "3", "4", "5", "6", 
+        "7a", "7b", "7c", "7d", "7e", 
+        "8", "9", "10", "11", "12", "13", "14", "15", 
+        "16", "17", "18", "19", "20", "21", 
+        "22a", "22b", "23", "24", 
+        "25", "26", "27", "28", "29", "30"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1a",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "Situation\nSie sind Mitarbeiter/-in der Gramberg GmbH.\nDie Gramberg GmbH ist ein Dienstleistungsunternehmen im Bereich der IT-Sicherheit.\nDie folgenden Aufgaben beziehen sich auf dieses Unternehmen.\n\n1a) Die Gramberg GmbH hat viele Kunden aus unterschiedlichen Wirtschaftssektoren. Ordnen Sie die folgenden Unternehmen den daneben stehenden Wirtschaftssektoren zu.\nWelche zwei Unternehmen gehören zum Primären Sektor?"
+      },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "1 Elektrokaufhaus Meier e.K." },
+          { "id": "2", "text": "2 Baumschule Holthaus GmbH" },
+          { "id": "3", "text": "3 Metallbau Steinemann GmbH" },
+          { "id": "4", "text": "4 Rechtsanwälte Kook & Partner" },
+          { "id": "5", "text": "5 Krieger GmbH, Hoch- und Tiefbau" },
+          { "id": "6", "text": "6 Biohof Landwirtschaft Dröse GmbH" }
+        ],
+        "correctOptionIds": ["2", "6"],
+        "shuffleOptions": false
+      }
+    },
+	{
+      "id": "1b",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "1b) Welche zwei Unternehmen gehören zum Sekundärer Sektor?"
+      },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "1 Elektrokaufhaus Meier e. K." },
+          { "id": "2", "text": "2 Baumschule Holthaus GmbH" },
+          { "id": "3", "text": "3 Metallbau Steinemann GmbH" },
+          { "id": "4", "text": "4 Rechtsanwälte Kook & Partner" },
+          { "id": "5", "text": "5 Krieger GmbH, Hoch- und Tiefbau" },
+          { "id": "6", "text": "6 Biohof Landwirtschaft Dröse GmbH" }
+        ],
+        "correctOptionIds": ["3", "5"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "1c",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "1b) Welche zwei Unternehmen gehören zum Tertiären Sektor?"
+      },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "1 Elektrokaufhaus Meier e. K." },
+          { "id": "2", "text": "2 Baumschule Holthaus GmbH" },
+          { "id": "3", "text": "3 Metallbau Steinemann GmbH" },
+          { "id": "4", "text": "4 Rechtsanwälte Kook & Partner" },
+          { "id": "5", "text": "5 Krieger GmbH, Hoch- und Tiefbau" },
+          { "id": "6", "text": "6 Biohof Landwirtschaft Dröse GmbH" }
+        ],
+        "correctOptionIds": ["1", "4"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "2",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "2. Aufgabe\nDas folgende Schema zeigt das Leitungssystem der Gramberg GmbH (siehe Abbildung).\nNach welchem der folgenden Leitungssysteme arbeitet die Gramberg GmbH?"
+      },
+      "media": "media/q02.png",
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einliniensystem" },
+          { "id": "2", "text": "Stabsystem" },
+          { "id": "3", "text": "Mehrliniensystem" },
+          { "id": "4", "text": "Stabliniensystem" },
+          { "id": "5", "text": "Matrixsystem" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "3. Aufgabe\nDie Gramberg GmbH hat mit Stefan Brüning einen Einzelarbeitsvertrag geschlossen.\nWelche der folgenden Aussagen ist in diesem Zusammenhang zutreffend?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "ist gültig, wenn das vereinbarte Arbeitsentgelt über dem tarifvertraglich geregelten liegt." },
+          { "id": "2", "text": "kann nur geschlossen werden, wenn für die Gramberg GmbH kein gültiger Tarifvertrag vorliegt." },
+          { "id": "3", "text": "kann nur mit Zustimmung der Gewerkschaft geschlossen werden." },
+          { "id": "4", "text": "darf für höchstens zwei Jahre geschlossen werden." },
+          { "id": "5", "text": "ist ohne Urlaubsregelung ungültig." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "4",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "4. Aufgabe\nHans Baumgart, 38 Jahre, Vater von zwei Kindern, erhält aus betriebsbedingten Gründen die Kündigung. Da er diese für sozial ungerechtfertigt hält, wendet er sich an den Betriebsrat.\nPrüfen Sie, welche der folgenden Aussagen zu den Kündigungsmodalitäten richtig ist."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Der Betriebsrat muss angehört werden. Hält der Betriebsrat die Kündigung für ungerechtfertigt, dann darf der Arbeitgeber nicht kündigen." },
+          { "id": "2", "text": "Der Betriebsrat muss angehört werden. Herr Baumgart kann innerhalb von drei Wochen nach Zugang der Kündigung Klage beim zuständigen Arbeitsgericht einreichen." },
+          { "id": "3", "text": "Der Betriebsrat muss in Kündigungsfragen nicht angehört werden." },
+          { "id": "4", "text": "Mit Zustimmung des Betriebsrats kann die Kündigungsfrist kürzer ausfallen." },
+          { "id": "5", "text": "Betriebsbedingte Kündigungen sind immer gültig. Hier braucht der Betriebsrat nicht angehört werden." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "5",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "5. Aufgabe\nMichael Kuper, ein Mitarbeiter der Gramberg GmbH, ist erkrankt und muss operiert werden. Er wird insgesamt fünf Wochen nicht im Betrieb arbeiten können.\nWelche der folgenden Aussagen trifft auf die geschilderte Situation zu?\nHerr Kuper erhält von..."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "... der Gramberg GmbH weiterhin sein Bruttoentgelt." },
+          { "id": "2", "text": "... der gesetzlichen Krankenkasse Krankengeld." },
+          { "id": "3", "text": "... der Berufsgenossenschaft ein Übergangsgeld." },
+          { "id": "4", "text": "... der Bundesagentur für Arbeit eine Entgeltersatzleistung." },
+          { "id": "5", "text": "... seiner privaten Berufsunfähigkeitsversicherung eine Versicherungsleistung." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "6",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "6. Aufgabe\nMichael Butt hat mit der Gramberg GmbH einen schriftlichen Arbeitsvertrag geschlossen.\nWelcher der folgenden Bestandteile seines Arbeitsvertrags bindet die Gramberg GmbH an kollektives Arbeitsrecht?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Herr Butt bekommt einen Dienstwagen gestellt." },
+          { "id": "2", "text": "Er arbeitet als Sachbearbeiter im Kundenservice." },
+          { "id": "3", "text": "Das Arbeitsverhältnis beginnt am 2. Mai 2020." },
+          { "id": "4", "text": "Die reguläre wöchentliche Arbeitszeit beträgt gemäß Tarifvertrag 38,5 Stunden." },
+          { "id": "5", "text": "Die Gramberg GmbH gewährt einen monatlichen Fahrtkostenzuschuss von 100,00 EUR." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7a",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe\nIn der Gramberg GmbH sind Regelungen aus dem Arbeitsrecht zu beachten.\nIn welchen der folgenden Gesetze werden die Sachverhalte geregelt?\na) In einer Stellenanzeige der Gramberg GmbH steht, dass eine IT-Kauffrau gesucht wird."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsschutzgesetz" },
+          { "id": "2", "text": "Allgemeines Gleichbehandlungsgesetz" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Arbeitszeitgesetz" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7b",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe\nIn der Gramberg GmbH sind Regelungen aus dem Arbeitsrecht zu beachten.\nIn welchen der folgenden Gesetze werden die Sachverhalte geregelt?\nb) Die werktägliche Arbeitszeit der Arbeitnehmer darf acht Stunden nicht überschreiten."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsschutzgesetz" },
+          { "id": "2", "text": "Allgemeines Gleichbehandlungsgesetz" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Arbeitszeitgesetz" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7c",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe\nIn der Gramberg GmbH sind Regelungen aus dem Arbeitsrecht zu beachten.\nIn welchen der folgenden Gesetze werden die Sachverhalte geregelt?\nc) Eine betriebsbedingte Kündigung ist rechtsunwirksam, wenn eine Schwerbehinderung nicht ausreichend berücksichtigt wurde."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsschutzgesetz" },
+          { "id": "2", "text": "Allgemeines Gleichbehandlungsgesetz" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Arbeitszeitgesetz" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7d",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe\nIn der Gramberg GmbH sind Regelungen aus dem Arbeitsrecht zu beachten.\nIn welchen der folgenden Gesetze werden die Sachverhalte geregelt?\nd) Bei der Gramberg GmbH werden Bewerber mit Behinderungen bei gleicher Eignung bevorzugt."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsschutzgesetz" },
+          { "id": "2", "text": "Allgemeines Gleichbehandlungsgesetz" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Arbeitszeitgesetz" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "7e",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "7. Aufgabe\nIn der Gramberg GmbH sind Regelungen aus dem Arbeitsrecht zu beachten.\nIn welchen der folgenden Gesetze werden die Sachverhalte geregelt?\ne) Die Gramberg GmbH informiert den Betriebsrat über die geplante Schließung einer Filiale."
+      },
+      "score": { "max": 0.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsschutzgesetz" },
+          { "id": "2", "text": "Allgemeines Gleichbehandlungsgesetz" },
+          { "id": "3", "text": "Betriebsverfassungsgesetz" },
+          { "id": "4", "text": "Arbeitszeitgesetz" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "8",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "8. Aufgabe\nDie Gramberg GmbH will eine neue Mitarbeiterin zunächst befristet für ein Jahr einstellen.\nWelche der folgenden Aussagen über befristete Arbeitsverträge trifft zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Befristete Arbeitsverträge können vom Arbeitgeber während der Laufzeit nicht gekündigt werden." },
+          { "id": "2", "text": "Der befristete Arbeitsvertrag endet mit Ablauf der Frist, ohne dass es einer Kündigung bedarf." },
+          { "id": "3", "text": "Für befristete Arbeitsverträge gelten die tarifvertraglichen Vereinbarungen nicht." },
+          { "id": "4", "text": "Bei befristeten Arbeitsverträgen gibt es keine Lohnfortzahlung im Krankheitsfall." },
+          { "id": "5", "text": "Befristete Arbeitsverträge dürfen nur mit arbeitslosen Bewerbern abgeschlossen werden." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "9",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "9. Aufgabe\nDie Gramberg GmbH nimmt an einer Messe teil. Beim Aufbau des Messestandes fällt eine Mitarbeiterin von der Leiter und bricht sich das rechte Bein.\nWelche der folgenden Institutionen muss für die Heilbehandlungskosten aufkommen, wenn die Unfallverhütungsvorschriften eingehalten wurden?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Krankenkasse, bei der die Mitarbeiterin versichert ist." },
+          { "id": "2", "text": "Die private Unfallversicherung der Mitarbeiterin." },
+          { "id": "3", "text": "Die Haftpflichtversicherung der Messegesellschaft." },
+          { "id": "4", "text": "Die Messegesellschaft, weil sich der Unfall in deren Hallen ereignete." },
+          { "id": "5", "text": "Die Berufsgenossenschaft, der die Gramberg GmbH angehört." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "10",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "10. Aufgabe\nDie Gramberg GmbH musste den Betrieb auf behördliche Anordnung vorübergehend schließen. Der Geschäftsbetrieb ruht. Die Mitarbeiter dürfen die Geschäftsräume nicht mehr betreten. Die Dauer ist nicht absehbar.\nWelche der folgenden Aussagen ist in diesem Zusammenhang zutreffend?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Gramberg GmbH kann für die Dauer der Schließung bei der Bundesagentur für Arbeit Kurzarbeitergeld beantragen." },
+          { "id": "2", "text": "Die Gehaltszahlungen für die Mitarbeiter muss die Behörde übernehmen, die die Schließung angeordnet hat." },
+          { "id": "3", "text": "Die Gramberg GmbH muss allen Mitarbeitern kündigen." },
+          { "id": "4", "text": "Die Gramberg GmbH hat für die Dauer der Schließung einen unbegrenzten Kreditanspruch an die Landesregierung." },
+          { "id": "5", "text": "Die Gramberg GmbH muss die Schließung der Kreditanstalt für Wiederaufbau melden, die gesetzlich alle Kosten der Betriebsschließung übernehmen muss." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "11",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "11. Aufgabe\nDie Gramberg GmbH ist Mitglied eines Arbeitgeberverbandes.\nWelche der folgenden Verpflichtungen ergibt sich unter anderem daraus? Die Gramberg GmbH..."
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "... muss Lohnabrechnungen beim Verband prüfen lassen." },
+          { "id": "2", "text": "... darf höchstens Tariflöhne zahlen." },
+          { "id": "3", "text": "... nimmt direkt an Tarifverhandlungen teil." },
+          { "id": "4", "text": "... muss mindestens Tariflöhne zahlen." },
+          { "id": "5", "text": "... darf sich nicht an Aussperrungen beteiligen." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "12",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "12. Aufgabe\nIn der Gramberg GmbH wurde ein Betriebsrat gewählt.\nIn welchen der folgenden Angelegenheiten hat der Betriebsrat der Gramberg GmbH ein zwingendes Mitbestimmungsrecht? (2 Antworten)"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Rationalisierungsmaßnahme" },
+          { "id": "2", "text": "Kündigung" },
+          { "id": "3", "text": "Stellenausschreibung" },
+          { "id": "4", "text": "Beginn und Ende der täglichen Arbeitszeit" },
+          { "id": "5", "text": "Einführung von Arbeitszeiterfassungsgeräten" },
+          { "id": "6", "text": "Einstellung leitender Angestellter" }
+        ],
+        "correctOptionIds": ["4", "5"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "13. Aufgabe\nIm Rahmen eines Arbeitskampfes fällt der Begriff „Aussperrung”.\nWelche der folgenden Aussagen trifft auf die Arbeitskampfmaßnahme „Aussperrung” zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "eine planmäßig organisierte Arbeitsniederlegung aller Mitarbeiter eines Betriebes." },
+          { "id": "2", "text": "eine planmäßig organisierte Arbeitsniederlegung aller gewerkschaftlich organisierten Mitarbeiter eines Betriebes." },
+          { "id": "3", "text": "die vorübergehende Freistellung von Arbeitnehmern für den Zeitraum des Arbeitskampfes." },
+          { "id": "4", "text": "die ordentliche Kündigung des Arbeitsverhältnisses in den betroffenen Betrieben." },
+          { "id": "5", "text": "dass im Rahmen eines Insolvenzverfahrens der Insolvenzverwalter den Betrieb zusperrt." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "14",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "14. Aufgabe\nIm Rahmen der Tarifverhandlungen wird zwischen Lohn- und Gehaltstarif und dem normalerweise längerfristig geltenden Manteltarif unterschieden.\nWelcher der folgenden Inhalte wird typischerweise in einem Lohn- und Gehaltstarif geregelt?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsfristen" },
+          { "id": "2", "text": "Tägliche und wöchentliche Arbeitszeit" },
+          { "id": "3", "text": "Mindesturlaubstage" },
+          { "id": "4", "text": "Gehaltssätze für die einzelnen Gehaltsgruppen" },
+          { "id": "5", "text": "Arbeitsbefreiung für Prüfertätigkeit bei IHK-Prüfungen" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "15",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "15. Aufgabe\nEine Auszubildende der Gramberg GmbH will einen Teil ihrer Berufsausbildung im Ausland durchführen. In diesem Zusammenhang wurde sie auf den Dienst Europass hingewiesen.\nWelche der folgenden Aussagen zum Dienst Europass ist zutreffend?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Europass ist ein kostenpflichtiger Dienst." },
+          { "id": "2", "text": "Der Dienst Europass unterstützt Auszubildende, erworbene Qualifikationen, Fähigkeiten und Kompetenzen bei Bewerbungen europaweit verständlich darzustellen." },
+          { "id": "3", "text": "Der Dienst Europass beglaubigt Ausbildungsabschnitte von Auszubildenden, die im europäischen Ausland durchgeführt wurden, im „Europass-Mobilität“." },
+          { "id": "4", "text": "Der vom Dienst Europass ausgestellte „Europass-Mobilität“ ist für eine Berufsausbildung im europäischen Ausland verpflichtend." },
+          { "id": "5", "text": "Der Dienst Europass zertifiziert Fremdsprachenkenntnisse im „Europass-Sprachkenntnisse“." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "16",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "16. Aufgabe\nNach der letzten Gehaltserhöhung übersteigt das Bruttogehalt von Dagmar Fitschen die Beitragsbemessungsgrenze für die gesetzliche Rentenversicherung.\nWelche der folgenden Konsequenzen ergibt sich aus der Gehaltserhöhung für Frau Fitschen?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "ist von der gesetzlichen Rentenversicherungspflicht befreit." },
+          { "id": "2", "text": "muss sich nun privat rentenversichern." },
+          { "id": "3", "text": "erhält für die Rentenversicherung keinen Arbeitgeberanteil mehr." },
+          { "id": "4", "text": "muss nur noch für einen Teil ihres Gehaltes einen Beitrag zur gesetzlichen Rentenversicherung leisten." },
+          { "id": "5", "text": "kann die Beiträge an die Rentenversicherung gegen Selbstbehalt reduzieren." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "17",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "17. Aufgabe\nTom Sauer, ein Mitarbeiter der Gramberg GmbH, erkrankt während seines Urlaubs.\nWelche der folgenden Aussagen trifft auf diesen Sachverhalt zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Tage der Arbeitsunfähigkeit werden voll auf den Jahresurlaub angerechnet." },
+          { "id": "2", "text": "Die ärztlich nachgewiesenen Tage der Arbeitsunfähigkeit werden nicht auf den Jahresurlaub angerechnet." },
+          { "id": "3", "text": "Die Arbeitsunfähigkeit wird nur dann angerechnet, wenn die Erkrankung im Ausland auftrat." },
+          { "id": "4", "text": "Die Tage der Arbeitsunfähigkeit werden nur bei Krankenhausaufenthalt nicht angerechnet." },
+          { "id": "5", "text": "Die Tage der Arbeitsunfähigkeit werden zur Hälfte auf den Jahresurlaub angerechnet." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+	{
+	"id": "18",
+      "type": "order",
+      "prompt": { "text": "18. Aufgabe\nDie Auszubildende Maren Wichern möchte wissen, welche Sachverhalte von der gesetzlichen Sozialversicherung gedeckt werden.\nOrdnen Sie die Fälle den Sozialversicherungszweigen zu.\nWelcher Fall wird von der a) Rentenversicherung abgedeckt?\n1. Der Mitarbeiter Jan Lange geht wegen einer Grippeerkrankung zu seinem Arzt.\n2. Dem Mitarbeiter Filip Bajovic wurde wegen Auftragsmangel zum 1. Juli 2020 gekündigt und er findet im Anschluss keine neue Beschäftigung.\n3. Die Mitarbeiterin Verena Mehrkens rutscht auf direktem Weg zur Arbeitsstelle aus und verstaucht sich den Fuß.\n4. Die Assistentin der Geschäftsleitung scheidet zum 1. Juli 2020 mit Vollendung des 65. Lebensjahres aus dem Berufsleben aus.\n5. Die an Demenz erkrankte Großmutter einer Mitarbeiterin benötigt eine häusliche Pflegekraft." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "items": [
+          {"id":"a","text":"a) Rentenversicherung"},
+          {"id":"b","text":"b) Krankenversicherung"},
+          {"id":"c","text":"c) Arbeitslosenversicherung"},
+		  {"id":"d","text":"d) Pflegeversicherung"},
+		  {"id":"e","text":"e) Gesetzliche Unfallversicherung"}
+        ],
+        "correctOrder": ["b","c","e","a","d"],
+        "scoring": { "mode": "partial" }
+      }
+    },
+    {
+      "id": "19",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "19. Aufgabe\nSolidarität ist ein gesellschaftspolitisches Prinzip, welches in der Bundesrepublik Deutschland angewendet wird.\nWelcher der folgenden Sachverhalte entspricht dem Prinzip der Solidarität?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Der Staat erhöht die Erbschaftssteuer zur Umverteilung großer Vermögen." },
+          { "id": "2", "text": "Die Kommune senkt die Zuschüsse für Kindertagesstätten." },
+          { "id": "3", "text": "Die Erbschaftssteuer wird gesenkt." },
+          { "id": "4", "text": "Der Beitrag zur gesetzlichen Krankenversicherung steigt mit individuellem Krankheitsrisiko des Versicherten." },
+          { "id": "5", "text": "Kindergartenbeiträge sind für alle Eltern, unabhängig vom Einkommen, gleich hoch." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "20",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "20. Aufgabe\nNach der Abschlussprüfung informieren Sie sich über Möglichkeiten der beruflichen Fortbildung.\nWelcher der folgenden Sachverhalte ist ein Beispiel für eine berufliche Fortbildung?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Mustafa Akil beginnt nach dem mittleren Schulabschluss (MSA) die Ausbildung zum Kaufmann für Büromanagement." },
+          { "id": "2", "text": "Ein Auszubildender der Gramberg GmbH nimmt in einer überbetrieblichen Ausbildungsstätte an einem Lehrgang zum Thema IT-Sicherheit teil." },
+          { "id": "3", "text": "Sie besuchen an der Volkshochschule einen Segelkurs." },
+          { "id": "4", "text": "Ein Auszubildender mit Abitur will nach Abschluss der Ausbildung studieren." },
+          { "id": "5", "text": "Die Mitarbeiterin Claudia Langer nimmt nach der Ausbildung zur IT-System-Kauffrau an einem Fernlehrgang „Business English“ teil." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "21",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "21. Aufgabe\nDie Gramberg GmbH verfolgt unterschiedliche Zielsetzungen. Einige Ziele lassen sich gut miteinander verbinden (komplementäre Ziele). Andere Ziele schließen sich jedoch gegenseitig aus (konkurrierende Ziele).\nIn welcher der folgenden Aussagen handelt es sich um komplementäre Ziele?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einrichtung einer Betriebskantine und Erhöhung der Exportquote" },
+          { "id": "2", "text": "Reduzierung der Kosten und Erhöhung der Löhne" },
+          { "id": "3", "text": "Umsetzung von Rationalisierungsmaßnahmen und Verbesserung des Firmenimages" },
+          { "id": "4", "text": "Abbau von Arbeitsplätzen und Outsourcing des Rechnungswesens" },
+          { "id": "5", "text": "Erhöhung der Sozialleistungen und Senkung der Lohnnebenkosten" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "22a",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "22. Aufgabe\nFür die folgenden vier durchgeführten Aufträge der Gramberg GmbH liegen nachstehende Zahlen vor (siehe Tabelle im Bild).\na) Welcher Auftrag wurde am wirtschaftlichsten abgewickelt?"
+      },
+      "media": "media/q22.png",
+      "score": { "max": 1.66666 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Auftrag 1" },
+          { "id": "2", "text": "Auftrag 2" },
+          { "id": "3", "text": "Auftrag 3" },
+          { "id": "4", "text": "Auftrag 4" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "22b",
+      "type": "numberInput",
+      "prompt": {
+        "text": "22. Aufgabe\nFür die folgenden vier durchgeführten Aufträge der Gramberg GmbH liegen nachstehende Zahlen vor (siehe Tabelle im Bild).\nb) Ermitteln Sie die Kennzahl für die Wirtschaftlichkeit dieses Auftrags (Auftrag 3). Runden Sie das Ergebnis auf zwei Stellen nach dem Komma."
+      },
+      "media": "media/q22.png",
+      "score": { "max": 1.66666 },
+      "data": {
+        "correct": 1.30,
+        "tolerance": 0.00
+      }
+    },
+    {
+      "id": "23",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "23. Aufgabe\nDie Gramberg GmbH hat die Bätje GmbH gekauft und betreibt diese unter Beibehaltung der Firma „Bätje GmbH\" weiter.\nUm welche der folgenden Formen eines Unternehmenszusammenschlusses handelt es sich?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Fusion" },
+          { "id": "2", "text": "Arbeitsgemeinschaft" },
+          { "id": "3", "text": "Interessengemeinschaft" },
+          { "id": "4", "text": "Kartell" },
+          { "id": "5", "text": "Konzern" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "24",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "24. Aufgabe\nDie Gramberg GmbH will ein Tochterunternehmen in der Rechtsform einer GmbH mit vorerst zwanzig Mitarbeitern gründen.\nWelche der folgenden Vorschriften sind dabei zu beachten? (2 Antworten)"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Als Firma muss eine Sachfirma gewählt werden." },
+          { "id": "2", "text": "Ein Aufsichtsrat muss bestellt werden." },
+          { "id": "3", "text": "Das Stammkapital muss mindestens 25.000 EUR betragen." },
+          { "id": "4", "text": "Die Gründung bedarf der Genehmigung des Kartellantes." },
+          { "id": "5", "text": "Die Gründung kann allein durch die Gramberg GmbH erfolgen." },
+          { "id": "6", "text": "Die Gramberg GmbH haftet solidarisch für das Tochterunternehmen." }
+        ],
+        "correctOptionIds": ["3", "5"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "25",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "25. Aufgabe\nBei der Unternehmensgründung wurde vom Firmengründer Günter Gramberg die Rechtsform der GmbH gewählt.\nWelche der folgenden Aussagen trifft auf eine GmbH zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die GmbH hat einen Komplementär und einen Kommanditisten." },
+          { "id": "2", "text": "Der Komplementär leitet die GmbH." },
+          { "id": "3", "text": "Die Gesellschafter der GmbH haften für Verbindlichkeiten mit ihrem Privatvermögen." },
+          { "id": "4", "text": "Nach der gesetzlichen Regelung erfolgt die Gewinnverteilung nach Geschäftsanteilen." },
+          { "id": "5", "text": "Alle Gesellschafter der GmbH sind jederzeit zur Geschäftsführung berechtigt." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "26",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "26. Aufgabe\nFür die Dienstleistungen der Gramberg GmbH gibt es viele Konkurrenten. Der Kundenkreis ist sehr umfangreich.\nWelcher der folgenden Begriffe beschreibt diese Marktform?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Angebotsmonopol" },
+          { "id": "2", "text": "Angebotsoligopol" },
+          { "id": "3", "text": "Polypol" },
+          { "id": "4", "text": "Nachfragemonopol" },
+          { "id": "5", "text": "Nachfrageoligopol" }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "27",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "27. Aufgabe\nDer 16-jährige Auszubildende Murat Safin kauft ein E-Bike im Wert von 2.799,00 EUR.\nWelche der folgenden Aussagen trifft auf dieses Rechtsgeschäft zu?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Das Rechtsgeschäft ist nichtig." },
+          { "id": "2", "text": "Das Rechtsgeschäft ist anfechtbar." },
+          { "id": "3", "text": "Herr Safin ist nicht rechtsfähig." },
+          { "id": "4", "text": "Das Rechtsgeschäft ist gültig, wenn Herr Safin das E-Bike in zwölf Monatsraten bezahlt." },
+          { "id": "5", "text": "Das Rechtsgeschäft ist bis zur Zustimmung der gesetzlichen Vertreter schwebend unwirksam." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "28",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "28. Aufgabe\nSie wollen sich mit einem Software-Unternehmen selbstständig machen. Bei den Kreditgesprächen mit einer Bank wird die Vorlage eines Businessplanes verlangt.\nAn welcher der folgenden Stellen in Ihrem Businessplan erwartet die Bank Aussagen zu anderen Unternehmen, die ähnliche Dienstleistungen anbieten?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Unternehmensbeschreibung" },
+          { "id": "2", "text": "Standortbeschreibung" },
+          { "id": "3", "text": "Beschreibung der Produkte und Leistungen" },
+          { "id": "4", "text": "Markt- und Wettbewerbsanalyse" },
+          { "id": "5", "text": "Finanzplanung" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "29",
+      "type": "singleChoice",
+      "prompt": {
+        "text": "29. Aufgabe\nDie Volkswirtschaft der Bundesrepublik Deutschland profitiert von der Globalisierung.\nWelche der folgenden Maßnahmen fördert die Globalisierung?"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Erhöhung der Importzölle." },
+          { "id": "2", "text": "Die Erhöhung von Steuern für Transportdienstleistungen." },
+          { "id": "3", "text": "Die Erhöhung von Exportschranken." },
+          { "id": "4", "text": "Ein deutsches Unternehmen eröffnet Niederlassungen in Asien und Amerika." },
+          { "id": "5", "text": "Ein deutsches Unternehmen zentralisiert die Fertigung in Deutschland." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "30",
+      "type": "multiChoice",
+      "prompt": {
+        "text": "30. Aufgabe\nIn einer Mittagspause ist vom „magischen Viereck” die Rede.\nWelche der folgenden wirtschaftspolitischen Ziele sind NICHT gemeint, wenn vom „magischen Viereck” gesprochen wird? (2 Antworten)"
+      },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Preisstabilität" },
+          { "id": "2", "text": "Außenwirtschaftliches Gleichgewicht" },
+          { "id": "3", "text": "Gerechte Einkommens- und Vermögensverteilung" },
+          { "id": "4", "text": "Vollbeschäftigung" },
+          { "id": "5", "text": "Angemessenes Wirtschaftswachstum" },
+          { "id": "6", "text": "Gleichgewicht zwischen Ökonomie und Ökologie" }
+        ],
+        "correctOptionIds": ["3", "6"],
+        "shuffleOptions": false
+      }
+    }
+  ]
+}
