@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "id": "dca_pack",
+  "title": "Docker Certified Associate style test",
+  "description": "Comprehensive practice exam for DCA covering Orchestration, Image Creation, Installation, Networking, Security, and Storage.",
+  "language": "en",
+  "tags": [
+    "Docker",
+    "DCA",
+    "DevOps",
+	"Containers",
+	"System Administration"
+  ],
+  "timeLimitMinutes": 90,
+  "groups": [
+    {
+      "id": "all",
+      "title": "All",
+      "questionIds": [
+        "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10",
+        "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20",
+        "q21", "q22", "q23", "q24", "q25", "q26", "q27", "q28", "q29", "q30",
+        "q31", "q32", "q33", "q34", "q35", "q36", "q37", "q38", "q39", "q40"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "singleChoice",
+      "prompt": { "text": "Which command is used to initialize a new Docker Swarm on a manager node?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker swarm init", "explain": "Correct. This makes the current node a manager of a new single-node swarm." },
+          { "id": "b", "text": "docker init swarm", "explain": "Incorrect. This is not a valid Docker command structure." },
+          { "id": "c", "text": "docker swarm create", "explain": "Incorrect. 'create' is not a subcommand of 'docker swarm'. usage is 'docker swarm init'." },
+          { "id": "d", "text": "docker engine mode swarm", "explain": "Incorrect. There is no 'mode' subcommand for 'docker engine'." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q2",
+      "type": "singleChoice",
+      "prompt": { "text": "You want to create a service that runs exactly one task on every node in the swarm. Which flag should you use with `docker service create`?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "--mode global", "explain": "Correct. Global mode ensures that one task of the service runs on each node that meets the placement constraints." },
+          { "id": "b", "text": "--mode replicated", "explain": "Incorrect. Replicated mode (the default) allows you to specify a specific number of tasks, not necessarily one per node." },
+          { "id": "c", "text": "--scale all", "explain": "Incorrect. '--scale' is used to set the number of replicas, 'all' is not a valid value for it." },
+          { "id": "d", "text": "--replica-mode global", "explain": "Incorrect. The correct flag is simply '--mode'." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q3",
+      "type": "singleChoice",
+      "prompt": { "text": "In a Dockerfile, which instruction should be used to define the command that always runs when a container starts and should not be easily overridden?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "CMD", "explain": "Incorrect. CMD provides defaults but can be easily overridden by command line arguments." },
+          { "id": "b", "text": "ENTRYPOINT", "explain": "Correct. ENTRYPOINT allows you to configure a container that will run as an executable. Arguments are appended to it." },
+          { "id": "c", "text": "RUN", "explain": "Incorrect. RUN executes commands in a new layer during the build process, not at runtime." },
+          { "id": "d", "text": "EXEC", "explain": "Incorrect. EXEC is not a valid Dockerfile instruction." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q4",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Docker network driver allows containers to be attached directly to the host's network stack, bypassing network isolation?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "bridge", "explain": "Incorrect. Bridge is the default driver where containers are on a private internal network." },
+          { "id": "b", "text": "host", "explain": "Correct. The host driver removes network isolation between the container and the Docker host." },
+          { "id": "c", "text": "overlay", "explain": "Incorrect. Overlay networks are used for communication between containers across different swarm nodes." },
+          { "id": "d", "text": "macvlan", "explain": "Incorrect. Macvlan assigns a MAC address to a container but still maintains some isolation." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q5",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the primary purpose of a multi-stage build in Docker?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To speed up the build process by running steps in parallel.", "explain": "Incorrect. Parallelism isn't the primary goal here." },
+          { "id": "b", "text": "To create multiple images from a single Dockerfile.", "explain": "Incorrect. Multi-stage builds result in a single final image." },
+          { "id": "c", "text": "To reduce the final image size by separating build tools from the runtime environment.", "explain": "Correct. This allows you to copy only necessary artifacts from a build stage to the final runtime stage." },
+          { "id": "d", "text": "To automatically deploy the image to multiple environments.", "explain": "Incorrect. Deployment is handled by orchestration tools." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q6",
+      "type": "singleChoice",
+      "prompt": { "text": "Which command logs you into a Docker registry?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker login", "explain": "Correct. This command prompts for credentials to authenticate with a registry." },
+          { "id": "b", "text": "docker registry login", "explain": "Incorrect. 'registry' is not a subcommand of docker." },
+          { "id": "c", "text": "docker signin", "explain": "Incorrect. This is not a valid command." },
+          { "id": "d", "text": "docker auth", "explain": "Incorrect. This is not a valid command." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q7",
+      "type": "singleChoice",
+      "prompt": { "text": "How do you backup the Docker Swarm state?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Copy the /var/lib/docker/swarm/ directory on a manager node.", "explain": "Correct. The Swarm state (Raft database) is stored here." },
+          { "id": "b", "text": "Run `docker swarm backup`.", "explain": "Incorrect. There is no such command." },
+          { "id": "c", "text": "Export all running containers using `docker export`.", "explain": "Incorrect. This backs up filesystems, not cluster state." },
+          { "id": "d", "text": "Copy the /etc/docker/daemon.json file.", "explain": "Incorrect. This is the daemon config, not the Swarm state." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q8",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Dockerfile instruction is preferred for copying files from the build context into the image (assuming no extraction/remote URL needed)?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "ADD", "explain": "Incorrect. ADD has extra features (tar extraction, remote URLs) which can be risky if not needed." },
+          { "id": "b", "text": "COPY", "explain": "Correct. COPY is explicit and preferred for local files." },
+          { "id": "c", "text": "MOVE", "explain": "Incorrect. Not a valid instruction." },
+          { "id": "d", "text": "INSERT", "explain": "Incorrect. Not a valid instruction." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q9",
+      "type": "singleChoice",
+      "prompt": { "text": "You need to update a running service `my-web` to use a new image version `v2`. Which command achieves this with minimal downtime?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker service update --image my-web:v2 my-web", "explain": "Correct. This performs a rolling update." },
+          { "id": "b", "text": "docker service upgrade my-web v2", "explain": "Incorrect. No 'upgrade' subcommand exists." },
+          { "id": "c", "text": "docker run --update my-web:v2", "explain": "Incorrect. 'docker run' starts a new container." },
+          { "id": "d", "text": "docker service scale my-web=0; docker service start my-web:v2", "explain": "Incorrect. This causes downtime." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q10",
+      "type": "singleChoice",
+      "prompt": { "text": "Which mechanism is used by Docker Swarm to manage cluster state and consistency among manager nodes?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Paxos", "explain": "Incorrect. Swarm uses Raft." },
+          { "id": "b", "text": "Raft", "explain": "Correct. Swarm uses the Raft consensus algorithm." },
+          { "id": "c", "text": "Gossip", "explain": "Incorrect. Gossip is for discovery/network control plane, not state consistency." },
+          { "id": "d", "text": "Etcd", "explain": "Incorrect. Kubernetes uses etcd; Swarm has a built-in store." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q11",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the difference between a bind mount and a volume?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Volumes are stored in a part of the host filesystem managed by Docker; bind mounts can be anywhere.", "explain": "Correct. Volumes live in /var/lib/docker/volumes." },
+          { "id": "b", "text": "Bind mounts are managed by Docker; volumes are managed by the host OS.", "explain": "Incorrect. It is the other way around." },
+          { "id": "c", "text": "Bind mounts have better performance than volumes.", "explain": "Incorrect. Performance is similar, but volumes are safer." },
+          { "id": "d", "text": "Volumes are temporary; bind mounts are permanent.", "explain": "Incorrect. Both persist data." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q12",
+      "type": "singleChoice",
+      "prompt": { "text": "Which command removes all stopped containers, unused networks, and dangling images?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker clean all", "explain": "Incorrect. Not a valid command." },
+          { "id": "b", "text": "docker system prune", "explain": "Correct. Cleans up unused data types in one go." },
+          { "id": "c", "text": "docker rm -f $(docker ps -aq)", "explain": "Incorrect. Removes containers only." },
+          { "id": "d", "text": "docker rmi all", "explain": "Incorrect. Invalid syntax." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q13",
+      "type": "singleChoice",
+      "prompt": { "text": "In a Docker Compose file, which keyword is used to define the number of container instances for a service in Swarm mode?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "replicas", "explain": "Correct. Defined under the 'deploy' key." },
+          { "id": "b", "text": "instances", "explain": "Incorrect. Not a valid keyword." },
+          { "id": "c", "text": "scale", "explain": "Incorrect. 'scale' is legacy/CLI, Compose uses 'replicas'." },
+          { "id": "d", "text": "count", "explain": "Incorrect. Not a valid keyword." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q14",
+      "type": "singleChoice",
+      "prompt": { "text": "What happens if a manager node in a Swarm becomes unavailable, but a quorum is still maintained?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The Swarm ceases to function immediately.", "explain": "Incorrect. Swarm tolerates failure if quorum exists." },
+          { "id": "b", "text": "Existing tasks continue to run, and new services can be created.", "explain": "Correct. Full functionality remains." },
+          { "id": "c", "text": "Existing tasks stop, but the manager can be recovered.", "explain": "Incorrect. Tasks do not stop." },
+          { "id": "d", "text": "The cluster goes into read-only mode.", "explain": "Incorrect. Read-only happens only when quorum is lost." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q15",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Docker component handles the actual creation and running of containers?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Docker CLI", "explain": "Incorrect. CLI is just a client." },
+          { "id": "b", "text": "containerd", "explain": "Correct. containerd is the high-level container runtime." },
+          { "id": "c", "text": "Swarm kit", "explain": "Incorrect. Swarm is for orchestration." },
+          { "id": "d", "text": "registry", "explain": "Incorrect. Registry stores images." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q16",
+      "type": "singleChoice",
+      "prompt": { "text": "You want to securely pass a password to a service in a Docker Swarm. What is the best practice?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Use an environment variable in the Dockerfile.", "explain": "Incorrect. Visible in image history." },
+          { "id": "b", "text": "Use Docker Secrets.", "explain": "Correct. Encrypted at rest/transit, mounted only where needed." },
+          { "id": "c", "text": "Hardcode it in the application code.", "explain": "Incorrect. Never hardcode secrets." },
+          { "id": "d", "text": "Pass it as a command line argument.", "explain": "Incorrect. Visible in process lists." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q17",
+      "type": "singleChoice",
+      "prompt": { "text": "Which flag allows you to map a port from the host to the container?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "-p or --publish", "explain": "Correct. Maps host port to container port." },
+          { "id": "b", "text": "-m or --map", "explain": "Incorrect. -m is usually memory." },
+          { "id": "c", "text": "--expose", "explain": "Incorrect. Expose documents intent but does not publish." },
+          { "id": "d", "text": "--net", "explain": "Incorrect. Specifies network driver." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q18",
+      "type": "singleChoice",
+      "prompt": { "text": "How can you verify that a downloaded image has been signed and is trusted?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Enable Docker Content Trust (DCT).", "explain": "Correct. Set DOCKER_CONTENT_TRUST=1." },
+          { "id": "b", "text": "Run `docker image verify`.", "explain": "Incorrect. No such command." },
+          { "id": "c", "text": "Check the image ID hash manually.", "explain": "Incorrect. Checks integrity, not trust/signatures." },
+          { "id": "d", "text": "Use `docker scan`.", "explain": "Incorrect. Checks vulnerabilities." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q19",
+      "type": "singleChoice",
+      "prompt": { "text": "Which storage driver is currently the recommended default for most Linux distributions using Docker?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "aufs", "explain": "Incorrect. Older, deprecated." },
+          { "id": "b", "text": "overlay2", "explain": "Correct. Preferred for performance/stability." },
+          { "id": "c", "text": "devicemapper", "explain": "Incorrect. Complex and slower." },
+          { "id": "d", "text": "vfs", "explain": "Incorrect. Very slow, testing only." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q20",
+      "type": "singleChoice",
+      "prompt": { "text": "You want to limit a container to use a maximum of 512MB of RAM. Which flag do you use?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "--memory=512m", "explain": "Correct. Sets hard memory limit." },
+          { "id": "b", "text": "--ram=512m", "explain": "Incorrect. Flag does not exist." },
+          { "id": "c", "text": "--limit-memory=512m", "explain": "Incorrect. Flag does not exist." },
+          { "id": "d", "text": "--mem-cap=512m", "explain": "Incorrect. Flag does not exist." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q21",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the purpose of the `HEALTHCHECK` instruction in a Dockerfile?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To scan the image for viruses.", "explain": "Incorrect. Runtime check, not static analysis." },
+          { "id": "b", "text": "To tell Docker how to test a container to check that it is still working.", "explain": "Correct. Defines a command to check container health." },
+          { "id": "c", "text": "To repair corrupted containers automatically.", "explain": "Incorrect. Checks status, does not repair." },
+          { "id": "d", "text": "To check internet connectivity during the build.", "explain": "Incorrect. Runs at runtime." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q22",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Docker command creates a new image from a container's changes?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker commit", "explain": "Correct. Saves container changes to a new image." },
+          { "id": "b", "text": "docker build", "explain": "Incorrect. Creates image from Dockerfile." },
+          { "id": "c", "text": "docker save", "explain": "Incorrect. Creates tarball archive." },
+          { "id": "d", "text": "docker export", "explain": "Incorrect. Exports filesystem to tarball." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q23",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the role of a 'worker' node in a Docker Swarm?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To maintain the cluster state and schedule services.", "explain": "Incorrect. That is a Manager role." },
+          { "id": "b", "text": "To execute containers (tasks) assigned to them by managers.", "explain": "Correct. Workers execute tasks." },
+          { "id": "c", "text": "To act as a backup for the Raft database.", "explain": "Incorrect. Only managers have Raft state." },
+          { "id": "d", "text": "To build images for the cluster.", "explain": "Incorrect. Not a specific worker role." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q24",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Linux kernel feature does Docker use to isolate processes (PID, User, Network, etc.)?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "cgroups", "explain": "Incorrect. cgroups are for resource limiting." },
+          { "id": "b", "text": "Namespaces", "explain": "Correct. Namespaces provide isolation." },
+          { "id": "c", "text": "Seccomp", "explain": "Incorrect. System call filtering." },
+          { "id": "d", "text": "AppArmor", "explain": "Incorrect. Access control." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q25",
+      "type": "singleChoice",
+      "prompt": { "text": "How can you run a command in a running container?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker exec", "explain": "Correct. Spawns a process inside an existing container." },
+          { "id": "b", "text": "docker run", "explain": "Incorrect. Starts a NEW container." },
+          { "id": "c", "text": "docker attach", "explain": "Incorrect. Attaches to main process (PID 1)." },
+          { "id": "d", "text": "docker enter", "explain": "Incorrect. Not a standard command." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q26",
+      "type": "singleChoice",
+      "prompt": { "text": "In Docker Networking, what is the default network driver for a container if none is specified?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "bridge", "explain": "Correct. Used for standalone containers." },
+          { "id": "b", "text": "overlay", "explain": "Incorrect. Used for Swarm services." },
+          { "id": "c", "text": "none", "explain": "Incorrect. Must be specified explicitly." },
+          { "id": "d", "text": "host", "explain": "Incorrect. Must be specified explicitly." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q27",
+      "type": "singleChoice",
+      "prompt": { "text": "Which file is used to configure the Docker daemon options on Linux?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "/etc/docker/daemon.json", "explain": "Correct. Standard config file." },
+          { "id": "b", "text": "/var/lib/docker/config.json", "explain": "Incorrect. Wrong path." },
+          { "id": "c", "text": "/etc/default/docker.conf", "explain": "Incorrect. Not standard for complex config." },
+          { "id": "d", "text": "~/.docker/config.json", "explain": "Incorrect. Client config." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q28",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the result of defining `ARG` before `FROM` in a Dockerfile?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "It causes a syntax error.", "explain": "Incorrect. It is valid." },
+          { "id": "b", "text": "The variable is available only in the `FROM` instruction.", "explain": "Correct. It clears after the FROM line." },
+          { "id": "c", "text": "The variable is available throughout the entire Dockerfile.", "explain": "Incorrect. Not available after FROM unless redeclared." },
+          { "id": "d", "text": "It sets an environment variable for the running container.", "explain": "Incorrect. ARG is build-time only." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q29",
+      "type": "singleChoice",
+      "prompt": { "text": "Which command lists all networks on the Docker host?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker network ls", "explain": "Correct. Lists all networks." },
+          { "id": "b", "text": "docker net list", "explain": "Incorrect syntax." },
+          { "id": "c", "text": "docker network ps", "explain": "Incorrect syntax." },
+          { "id": "d", "text": "docker info network", "explain": "Incorrect syntax." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q30",
+      "type": "singleChoice",
+      "prompt": { "text": "To secure the Docker Daemon socket, which technology is used for mutual authentication between client and server?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "SSH", "explain": "Incorrect. Native secure socket uses TLS." },
+          { "id": "b", "text": "TLS (Transport Layer Security)", "explain": "Correct. Uses mTLS with certificates." },
+          { "id": "c", "text": "Basic Auth", "explain": "Incorrect. Not supported." },
+          { "id": "d", "text": "VPN", "explain": "Incorrect. Not the native auth mechanism." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q31",
+      "type": "singleChoice",
+      "prompt": { "text": "You are deploying a logging agent service that must run exactly one instance on every current and future node in the Swarm cluster. Which command creates this service correctly?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker service create --mode global --name logger my-logger", "explain": "Correct. Global mode ensures one task per node." },
+          { "id": "b", "text": "docker service create --replicas all --name logger my-logger", "explain": "Incorrect. 'all' is invalid for replicas." },
+          { "id": "c", "text": "docker service create --mode replicated --name logger my-logger", "explain": "Incorrect. Replicated mode doesn't auto-scale to new nodes." },
+          { "id": "d", "text": "docker service create --deployment all-nodes --name logger my-logger", "explain": "Incorrect. Invalid flag." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q32",
+      "type": "singleChoice",
+      "prompt": { "text": "Consider the following Dockerfile snippet:\n\nARG VERSION=3.9\nFROM python:${VERSION}\nRUN echo ${VERSION}\n\nWhat will be the output of the RUN instruction?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "It will print '3.9'.", "explain": "Incorrect. ARG before FROM is cleared." },
+          { "id": "b", "text": "It will print an empty string or the variable name.", "explain": "Correct. Variable is out of scope in RUN." },
+          { "id": "c", "text": "The build will fail with a syntax error.", "explain": "Incorrect. Syntax is valid." },
+          { "id": "d", "text": "It will look for a host environment variable named VERSION.", "explain": "Incorrect. Builds are isolated." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q33",
+      "type": "singleChoice",
+      "prompt": { "text": "Which Docker network driver removes network isolation between the container and the Docker host, allowing the container to use the host's IP address directly?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "bridge", "explain": "Incorrect. Bridge is isolated." },
+          { "id": "b", "text": "host", "explain": "Correct. Shares host network namespace." },
+          { "id": "c", "text": "macvlan", "explain": "Incorrect. Still has isolation." },
+          { "id": "d", "text": "overlay", "explain": "Incorrect. For multi-host comms." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q34",
+      "type": "singleChoice",
+      "prompt": { "text": "You want to distribute a new image to your private registry. Which command must you run first to authenticate?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker signin myregistry.com", "explain": "Incorrect. Invalid command." },
+          { "id": "b", "text": "docker login myregistry.com", "explain": "Correct. Initiates authentication." },
+          { "id": "c", "text": "docker registry auth myregistry.com", "explain": "Incorrect. Invalid command." },
+          { "id": "d", "text": "docker connect myregistry.com", "explain": "Incorrect. Used for networks." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q35",
+      "type": "singleChoice",
+      "prompt": { "text": "A container is defined with ENTRYPOINT [\"/bin/script.sh\"]. If you run `docker run myimage -d param1`, what happens?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The command `/bin/script.sh` is overwritten by `-d param1`.", "explain": "Incorrect. Arguments are appended." },
+          { "id": "b", "text": "The container runs `/bin/script.sh -d param1`.", "explain": "Correct. Args are passed to ENTRYPOINT." },
+          { "id": "c", "text": "The container runs `/bin/script.sh` and ignores `-d param1`.", "explain": "Incorrect. Args are not ignored." },
+          { "id": "d", "text": "The container fails because ENTRYPOINT cannot take arguments.", "explain": "Incorrect. ENTRYPOINT accepts args." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q36",
+      "type": "singleChoice",
+      "prompt": { "text": "Which environment variable must be set to '1' to prevent the Docker Engine from pulling unsigned images?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "DOCKER_CONTENT_TRUST", "explain": "Correct. Enforces signature verification." },
+          { "id": "b", "text": "DOCKER_IMAGE_VERIFY", "explain": "Incorrect. Not a valid variable." },
+          { "id": "c", "text": "DOCKER_SECURE_MODE", "explain": "Incorrect. Not a valid variable." },
+          { "id": "d", "text": "DOCKER_SIGNATURE_CHECK", "explain": "Incorrect. Not a valid variable." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q37",
+      "type": "singleChoice",
+      "prompt": { "text": "You need to see a list of all custom networks created on your Docker host. What is the correct command?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker net list", "explain": "Incorrect. Invalid syntax." },
+          { "id": "b", "text": "docker network ls", "explain": "Correct. Lists networks." },
+          { "id": "c", "text": "docker network list", "explain": "Incorrect syntax." },
+          { "id": "d", "text": "docker show networks", "explain": "Incorrect. Invalid command." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q38",
+      "type": "singleChoice",
+      "prompt": { "text": "You have a Swarm cluster with 5 manager nodes. How many manager nodes can fail at the same time while still maintaining a quorum (read/write capability)?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "1", "explain": "Incorrect. You can lose more." },
+          { "id": "b", "text": "2", "explain": "Correct. Majority is 3, so 5-3=2 can fail." },
+          { "id": "c", "text": "3", "explain": "Incorrect. Only 2 remain, quorum lost." },
+          { "id": "d", "text": "0", "explain": "Incorrect. HA tolerates failure." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q39",
+      "type": "singleChoice",
+      "prompt": { "text": "Which command allows you to change a worker node into a manager node?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "docker node update --role manager <node-id>", "explain": "Incorrect. Use promote." },
+          { "id": "b", "text": "docker node promote <node-id>", "explain": "Correct. Elevates worker to manager." },
+          { "id": "c", "text": "docker swarm join-token manager", "explain": "Incorrect. For new nodes joining." },
+          { "id": "d", "text": "docker node set-manager <node-id>", "explain": "Incorrect. Invalid command." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q40",
+      "type": "singleChoice",
+      "prompt": { "text": "You want to persist database files so they survive container deletion and are easy to back up using Docker tools. Which option should you use?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "A named volume", "explain": "Correct. Managed by Docker, survives deletion." },
+          { "id": "b", "text": "A tmpfs mount", "explain": "Incorrect. Stored in memory only." },
+          { "id": "c", "text": "Copy-on-write layer", "explain": "Incorrect. Lost on container removal." },
+          { "id": "d", "text": "A bind mount to /tmp", "explain": "Incorrect. /tmp is volatile." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    }
+  ]
+}
