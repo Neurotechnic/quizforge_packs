@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "id": "prince2_7_foundation_pack",
+  "title": "PRINCE2 7 Foundation Practice Exam",
+  "description": "Comprehensive practice exam for PRINCE2 7th Edition Foundation, covering Principles, People, Practices, and Processes.",
+  "language": "en",
+  "tags": [
+    "PRINCE2",
+    "Project Management"
+  ],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "All Questions",
+      "questionIds": [
+        "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10",
+        "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20",
+        "q21", "q22", "q23", "q24", "q25", "q26", "q27", "q28", "q29", "q30"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is a core principle of PRINCE2?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Manage by exception", "explain": "Correct. Managing by exception is one of the 7 core principles of PRINCE2." },
+          { "id": "b", "text": "Manage by intervention", "explain": "Incorrect. Intervention is not a PRINCE2 principle." },
+          { "id": "c", "text": "Focus on activities", "explain": "Incorrect. The principle is 'Focus on products', not activities." },
+          { "id": "d", "text": "Learn from others", "explain": "Incorrect. The principle is 'Learn from experience'." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q2",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the primary purpose of the 'People' element introduced in PRINCE2 7?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To establish human resource policies for the organization.", "explain": "Incorrect. This is an organizational function, not a project management element." },
+          { "id": "b", "text": "To recognize that people are central to the success of any project.", "explain": "Correct. PRINCE2 7 integrates the People element to emphasize leadership, collaboration, and culture." },
+          { "id": "c", "text": "To replace the Organizing practice.", "explain": "Incorrect. The Organizing practice still exists to define roles and responsibilities." },
+          { "id": "d", "text": "To calculate the payroll for project team members.", "explain": "Incorrect. Payroll is outside the scope of PRINCE2." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q3",
+      "type": "singleChoice",
+      "prompt": { "text": "Which role represents the 'Business' interest on the Project Board?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Senior User", "explain": "Incorrect. The Senior User represents those who will use the project's outputs." },
+          { "id": "b", "text": "Project Manager", "explain": "Incorrect. The Project Manager runs the project day-to-day." },
+          { "id": "c", "text": "Executive", "explain": "Correct. The Executive ensures the project is value for money and represents the business." },
+          { "id": "d", "text": "Senior Supplier", "explain": "Incorrect. The Senior Supplier represents those designing, developing, and implementing the project's products." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q4",
+      "type": "singleChoice",
+      "prompt": { "text": "Which practice answers the question 'Why are we doing this project?'" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Business Case", "explain": "Correct. The Business Case practice justifies the project and validates its viability." },
+          { "id": "b", "text": "Organizing", "explain": "Incorrect. Organizing answers 'Who is involved?'" },
+          { "id": "c", "text": "Plans", "explain": "Incorrect. Plans answer 'How, how much, and when?'" },
+          { "id": "d", "text": "Risk", "explain": "Incorrect. Risk answers 'What if?'" }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q5",
+      "type": "singleChoice",
+      "prompt": { "text": "What is defined as an uncertain event or set of events that, should it occur, will have an effect on the achievement of objectives?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "An issue", "explain": "Incorrect. An issue has already happened." },
+          { "id": "b", "text": "A risk", "explain": "Correct. A risk is an uncertain event." },
+          { "id": "c", "text": "A constraint", "explain": "Incorrect. A constraint is a known restriction." },
+          { "id": "d", "text": "A dependency", "explain": "Incorrect. A dependency is a logical relationship between activities." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q6",
+      "type": "singleChoice",
+      "prompt": { "text": "Which process is triggered by the Project Mandate?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Initiating a Project", "explain": "Incorrect. This process happens after startup." },
+          { "id": "b", "text": "Starting up a Project", "explain": "Correct. The mandate triggers the pre-project process." },
+          { "id": "c", "text": "Directing a Project", "explain": "Incorrect. Directing a project runs concurrently but is triggered later." },
+          { "id": "d", "text": "Controlling a Stage", "explain": "Incorrect. This occurs during delivery stages." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q7",
+      "type": "singleChoice",
+      "prompt": { "text": "Which management level sets project tolerances?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Corporate, programme management or the customer", "explain": "Correct. They sit above the project and set project-level tolerances for the Project Board." },
+          { "id": "b", "text": "The Project Board", "explain": "Incorrect. The Project Board sets stage tolerances for the Project Manager." },
+          { "id": "c", "text": "The Project Manager", "explain": "Incorrect. The Project Manager sets work package tolerances for Team Managers." },
+          { "id": "d", "text": "Project Assurance", "explain": "Incorrect. Assurance reviews tolerances but does not set them." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q8",
+      "type": "singleChoice",
+      "prompt": { "text": "What type of issue is defined as 'something that the project should provide but currently is not forecast to be provided'?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Request for change", "explain": "Incorrect. This is a proposal for a change to a baseline." },
+          { "id": "b", "text": "Off-specification", "explain": "Correct. An off-specification is a shortfall in quality or expected output." },
+          { "id": "c", "text": "Problem/concern", "explain": "Incorrect. This is a general issue that the Project Manager needs to resolve." },
+          { "id": "d", "text": "Project risk", "explain": "Incorrect. A risk is an uncertain event, whereas an issue is happening now." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q9",
+      "type": "singleChoice",
+      "prompt": { "text": "In which process does the Project Manager authorize a Work Package?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Managing Product Delivery", "explain": "Incorrect. Team Managers accept Work Packages in this process." },
+          { "id": "b", "text": "Controlling a Stage", "explain": "Correct. The Project Manager authorizes work in the Controlling a Stage process." },
+          { "id": "c", "text": "Directing a Project", "explain": "Incorrect. The Project Board operates in this process." },
+          { "id": "d", "text": "Managing a Stage Boundary", "explain": "Incorrect. This process focuses on planning the next stage." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q10",
+      "type": "singleChoice",
+      "prompt": { "text": "Which statement about the 'Tailor to suit the project' principle is TRUE?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "If a project is small, some PRINCE2 principles can be ignored.", "explain": "Incorrect. All principles must be applied for it to be a PRINCE2 project." },
+          { "id": "b", "text": "Tailoring ensures the method relates to the project's environment.", "explain": "Correct. Tailoring adapts the method to the size, complexity, and risk of the project." },
+          { "id": "c", "text": "Tailoring is done only once, during the Starting up a Project process.", "explain": "Incorrect. Tailoring should be reviewed throughout the project." },
+          { "id": "d", "text": "Only the Project Manager is responsible for tailoring.", "explain": "Incorrect. The Project Board and Corporate management are also involved." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q11",
+      "type": "singleChoice",
+      "prompt": { "text": "Which document defines the acceptance criteria for a project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Business Case", "explain": "Incorrect. The Business Case contains the justification." },
+          { "id": "b", "text": "Project Product Description", "explain": "Correct. It defines what the project must deliver to gain acceptance." },
+          { "id": "c", "text": "Quality Register", "explain": "Incorrect. The register logs quality activities." },
+          { "id": "d", "text": "Project Brief", "explain": "Incorrect. The Brief contains the initial PPD but is not the sole definition." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q12",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the primary function of the 'Managing Product Delivery' process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To control the day-to-day execution of a management stage.", "explain": "Incorrect. This is Controlling a Stage." },
+          { "id": "b", "text": "To ensure that planned products are created and delivered by the team.", "explain": "Correct. This process links the Project Manager and the Team Manager(s)." },
+          { "id": "c", "text": "To authorize the project.", "explain": "Incorrect. This is done in Directing a Project." },
+          { "id": "d", "text": "To close the project down smoothly.", "explain": "Incorrect. This is Closing a Project." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q13",
+      "type": "singleChoice",
+      "prompt": { "text": "Which role CANNOT be delegated by the Project Board?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project Assurance", "explain": "Incorrect. Project Assurance can be delegated." },
+          { "id": "b", "text": "Executive", "explain": "Correct. The Executive role is ultimately accountable and cannot be delegated." },
+          { "id": "c", "text": "Change Authority", "explain": "Incorrect. The Project Board can delegate authority to approve changes." },
+          { "id": "d", "text": "Team Manager", "explain": "Incorrect. The Team Manager is separate from the Project Board." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q14",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is the first plan created in a PRINCE2 project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project Plan", "explain": "Incorrect. This is created during the Initiating a Project process." },
+          { "id": "b", "text": "Initiation Stage Plan", "explain": "Correct. It is created in Starting up a Project to plan the initiation stage." },
+          { "id": "c", "text": "Stage Plan", "explain": "Incorrect. Regular stage plans are created later." },
+          { "id": "d", "text": "Team Plan", "explain": "Incorrect. Team plans are created during product delivery." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q15",
+      "type": "singleChoice",
+      "prompt": { "text": "In which process is the Project Initiation Documentation (PID) assembled?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Starting up a Project", "explain": "Incorrect. The Project Brief is assembled here." },
+          { "id": "b", "text": "Directing a Project", "explain": "Incorrect. The PID is approved here, not assembled." },
+          { "id": "c", "text": "Initiating a Project", "explain": "Correct. The PID is developed to define the project baseline." },
+          { "id": "d", "text": "Controlling a Stage", "explain": "Incorrect. The PID is used as a baseline reference here." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q16",
+      "type": "singleChoice",
+      "prompt": { "text": "What happens if a stage is forecast to exceed its agreed tolerances?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The Project Manager revises the Stage Plan.", "explain": "Incorrect. The Project Manager cannot do this without Project Board approval." },
+          { "id": "b", "text": "The Project Manager raises an Exception Report.", "explain": "Correct. This escalates the issue to the Project Board." },
+          { "id": "c", "text": "The Team Manager stops work immediately.", "explain": "Incorrect. Work continues until the Project Board issues new directives." },
+          { "id": "d", "text": "The Corporate Management closes the project.", "explain": "Incorrect. The Project Board must make the decision on how to proceed." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q17",
+      "type": "singleChoice",
+      "prompt": { "text": "Which product records any identified risks?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Issue Register", "explain": "Incorrect. This records formal issues." },
+          { "id": "b", "text": "Daily Log", "explain": "Incorrect. This is used for informal issues and notes." },
+          { "id": "c", "text": "Risk Register", "explain": "Correct. It captures and maintains information on all identified risks." },
+          { "id": "d", "text": "Quality Register", "explain": "Incorrect. This records quality control activities." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q18",
+      "type": "singleChoice",
+      "prompt": { "text": "According to the 'Manage by stages' principle, what must a project have as a minimum?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Three stages", "explain": "Incorrect. The minimum is two." },
+          { "id": "b", "text": "Two stages: an initiation stage and at least one further management stage.", "explain": "Correct. This provides the minimum level of control required by PRINCE2." },
+          { "id": "c", "text": "One stage covering the whole project.", "explain": "Incorrect. This violates the principle of managing by stages." },
+          { "id": "d", "text": "As many stages as there are teams.", "explain": "Incorrect. Stages are driven by management decision points, not team structures." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q19",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is a purpose of the Closing a Project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To verify user acceptance of the project's products.", "explain": "Correct. It ensures products have been accepted before the project disbands." },
+          { "id": "b", "text": "To plan the final delivery stage.", "explain": "Incorrect. This is done in Managing a Stage Boundary." },
+          { "id": "c", "text": "To authorize the project.", "explain": "Incorrect. This is done in Directing a Project." },
+          { "id": "d", "text": "To write the Project Brief.", "explain": "Incorrect. This is done in Starting up a Project." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q20",
+      "type": "singleChoice",
+      "prompt": { "text": "What role does the Change Authority perform?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "They approve or reject requests for change within delegated limits.", "explain": "Correct. They act on behalf of the Project Board to handle changes." },
+          { "id": "b", "text": "They manage the project's daily operations.", "explain": "Incorrect. This is the Project Manager." },
+          { "id": "c", "text": "They independently audit project quality.", "explain": "Incorrect. This is Project Assurance." },
+          { "id": "d", "text": "They set the corporate strategy.", "explain": "Incorrect. This is done by Corporate Management." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q21",
+      "type": "singleChoice",
+      "prompt": { "text": "Which describes the 'Focus on products' principle?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The project should focus exclusively on what activities need to be done.", "explain": "Incorrect. PRINCE2 focuses on outputs (products), not just activities." },
+          { "id": "b", "text": "A successful project is output-oriented rather than activity-oriented.", "explain": "Correct. Defining products clearly ensures everyone understands what is to be delivered." },
+          { "id": "c", "text": "Every team member must inspect the final product.", "explain": "Incorrect. This is not a requirement of the principle." },
+          { "id": "d", "text": "The business case relies solely on product sales.", "explain": "Incorrect. The Business Case justifies the project, not just sales." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q22",
+      "type": "singleChoice",
+      "prompt": { "text": "Which practice ensures the project is desirable, viable, and achievable?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Quality", "explain": "Incorrect. Quality ensures products meet business expectations." },
+          { "id": "b", "text": "Risk", "explain": "Incorrect. Risk handles uncertainty." },
+          { "id": "c", "text": "Business Case", "explain": "Correct. It continuously justifies the investment based on these criteria." },
+          { "id": "d", "text": "Progress", "explain": "Incorrect. Progress tracks achievements against the plan." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q23",
+      "type": "singleChoice",
+      "prompt": { "text": "Who is responsible for producing Checkpoint Reports?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project Manager", "explain": "Incorrect. They produce Highlight Reports." },
+          { "id": "b", "text": "Team Manager", "explain": "Correct. The Team Manager reports progress to the Project Manager via Checkpoint Reports." },
+          { "id": "c", "text": "Project Support", "explain": "Incorrect. They assist but do not own the report." },
+          { "id": "d", "text": "Senior Supplier", "explain": "Incorrect. They receive updates via the Project Board." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q24",
+      "type": "singleChoice",
+      "prompt": { "text": "What is the primary purpose of the 'Managing a Stage Boundary' process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To control the link between the Project Manager and Team Manager.", "explain": "Incorrect. This is Managing Product Delivery." },
+          { "id": "b", "text": "To provide the Project Board with information to decide if the project should continue.", "explain": "Correct. It plans the next stage and updates the Business Case for board approval." },
+          { "id": "c", "text": "To execute the work packages.", "explain": "Incorrect. Work is executed during Controlling a Stage/Managing Product Delivery." },
+          { "id": "d", "text": "To close the project.", "explain": "Incorrect. This is the Closing a Project process." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q25",
+      "type": "singleChoice",
+      "prompt": { "text": "In PRINCE2 7, which capability is emphasized to handle the transition of a project's outputs into business as usual?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Configuration Management", "explain": "Incorrect. This handles asset tracking." },
+          { "id": "b", "text": "Change Management (organizational)", "explain": "Correct. PRINCE2 7 highlights the importance of managing the human side of change for successful adoption." },
+          { "id": "c", "text": "Issue Management", "explain": "Incorrect. This handles current project problems." },
+          { "id": "d", "text": "Quality Control", "explain": "Incorrect. This ensures products meet specifications." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q26",
+      "type": "singleChoice",
+      "prompt": { "text": "Which document outlines how and when the project's benefits will be measured?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Business Case", "explain": "Incorrect. The Business Case lists the benefits but the management approach is separate." },
+          { "id": "b", "text": "Benefits Management Approach", "explain": "Correct. It defines the actions required to ensure outcomes are achieved and benefits realized." },
+          { "id": "c", "text": "Project Brief", "explain": "Incorrect. This is the initial definition document." },
+          { "id": "d", "text": "Quality Management Approach", "explain": "Incorrect. This focuses on quality standards, not benefits." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q27",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is NOT one of the six aspects of project performance that need to be managed?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Costs", "explain": "Incorrect. Cost is one of the aspects." },
+          { "id": "b", "text": "Timescales", "explain": "Incorrect. Timescale is one of the aspects." },
+          { "id": "c", "text": "Motivation", "explain": "Correct. While people/motivation is vital in PRINCE2 7, the traditional six project variables are Costs, Timescales, Quality, Scope, Benefits, and Risk." },
+          { "id": "d", "text": "Scope", "explain": "Incorrect. Scope is one of the aspects." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q28",
+      "type": "singleChoice",
+      "prompt": { "text": "What action does a Project Manager take to resolve an informal issue?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Create an Exception Report", "explain": "Incorrect. Exception reports are for tolerance breaches." },
+          { "id": "b", "text": "Log it in the Issue Register", "explain": "Incorrect. Formal issues go in the Issue Register." },
+          { "id": "c", "text": "Record it in the Daily Log", "explain": "Correct. The Daily Log is used to track informal issues and day-to-day actions." },
+          { "id": "d", "text": "Escalate to the Project Board", "explain": "Incorrect. Informal issues can usually be handled by the PM." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q29",
+      "type": "singleChoice",
+      "prompt": { "text": "Which PRINCE2 principle is supported by the creation of an End Project Report?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Manage by stages", "explain": "Incorrect. This relates to breaking the project into manageable chunks." },
+          { "id": "b", "text": "Learn from experience", "explain": "Correct. The End Project Report captures lessons learned to benefit future projects." },
+          { "id": "c", "text": "Defined roles and responsibilities", "explain": "Incorrect. This is about project organization." },
+          { "id": "d", "text": "Focus on products", "explain": "Incorrect. This is about output-driven planning." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": true
+      }
+    },
+    {
+      "id": "q30",
+      "type": "singleChoice",
+      "prompt": { "text": "In a PRINCE2 project, who is ultimately accountable for the project's success?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The Project Manager", "explain": "Incorrect. The Project Manager runs the project on behalf of the Executive." },
+          { "id": "b", "text": "The Senior User", "explain": "Incorrect. They are accountable for realizing benefits after the project." },
+          { "id": "c", "text": "The Executive", "explain": "Correct. The Executive holds the ultimate accountability for the project." },
+          { "id": "d", "text": "Corporate Management", "explain": "Incorrect. They commission the project, but the Executive on the Project Board is accountable for its delivery." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": true
+      }
+    }
+  ]
+}

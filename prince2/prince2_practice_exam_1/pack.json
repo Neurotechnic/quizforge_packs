@@ -1,0 +1,929 @@
+{
+  "schemaVersion": 1,
+  "Version": 1,
+  "id": "prince2_practice_exam_1",
+  "title": "PRINCE2 Foundation Practice Exam 1",
+  "description": "Full-Length PRINCE2 Foundation Practice Exam 1.",
+  "language": "en",
+  "tags": [
+    "PRINCE2",
+    "Project Management"
+  ],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "All Questions",
+      "questionIds": [
+        "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10",
+        "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20",
+        "q21", "q22", "q23", "q24", "q25", "q26", "q27", "q28", "q29", "q30",
+        "q31", "q32", "q33", "q34", "q35", "q36", "q37", "q38", "q39", "q40",
+        "q41", "q42", "q43", "q44", "q45", "q46", "q47", "q48", "q49", "q50",
+        "q51", "q52", "q53", "q54", "q55", "q56", "q57", "q58", "q59", "q60"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is the first step in the recommended approach to defining and analyzing the products?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Creating a product flow diagram", "explain": "Incorrect. This is done after the breakdown structure." },
+          { "id": "b", "text": "Creating a product breakdown structure", "explain": "Incorrect. This is the second step." },
+          { "id": "c", "text": "Writing a project product description", "explain": "Correct. This is the first step to understand the final deliverable." },
+          { "id": "d", "text": "Writing a product description", "explain": "Incorrect. These are created for individual components later." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q2",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following statements is a definition of customer quality expectations?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "A summary of the quality activities planned for the project", "explain": "Incorrect. This describes a quality management approach." },
+          { "id": "b", "text": "A description of the measurable attributes of a product", "explain": "Incorrect. These are quality criteria." },
+          { "id": "c", "text": "A description of the quality expected of the project’s products", "explain": "Correct. Customer quality expectations define the acceptable quality level for the final product." },
+          { "id": "d", "text": "The measurable improvement resulting from an outcome", "explain": "Incorrect. This describes a benefit." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q3",
+      "type": "singleChoice",
+      "prompt": { "text": "Who does the senior supplier represent when making decisions?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Those who will benefit from using the products", "explain": "Incorrect. This is the Senior User's domain." },
+          { "id": "b", "text": "Corporate, programme management, or the customer", "explain": "Incorrect. The Executive typically represents these interests on the board." },
+          { "id": "c", "text": "Those who ensure the project is following a cost-conscious approach", "explain": "Incorrect. The Executive ensures value for money." },
+          { "id": "d", "text": "Those who are responsible for the technical integrity of the product", "explain": "Correct. The Senior Supplier represents the interests of those designing, developing, and implementing the products." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q4",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following describes an advantage of applying the focus on products principle?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The project management method used is appropriate to the project.", "explain": "Incorrect. This refers to the 'Tailor to suit the project environment' principle." },
+          { "id": "b", "text": "Projects that can longer be justified are stopped.", "explain": "Incorrect. This is 'Continued business justification'." },
+          { "id": "c", "text": "Senior management’s time is not wasted managing the project on a day-to-day basis.", "explain": "Incorrect. This is 'Manage by exception'." },
+          { "id": "d", "text": "The project does no more work than necessary to deliver its products.", "explain": "Correct. Focusing on products ensures the scope is strictly limited to required deliverables." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q5",
+      "type": "singleChoice",
+      "prompt": { "text": "Which product is used at the end of the project to assess how the project performed?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project brief", "explain": "Incorrect. This is a pre-project document." },
+          { "id": "b", "text": "Project initiation documentation", "explain": "Correct. The PID contains the baseline against which final performance is assessed." },
+          { "id": "c", "text": "Project product description", "explain": "Incorrect. This is used to verify the final product, not overall project performance." },
+          { "id": "d", "text": "Project mandate", "explain": "Incorrect. This triggers the project." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q6",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following are objectives of the initiating a project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To ensure that there is common understanding of how the quality required will be achieved", "explain": "Correct. This is done by creating the Quality Management Approach." },
+          { "id": "b", "text": "To identify who needs information, in what format, and at what time", "explain": "Correct. This is done by creating the Communication Management Approach." },
+          { "id": "c", "text": "To ensure that all the necessary authorities exist for initiating the project", "explain": "Incorrect. This happens during Starting up a Project." },
+          { "id": "d", "text": "To plan the work required for project initiation", "explain": "Incorrect. The Initiation Stage Plan is created during Starting up a Project." }
+        ],
+        "correctOptionIds": ["a", "b"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q7",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the starting up a project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To establish solid foundations for the delivery of the project", "explain": "Incorrect. This is the purpose of Initiating a Project." },
+          { "id": "b", "text": "To assign and monitor work packages", "explain": "Incorrect. This is Controlling a Stage / Managing Product Delivery." },
+          { "id": "c", "text": "To enable the project board to be accountable for the project’s success", "explain": "Incorrect. This happens via Directing a Project." },
+          { "id": "d", "text": "To resource and allocate key roles and responsibilities", "explain": "Correct. Designing and appointing the project management team is a key activity here." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q8",
+      "type": "singleChoice",
+      "prompt": { "text": "Which option represents a characteristic of projects?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Involves work with no defined end point", "explain": "Incorrect. Projects are temporary and have an end." },
+          { "id": "b", "text": "Involves work across multiple functional divisions", "explain": "Correct. Projects are cross-functional by nature." },
+          { "id": "c", "text": "Involves predictable, recurring work", "explain": "Incorrect. This is Business As Usual (BAU)." },
+          { "id": "d", "text": "Involves work that brings little change to an organization", "explain": "Incorrect. Projects introduce change." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q9",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following options is a factor to consider when structuring the project into management stages?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The availability of the project board", "explain": "Incorrect. The board should be available for stage boundaries, but their calendar doesn't dictate the structure." },
+          { "id": "b", "text": "The estimating techniques used for planning", "explain": "Incorrect. Estimation is used within planning, not for defining stage boundaries." },
+          { "id": "c", "text": "The critical path of the project", "explain": "Incorrect. The critical path affects schedule, but management stages are based on commitment and risk." },
+          { "id": "d", "text": "Alignment with programme activities", "explain": "Correct. Stage boundaries should align with the overarching programme's decision points." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multiChoice",
+      "prompt": { "text": "Which two management products does the business case theme require be produced and maintained?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Risk register", "explain": "Incorrect. This belongs to the Risk theme." },
+          { "id": "b", "text": "Communication management approach", "explain": "Incorrect. This belongs to the Organization theme." },
+          { "id": "c", "text": "Business case", "explain": "Correct. This justifies the project." },
+          { "id": "d", "text": "Benefits management approach", "explain": "Correct. This defines how benefits will be measured and realized." }
+        ],
+        "correctOptionIds": ["c", "d"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q11",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following options does PRINCE2 recommend in the designing a plan step of the approach to planning?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Creating a product breakdown structure to help identify products", "explain": "Incorrect. This is part of 'Defining and analyzing the products'." },
+          { "id": "b", "text": "Identifying the types of resources required for each activity", "explain": "Incorrect. This is part of 'Preparing estimates'." },
+          { "id": "c", "text": "Identifying uncertainties inherent in the plan", "explain": "Incorrect. This is part of 'Analyzing the risks'." },
+          { "id": "d", "text": "Identify the number and length of management stages", "explain": "Correct. Designing the plan involves deciding on the appropriate number and duration of management stages." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q12",
+      "type": "singleChoice",
+      "prompt": { "text": "Which process provides the base information needed to make a rational decision about commissioning a project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Directing a project", "explain": "Incorrect. The board makes the decision here, but doesn't compile the information." },
+          { "id": "b", "text": "Starting up a project", "explain": "Correct. This process gathers the preliminary data (Project Brief) to decide if initiation is worthwhile." },
+          { "id": "c", "text": "Initiating a project", "explain": "Incorrect. Initiation happens after the project is commissioned." },
+          { "id": "d", "text": "Managing a stage boundary", "explain": "Incorrect. This is for continuation decisions between stages." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q13",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following levels of plans might be created by organizations that are not following the PRINCE2 method?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project plan", "explain": "Incorrect. PRINCE2 requires this." },
+          { "id": "b", "text": "Stage plan", "explain": "Incorrect. PRINCE2 requires this for management control." },
+          { "id": "c", "text": "Team plan", "explain": "Correct. Team plans are optional in PRINCE2 and can be handled by standard team management tools outside the core framework." },
+          { "id": "d", "text": "Exception plan", "explain": "Incorrect. This is a specific PRINCE2 control mechanism." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q14",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following options represents the user interest on a project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Someone who can assess and confirm the viability of the project approach", "explain": "Incorrect. This is typically the Executive or Supplier." },
+          { "id": "b", "text": "Someone who will represent those who maintain the project’s products in their operational life", "explain": "Correct. Operations and maintenance staff fall under the user perspective." },
+          { "id": "c", "text": "Someone who can represent those who will buy the project’s products once they have been developed", "explain": "Correct. Customers/buyers are considered users." },
+          { "id": "d", "text": "Someone who will be in charge of marketing the project’s products once they have been developed", "explain": "Incorrect. Marketing usually aligns with the Business perspective (Executive)." }
+        ],
+        "correctOptionIds": ["b", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q15",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following statements apply to an exception plan?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The project board approves an exception plan that replaces a project plan.", "explain": "Incorrect. Corporate/Programme management approves project-level exception plans." },
+          { "id": "b", "text": "An exception plan may show actions required to recover from the effect of a forecast breach in project tolerance levels.", "explain": "Correct. It provides a new baseline for recovery." },
+          { "id": "c", "text": "Once approved, an exception plan could become the new baselined stage plan.", "explain": "Correct. It replaces the current stage plan." },
+          { "id": "d", "text": "An exception plan may show the actions required to recover from the effect of a forecast breach in work package tolerance levels.", "explain": "Incorrect. Work package tolerances are handled by the Project Manager without an Exception Plan." }
+        ],
+        "correctOptionIds": ["b", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q16",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following statements is true of project assurance?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project assurance has three focuses aligned to the three interests of the project board.", "explain": "Correct. Assurance covers Business, User, and Supplier interests." },
+          { "id": "b", "text": "Project support can be assigned project assurance responsibilities.", "explain": "Incorrect. Assurance and Support must be kept separate to maintain independence." },
+          { "id": "c", "text": "The project manager can be assigned project assurance responsibilities", "explain": "Incorrect. The PM cannot audit themselves." },
+          { "id": "d", "text": "Project assurance creates the communication management approach.", "explain": "Incorrect. The Project Manager creates this." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q17",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following statements describes a minimum requirement for applying the quality theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To review the business justification when exceptions are raised", "explain": "Incorrect. This belongs to the Business Case theme." },
+          { "id": "b", "text": "To define how to identify ways of eliminating causes of unsatisfactory performance", "explain": "Correct. This refers to the implementation of lessons to improve quality." },
+          { "id": "c", "text": "To ensure that the project has at least two management stages", "explain": "Incorrect. This is a minimum requirement of the Organization/Plans themes." },
+          { "id": "d", "text": "To define the project’s approach to communicating and engaging with stakeholders", "explain": "Incorrect. This is the Organization theme." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q18",
+      "type": "multiChoice",
+      "prompt": { "text": "Why might a separate person be appointed as a team manager?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "A team has insufficient motivation due to micromanagement.", "explain": "Incorrect. This is a leadership issue, not a structural reason for the role." },
+          { "id": "b", "text": "A team is sited at a different geographic location from the project manager.", "explain": "Correct. Geographical separation requires local management." },
+          { "id": "c", "text": "A team is building products using a specialist skill.", "explain": "Correct. The PM may not have the technical knowledge to manage specialist work directly." },
+          { "id": "d", "text": "A team already has a project manager.", "explain": "Incorrect. Irrelevant to the PRINCE2 Team Manager role designation." }
+        ],
+        "correctOptionIds": ["b", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q19",
+      "type": "singleChoice",
+      "prompt": { "text": "In which of the following steps in the approach to planning does PRINCE2 recommend using the product-based planning approach?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Designing the plan", "explain": "Incorrect. This is about deciding format and presentation." },
+          { "id": "b", "text": "Defining and analyzing the products", "explain": "Correct. Product-based planning defines the outputs before scheduling activities." },
+          { "id": "c", "text": "Identifying activities and dependencies", "explain": "Incorrect. This comes after product definition." },
+          { "id": "d", "text": "Preparing estimates", "explain": "Incorrect. This relies on the identified activities." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q20",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of these options is a minimum requirement for managing business justification for the project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To split the project into at least two management stages", "explain": "Incorrect. This is related to the Plans and Organization themes." },
+          { "id": "b", "text": "To record all quality activities carried out during the project", "explain": "Incorrect. This is the Quality theme." },
+          { "id": "c", "text": "To define a method for baselining products", "explain": "Incorrect. This is Configuration Management / Change theme." },
+          { "id": "d", "text": "To identify actions to ensure that the project’s outcomes are achieved", "explain": "Correct. This ensures benefits are realized, validating the business case." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q21",
+      "type": "singleChoice",
+      "prompt": { "text": "Which principle addresses the problem that planning beyond a certain planning horizon is difficult?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Continued business justification", "explain": "Incorrect." },
+          { "id": "b", "text": "Manage by stages", "explain": "Correct. By breaking the project into stages, detailed planning is only done for the immediate next stage." },
+          { "id": "c", "text": "Manage by exception", "explain": "Incorrect." },
+          { "id": "d", "text": "Tailor to suit the project environment", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q22",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following are purposes of the plans theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To define the project’s structure of accountability and responsibility", "explain": "Incorrect. This is the Organization theme." },
+          { "id": "b", "text": "To establish whether the targets for time and cost are achievable", "explain": "Correct. Planning provides the timeline and budget." },
+          { "id": "c", "text": "To provide a baseline against which progress can be measured", "explain": "Correct. Plans act as a control baseline." },
+          { "id": "d", "text": "To establish mechanisms to judge whether the project is desirable, viable, and achievable", "explain": "Incorrect. This is the Business Case theme." }
+        ],
+        "correctOptionIds": ["b", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q23",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is a purpose of the quality register?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To define the project’s approach to quality control", "explain": "Incorrect. This is the Quality Management Approach." },
+          { "id": "b", "text": "To specify a product’s quality criteria", "explain": "Incorrect. This is done in the Product Description." },
+          { "id": "c", "text": "To act as a pointer to quality records associated with a product", "explain": "Correct. It summarizes all planned and completed quality activities." },
+          { "id": "d", "text": "To specify a product’s quality methods", "explain": "Incorrect. Also done in the Product Description." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q24",
+      "type": "singleChoice",
+      "prompt": { "text": "Which role is responsible for ensuring that the benefits forecast in the business case represent value for money and align with the organization’s objectives?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Executive", "explain": "Correct. The Executive secures funding and is ultimately responsible for the Business Case." },
+          { "id": "b", "text": "Project manager", "explain": "Incorrect. The PM manages the project day-to-day." },
+          { "id": "c", "text": "Project support", "explain": "Incorrect. Support provides administrative help." },
+          { "id": "d", "text": "Senior user", "explain": "Incorrect. The Senior User specifies benefits but doesn't guarantee overall value for money." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q25",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is one of the benefits of product-based planning?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "It helps to define products that are in and out of scope of the plan.", "explain": "Correct. Clearly identifying all products explicitly outlines the project's scope boundary." },
+          { "id": "b", "text": "It helps to identify the shortest possible completion time of the project.", "explain": "Incorrect. Scheduling/Critical path analysis does this." },
+          { "id": "c", "text": "It helps to identify how the performance of the project’s products will be reviewed.", "explain": "Incorrect. Quality methods handle this." },
+          { "id": "d", "text": "It helps to define techniques for estimating throughout a project.", "explain": "Incorrect. Estimation is a separate step." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q26",
+      "type": "singleChoice",
+      "prompt": { "text": "Identify the missing word(s) in the following sentence: [?] is achieved by implementing, monitoring, and recording the quality methods of the project." },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Quality planning", "explain": "Incorrect. Planning is done beforehand." },
+          { "id": "b", "text": "Quality control", "explain": "Correct. Control involves executing the methods and recording results." },
+          { "id": "c", "text": "Quality assurance", "explain": "Incorrect. Assurance is independent of the project." },
+          { "id": "d", "text": "Project assurance", "explain": "Incorrect. Assurance verifies processes, not the direct implementation of quality methods." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q27",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of these options is a minimum requirement for managing the plans of the project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To split the project into at least two management stages", "explain": "Correct. The project must have at least an initiation stage and one delivery stage." },
+          { "id": "b", "text": "To record all quality activities carried out during the project", "explain": "Incorrect. Quality theme requirement." },
+          { "id": "c", "text": "To define a method for baselining products", "explain": "Incorrect. Change theme requirement." },
+          { "id": "d", "text": "To identify actions to ensure that the project’s outcomes are achieved", "explain": "Incorrect. Business Case requirement." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q28",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following might be used by the commissioning organization to provide information for the project mandate?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "A feasibility study", "explain": "Correct. A pre-project study can trigger a mandate." },
+          { "id": "b", "text": "A request for proposal", "explain": "Correct. RFPs often serve as triggers for projects." },
+          { "id": "c", "text": "A project brief", "explain": "Incorrect. The brief is created after the mandate." },
+          { "id": "d", "text": "A project initiation documentation", "explain": "Incorrect. PID is created even later." }
+        ],
+        "correctOptionIds": ["a", "b"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q29",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following statements are true of both project assurance and quality assurance?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "They provide assurance that the project is being run to corporate standards.", "explain": "Correct. Both ensure compliance with standards." },
+          { "id": "b", "text": "They are independent of the managing level of the project management team.", "explain": "Correct. Neither role reports directly to the Project Manager." },
+          { "id": "c", "text": "The role is carried out on behalf of the business, user, and supplier perspectives of the project board.", "explain": "Incorrect. Quality Assurance represents corporate/programme, not specific board perspectives." },
+          { "id": "d", "text": "They are independent of the directing level of the project management team.", "explain": "Incorrect. Project Assurance is part of the directing level." }
+        ],
+        "correctOptionIds": ["a", "b"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q30",
+      "type": "singleChoice",
+      "prompt": { "text": "Who is responsible for specifying the benefits and subsequently realizing the benefits by using the project’s product?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project manager", "explain": "Incorrect." },
+          { "id": "b", "text": "Executive", "explain": "Incorrect." },
+          { "id": "c", "text": "Senior supplier", "explain": "Incorrect." },
+          { "id": "d", "text": "Senior user", "explain": "Correct. The Senior User ensures the desired benefits are achieved post-project." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q31",
+      "type": "singleChoice",
+      "prompt": { "text": "Which PRINCE2 role is responsible for securing the funding for the project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Corporate, programme management, or the customer", "explain": "Incorrect. They provide funding, but the Executive secures it for the specific project." },
+          { "id": "b", "text": "Executive", "explain": "Correct. Securing and managing the budget is the Executive's responsibility." },
+          { "id": "c", "text": "Business sponsor", "explain": "Incorrect. Not a standard PRINCE2 role, though the Executive acts as one." },
+          { "id": "d", "text": "Project manager", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q32",
+      "type": "singleChoice",
+      "prompt": { "text": "Which process provides information that the project board uses when deciding whether to initiate the project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Starting up a project", "explain": "Correct. This process produces the Project Brief for the initiation decision." },
+          { "id": "b", "text": "Directing a project", "explain": "Incorrect. This is where the decision is made, not where the information is generated." },
+          { "id": "c", "text": "Initiating a project", "explain": "Incorrect." },
+          { "id": "d", "text": "Managing a stage boundary", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q33",
+      "type": "singleChoice",
+      "prompt": { "text": "In a small project, it may be appropriate for the project manager to also carry out the responsibilities of which of the following roles?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Executive", "explain": "Incorrect. Conflict of interest." },
+          { "id": "b", "text": "Project assurance", "explain": "Incorrect. The PM cannot audit themselves." },
+          { "id": "c", "text": "Project support", "explain": "Correct. If the project is small, the PM can handle administrative support tasks." },
+          { "id": "d", "text": "Quality assurance", "explain": "Incorrect. Must be independent." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q34",
+      "type": "singleChoice",
+      "prompt": { "text": "Which PRINCE2 management product helps establish a controlled flow of information between all the project stakeholders?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project brief", "explain": "Incorrect." },
+          { "id": "b", "text": "Risk management approach", "explain": "Incorrect." },
+          { "id": "c", "text": "Communication management approach", "explain": "Correct. It defines how, when, and with whom to communicate." },
+          { "id": "d", "text": "Project approach", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q35",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the initiating a project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To answer the question, “Do we have a viable and worthwhile project?”", "explain": "Incorrect. This is Starting up a Project." },
+          { "id": "b", "text": "To prevent poorly conceived projects from being initiated", "explain": "Incorrect. This is the goal of the pre-project stage." },
+          { "id": "c", "text": "To make key decisions in and exercise overall control over the project", "explain": "Incorrect. This is Directing a Project." },
+          { "id": "d", "text": "To enable the commissioning organization to understand the work that needs to be done to deliver the project’s products", "explain": "Correct. Creating the PID ensures common understanding of the required work." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q36",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the business case theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To help establish whether the project is still viable when making key decisions", "explain": "Correct. The Business Case drives decision-making to ensure continued viability." },
+          { "id": "b", "text": "To understand whether the outputs from the project are fit for purpose", "explain": "Incorrect. Quality theme." },
+          { "id": "c", "text": "To establish a structure of accountability for the project", "explain": "Incorrect. Organization theme." },
+          { "id": "d", "text": "To assess and control uncertainty throughout the project", "explain": "Incorrect. Risk theme." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q37",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is an example of the business case being developed?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "The executive drafting the outline business case", "explain": "Correct. The outline business case is developed during Starting up a Project." },
+          { "id": "b", "text": "The project board reviewing the justification for the project", "explain": "Incorrect. This is reviewing, not developing." },
+          { "id": "c", "text": "The senior user providing a statement of the achievement of benefits during a benefit review", "explain": "Incorrect. This is benefits realization." },
+          { "id": "d", "text": "The project manager updating the business case at the end of a stage", "explain": "Incorrect. This is maintaining, not the initial development." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q38",
+      "type": "singleChoice",
+      "prompt": { "text": "Which process ensures that the project remains aligned to the commissioning organization’s strategy?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Starting up a project", "explain": "Incorrect." },
+          { "id": "b", "text": "Directing a project", "explain": "Correct. The Project Board maintains strategic alignment through direction and approvals." },
+          { "id": "c", "text": "Initiating a project", "explain": "Incorrect." },
+          { "id": "d", "text": "Controlling a stage", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q39",
+      "type": "singleChoice",
+      "prompt": { "text": "Which level of management would authorize any deviation that exceeds stage tolerances?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Corporate, programme management, or the customer", "explain": "Incorrect. They handle project-level tolerances." },
+          { "id": "b", "text": "Directing", "explain": "Correct. The Project Board (Directing level) handles stage-level tolerance deviations." },
+          { "id": "c", "text": "Managing", "explain": "Incorrect. The PM is the one escalating the issue." },
+          { "id": "d", "text": "Delivering", "explain": "Incorrect. Team managers handle work package tolerances." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q40",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the project product description?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To gain agreement from the user on the project’s scope and requirements", "explain": "Correct. It defines what the final output should be, establishing scope." },
+          { "id": "b", "text": "To define how the project will be managed in order to deliver products that are fit for their purpose", "explain": "Incorrect. This is the Quality Management Approach." },
+          { "id": "c", "text": "To define how the project will control uncertainty", "explain": "Incorrect. Risk Management Approach." },
+          { "id": "d", "text": "To define how the project will control proposed modifications to the project’s products", "explain": "Incorrect. Change Control Approach." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q41",
+      "type": "singleChoice",
+      "prompt": { "text": "Delegating authority from one management level to the next supports which principle?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Continued business justification", "explain": "Incorrect." },
+          { "id": "b", "text": "Learn from experience", "explain": "Incorrect." },
+          { "id": "c", "text": "Manage by stages", "explain": "Incorrect." },
+          { "id": "d", "text": "Manage by exception", "explain": "Correct. Tolerances are set, allowing the lower level to operate independently until a limit is breached." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q42",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following statement describes a minimum requirement for applying the quality theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Using the quality review technique to inspect the project’s products", "explain": "Incorrect. This specific technique is recommended, not mandatory." },
+          { "id": "b", "text": "Using quality inspections to assess a product’s fitness for purpose", "explain": "Incorrect. The method can vary." },
+          { "id": "c", "text": "Using both in-process and appraisal quality methods", "explain": "Incorrect." },
+          { "id": "d", "text": "Maintaining records of quality activities", "explain": "Correct. Auditable records (like a Quality Register) must be kept." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q43",
+      "type": "multiChoice",
+      "prompt": { "text": "Which of the following is a quality planning activity?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Creating product descriptions to understand what is required of a product", "explain": "Correct. Defining requirements happens in planning." },
+          { "id": "b", "text": "Scheduling the development activities of a product so that it will match its product description", "explain": "Incorrect. This is part of the Plans theme." },
+          { "id": "c", "text": "Carrying out a quality inspection on a completed product", "explain": "Incorrect. This is quality control." },
+          { "id": "d", "text": "Defining the quality methods that will be used to check that a product conforms to its quality criteria", "explain": "Correct. Selecting the methods is a planning step." }
+        ],
+        "correctOptionIds": ["a", "d"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q44",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following options represents an example of an output?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Benefits management approach", "explain": "Incorrect. This is a management product." },
+          { "id": "b", "text": "New computer software", "explain": "Correct. An output is the tangible or intangible specialist product created by the project." },
+          { "id": "c", "text": "Quicker processing of invoices", "explain": "Incorrect. This is an outcome." },
+          { "id": "d", "text": "A 20-percent increase in productivity", "explain": "Incorrect. This is a benefit." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q45",
+      "type": "multiChoice",
+      "prompt": { "text": "Which two statements about tailoring are correct?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "PRINCE2 projects should use the recommended PRINCE2 techniques.", "explain": "Incorrect. Techniques can be replaced by organizational equivalents." },
+          { "id": "b", "text": "Management products might be split into many data sources.", "explain": "Correct. Products don't have to be Word documents; they can be Jira boards, databases, etc." },
+          { "id": "c", "text": "PRINCE2 projects can comprise as many management stages as are necessary.", "explain": "Correct. As long as there are at least two." },
+          { "id": "d", "text": "Principles that are not relevant to the project can be excluded.", "explain": "Incorrect. All principles must be applied." }
+        ],
+        "correctOptionIds": ["b", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q46",
+      "type": "multiChoice",
+      "prompt": { "text": "At what time in the project is the business case reviewed and maybe updated?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "When refining the business case during the initiation stage", "explain": "Correct. The outline is expanded into a detailed business case here." },
+          { "id": "b", "text": "When creating the project mandate", "explain": "Incorrect. The mandate is just the trigger." },
+          { "id": "c", "text": "At the end of each management stage", "explain": "Correct. During Managing a Stage Boundary, the PM updates the business case for board review." },
+          { "id": "d", "text": "When delivering specialist products", "explain": "Incorrect. This happens during execution." }
+        ],
+        "correctOptionIds": ["a", "c"],
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q47",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is an objective of the starting up a project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To evaluate the various ways the project can be delivered", "explain": "Correct. Identifying the project approach involves considering different delivery options." },
+          { "id": "b", "text": "To decide whether to appoint a change authority", "explain": "Incorrect. This is done during Initiation." },
+          { "id": "c", "text": "To ensure that there is common understanding of how the quality required will be achieved", "explain": "Incorrect. Initiation process objective." },
+          { "id": "d", "text": "To prepare a plan to show how the achievement of the project’s benefits will be measured", "explain": "Incorrect. Creating the Benefits Management Approach happens in Initiation." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q48",
+      "type": "singleChoice",
+      "prompt": { "text": "Which principle is being applied when quality criteria are specified in product descriptions?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Learn from experience", "explain": "Incorrect." },
+          { "id": "b", "text": "Continued business justification", "explain": "Incorrect." },
+          { "id": "c", "text": "Focus on products", "explain": "Correct. Defining quality criteria per product embodies the product-focused approach." },
+          { "id": "d", "text": "Manage by exception", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q49",
+      "type": "singleChoice",
+      "prompt": { "text": "What is one of the benefits provided by PRINCE2?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Sets out how to manage projects in particular industries", "explain": "Incorrect. It's industry-agnostic." },
+          { "id": "b", "text": "Provides motivational techniques", "explain": "Incorrect. It doesn't cover leadership/soft skills." },
+          { "id": "c", "text": "Provides a common project vocabulary", "explain": "Correct. A standard vocabulary streamlines communication." },
+          { "id": "d", "text": "Shows how to manage business as usual", "explain": "Incorrect. It is specifically for project work." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q50",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the organization theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To manage uncertainty within the project", "explain": "Incorrect. Risk theme." },
+          { "id": "b", "text": "To define the means of delivering the products", "explain": "Incorrect. Project Approach." },
+          { "id": "c", "text": "To establish an effective approach for communication", "explain": "Correct. The Organization theme includes the Communication Management Approach." },
+          { "id": "d", "text": "To define how the project will verify that products are fit for purpose", "explain": "Incorrect. Quality theme." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q51",
+      "type": "singleChoice",
+      "prompt": { "text": "During which of the following processes is the outline business case refined into the detailed business case?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Starting up a project", "explain": "Incorrect. The outline is created here." },
+          { "id": "b", "text": "Initiating a project", "explain": "Correct. The PM develops the detailed business case here with more accurate estimates." },
+          { "id": "c", "text": "Managing a stage boundary", "explain": "Incorrect. It's updated, not initially detailed, here." },
+          { "id": "d", "text": "Directing a project", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q52",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following describes how to manage quality throughout a project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Project product description", "explain": "Incorrect. Defines overall requirements." },
+          { "id": "b", "text": "Quality management approach", "explain": "Correct. This document describes the strategies, procedures, and techniques for quality." },
+          { "id": "c", "text": "Product description", "explain": "Incorrect. Defines criteria for a specific product." },
+          { "id": "d", "text": "Quality register", "explain": "Incorrect. This is a log, not a procedural guide." }
+        ],
+        "correctOptionId": "b",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q53",
+      "type": "singleChoice",
+      "prompt": { "text": "Which aspect of project performance that needs to be managed helps set the objectives for the expected return on the project?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Costs", "explain": "Incorrect." },
+          { "id": "b", "text": "Risks", "explain": "Incorrect." },
+          { "id": "c", "text": "Benefits", "explain": "Correct. Benefits represent the measurable return on investment." },
+          { "id": "d", "text": "Scope", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q54",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is a purpose of the benefits management approach?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To describe how and when the performance of the project’s products can be measured", "explain": "Correct. It sets the baseline and timeline for post-project benefit realization checks." },
+          { "id": "b", "text": "To document the justification for the project", "explain": "Incorrect. This is the Business Case." },
+          { "id": "c", "text": "To define the project", "explain": "Incorrect." },
+          { "id": "d", "text": "To pass on details of unfinished work and ongoing risks", "explain": "Incorrect. Follow-on action recommendations." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q55",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the following is an objective of the starting up a project process?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To plan the management activities needed to ensure that the project outcomes are achieved", "explain": "Incorrect." },
+          { "id": "b", "text": "To describe how to tailor the commissioning organization’s project management method", "explain": "Incorrect. Tailoring is documented during Initiation." },
+          { "id": "c", "text": "To create a business justification for the initiation of the project", "explain": "Correct. Creating the Outline Business Case secures approval for the initiation stage." },
+          { "id": "d", "text": "To provide management direction and control throughout the project", "explain": "Incorrect. Directing a project." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q56",
+      "type": "singleChoice",
+      "prompt": { "text": "How is the principle of continued business justification applied?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "By re-evaluating the reason for the project throughout the life of the project", "explain": "Correct. Justification is not a one-time event; it must remain valid until closure." },
+          { "id": "b", "text": "By seeking opportunities to implement improvements throughout the life of the project", "explain": "Incorrect. Learn from experience." },
+          { "id": "c", "text": "By using product description to provide clarity around user’s requirements", "explain": "Incorrect. Focus on products." },
+          { "id": "d", "text": "By ensuring that there are review and decision points throughout the project", "explain": "Incorrect. Manage by stages." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q57",
+      "type": "singleChoice",
+      "prompt": { "text": "Which is a minimum requirement for applying the organization theme?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "To establish both a customer and supplier project board", "explain": "Incorrect. One integrated board is required." },
+          { "id": "b", "text": "To appoint the design authority to the role of change authority when the project is part of a programme", "explain": "Incorrect. Too specific, not a minimum requirement." },
+          { "id": "c", "text": "To appoint at least one person to carry out each of the PRINCE2 roles", "explain": "Incorrect. Roles can be combined depending on project size." },
+          { "id": "d", "text": "To ensure that all the responsibilities in the PRINCE2 role descriptions are fulfilled", "explain": "Correct. Responsibilities must be covered, even if roles are merged." }
+        ],
+        "correctOptionId": "d",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q58",
+      "type": "singleChoice",
+      "prompt": { "text": "How does the plans theme help to implement the manage by exception principle?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "By stating that all plans should contain a lessons incorporated section", "explain": "Incorrect." },
+          { "id": "b", "text": "By providing stage plans to help the project manager manage the day-to-day aspects of a stage", "explain": "Incorrect. Stage control, not exception." },
+          { "id": "c", "text": "By stating that all plans should contain a tolerance section", "explain": "Correct. Establishing tolerances creates limits; breaching them triggers an exception." },
+          { "id": "d", "text": "By providing a product-based planning approach", "explain": "Incorrect. Product focus." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q59",
+      "type": "singleChoice",
+      "prompt": { "text": "Which principle ensures that the range of stakeholder perspectives is represented within the project management team?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Defined roles and responsibilities", "explain": "Correct. This principle ensures business, user, and supplier interests are covered." },
+          { "id": "b", "text": "Continued business justification", "explain": "Incorrect." },
+          { "id": "c", "text": "Learn from experience", "explain": "Incorrect." },
+          { "id": "d", "text": "Tailor to suit the project environment", "explain": "Incorrect." }
+        ],
+        "correctOptionId": "a",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "q60",
+      "type": "singleChoice",
+      "prompt": { "text": "Which of the integrated elements of PRINCE2 provides a stepwise progression through the project life cycle?" },
+      "data": {
+        "options": [
+          { "id": "a", "text": "Principles", "explain": "Incorrect. These are the guiding obligations." },
+          { "id": "b", "text": "Themes", "explain": "Incorrect. These are aspects that must be addressed continually." },
+          { "id": "c", "text": "Processes", "explain": "Correct. The 7 processes define the chronological flow of activities." },
+          { "id": "d", "text": "Tailoring to the project environment", "explain": "Incorrect. This adapts the method." }
+        ],
+        "correctOptionId": "c",
+        "shuffleOptions": false
+      }
+    }
+  ]
+}
