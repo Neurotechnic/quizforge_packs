@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-03-29T00:00:00Z",
+  "packs": [
+    {
+      "id": "wiso_s2025",
+      "title": "Abschlussprüfung WiSo Sommer 2025",
+      "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde für Fachinformatiker. Termin: 7. Mai 2025.",
+      "language": "de",
+      "tags": ["IHK", "WiSo", "Fachinformatiker"],
+      "version": "1",
+      "sizeBytes": 563657,
+      "download": {
+        "url": "https://raw.githubusercontent.com/Neurotechnic/quizforge_packs/refs/heads/main/wiso_s2025.zip"
+      }
+    }
+  ]
+}
