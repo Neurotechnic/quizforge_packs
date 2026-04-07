@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-29T22:00:00Z",
+  "updatedAt": "2026-04-08T01:00:00Z",
   "packs": [
+	{
+      "id": "wiso_s2022",
+      "title": "Abschlussprüfung WiSo Sommer 2022",
+      "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde Sommer 2022 für Fachinformatiker.",
+      "language": "de",
+      "tags": ["IHK", "WiSo", "Fachinformatiker"],
+      "version": "1",
+      "sizeBytes": 1908428,
+      "download": {
+        "url": "https://raw.githubusercontent.com/Neurotechnic/quizforge_packs/refs/heads/main/wiso_s2022.zip"
+      }
+    },
     {
       "id": "wiso_s2025",
       "title": "Abschlussprüfung WiSo Sommer 2025",

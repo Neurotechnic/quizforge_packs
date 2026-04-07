@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "id": "wiso_s2022",
+  "title": "Abschlussprüfung WiSo Sommer 2022",
+  "description": "IHK Originalprüfung Wirtschafts- und Sozialkunde Sommer 2022 für Fachinformatiker.",
+  "language": "de",
+  "tags": ["IHK", "WiSo", "Fachinformatiker"],
+  "timeLimitMinutes": 60,
+  "groups": [
+    {
+      "id": "all",
+      "title": "Alle Aufgaben",
+      "questionIds": [
+        "1a", "1b", "1c", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+        "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
+        "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1a",
+      "type": "multiChoice",
+      "prompt": { "text": "Situation\nSie sind Mitarbeiter/-in der Data IT GmbH.\nDie Data IT GmbH ist ein IT-Dienstleister mit Sitz in Berlin, der IT-Serviceleistungen für kleine und mittelständische Unternehmen bietet.\nDie folgenden Aufgaben beziehen sich auf dieses Unternehmen.\n\n1. Aufgabe\nDie Data IT GmbH hat viele Kunden aus unterschiedlichen Wirtschaftssektoren.\nOrdnen Sie die folgenden Unternehmen den nachstehenden Wirtschaftssektoren zu.\nTragen Sie die Ziffern vor den zwei jeweils zutreffenden Unternehmen in die Kästchen ein.\n\na) Primärer Sektor" },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Rechtsanwaltskanzlei Siegmann & Partner" },
+          { "id": "2", "text": "Biolandhof Obstdorf GmbH" },
+          { "id": "3", "text": "Möbeltischlerei Veltmann GmbH" },
+          { "id": "4", "text": "Sand- und Kieswerke Siegel GmbH" },
+          { "id": "5", "text": "Fahrzeugbau Peters AG" },
+          { "id": "6", "text": "Computerhandel Bit e. K." }
+        ],
+        "correctOptionIds": ["2", "4"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "1b",
+      "type": "multiChoice",
+      "prompt": { "text": "1. Aufgabe (Fortsetzung)\nOrdnen Sie die folgenden Unternehmen den nachstehenden Wirtschaftssektoren zu.\nTragen Sie die Ziffern vor den zwei jeweils zutreffenden Unternehmen in die Kästchen ein.\n\nb) Sekundärer Sektor" },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Rechtsanwaltskanzlei Siegmann & Partner" },
+          { "id": "2", "text": "Biolandhof Obstdorf GmbH" },
+          { "id": "3", "text": "Möbeltischlerei Veltmann GmbH" },
+          { "id": "4", "text": "Sand- und Kieswerke Siegel GmbH" },
+          { "id": "5", "text": "Fahrzeugbau Peters AG" },
+          { "id": "6", "text": "Computerhandel Bit e. K." }
+        ],
+        "correctOptionIds": ["3", "5"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "1c",
+      "type": "multiChoice",
+      "prompt": { "text": "1. Aufgabe (Fortsetzung)\nOrdnen Sie die folgenden Unternehmen den nachstehenden Wirtschaftssektoren zu.\nTragen Sie die Ziffern vor den zwei jeweils zutreffenden Unternehmen in die Kästchen ein.\n\nc) Tertiärer Sektor" },
+      "score": { "max": 1.11111 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Rechtsanwaltskanzlei Siegmann & Partner" },
+          { "id": "2", "text": "Biolandhof Obstdorf GmbH" },
+          { "id": "3", "text": "Möbeltischlerei Veltmann GmbH" },
+          { "id": "4", "text": "Sand- und Kieswerke Siegel GmbH" },
+          { "id": "5", "text": "Fahrzeugbau Peters AG" },
+          { "id": "6", "text": "Computerhandel Bit e. K." }
+        ],
+        "correctOptionIds": ["1", "6"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "2",
+      "type": "singleChoice",
+      "prompt": { "text": "2. Aufgabe\nDie Data IT GmbH will eine Stelle neu besetzen. Mit einer Bewerberin soll ein Einstellungsgespräch geführt werden.\nAuf Fragen nach welcher der folgenden Eigenschaften muss die Bewerberin in einem Einstellungsgespräch nicht wahrheitsgemäß antworten?\nTragen Sie die Ziffer vor der zutreffenden Eigenschaft in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "schulischer Werdegang" },
+          { "id": "2", "text": "berufliche Qualifikationen" },
+          { "id": "3", "text": "Familienstand" },
+          { "id": "4", "text": "Krankenkassenzugehörigkeit" },
+          { "id": "5", "text": "Religionszugehörigkeit" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "3",
+      "type": "singleChoice",
+      "prompt": { "text": "3. Aufgabe\nDie Data IT GmbH schließt mit der Bewerberin Diana Maier einen befristeten Arbeitsvertrag auf der Grundlage des aktuellen Tarifvertrages. Die Data IT GmbH ist an einen Tarifvertrag gebunden.\nWelche der folgenden Vereinbarungen ist in einem befristeten Arbeitsvertrag zulässig?\nTragen Sie die Ziffer vor der zutreffenden Vereinbarung in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Data IT GmbH kann bei befristeten Arbeitsverträgen eine längere Wochenarbeitszeit festlegen als im Tarifvertrag vereinbart." },
+          { "id": "2", "text": "Diana Maier hat bei Befristung nur Anspruch auf Mindesturlaub nach Bundesurlaubsgesetz." },
+          { "id": "3", "text": "Befristete Arbeitsverträge sind in tarifgebunden Betrieben gesetzlich nicht zulässig." },
+          { "id": "4", "text": "Diana Maier erhält als außertarifliche Leistung einen Zuschuss zum Jobticket für den ÖPNV." },
+          { "id": "5", "text": "Die tarifvertraglichen Regelungen dürfen nur auf gewerkschaftlich organisierte Arbeitnehmer der Data IT GmbH angewendet werden." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "4",
+      "type": "singleChoice",
+      "prompt": { "text": "4. Aufgabe\nDer Mitarbeiter der Data IT GmbH Paul Schmitz hat sich bei Arbeiten im heimischen Garten verletzt und ist laut Arbeitsunfähigkeitsbescheinigung seiner Hausärztin für zwei Wochen arbeitsunfähig.\nWelche der folgenden Aussagen über die Entgeltfortzahlung im Krankheitsfall trifft zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Paul Schmitz muss ab dem ersten Tag der Arbeitsunfähigkeit Krankengeld bei seiner Krankenkasse beantragen." },
+          { "id": "2", "text": "Paul Schmitz hat während der Arbeitsunfähigkeit einen Anspruch auf Entgeltfortzahlung gegen die Data IT GmbH." },
+          { "id": "3", "text": "Für die Entgeltfortzahlung bei Arbeitsunfähigkeit im Krankheitsfall muss Paul Schmitz eine private Zusatzversicherung abschließen." },
+          { "id": "4", "text": "Die Data IT GmbH muss erst ab einer Dauer der Arbeitsunfähigkeit von mindestens vier Wochen den Lohn fortzahlen." },
+          { "id": "5", "text": "Für die Dauer der Arbeitsunfähigkeit hat Paul Schmitz einen Anspruch auf Grundsicherung." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "5",
+      "type": "textInput",
+	  "media": "media/q05.png",
+      "prompt": { "text": "5. Aufgabe\nIm Zuge einer Umstrukturierung will die Data IT GmbH den Arbeitsvertrag mit einem Mitarbeiter zum 31. Dezember 2022 fristgerecht kündigen. Der Mitarbeiter ist 42 Jahre alt und seit dem 1. Juli 2015 bei der Data IT GmbH beschäftigt.\nErmitteln Sie das Datum, an dem die Kündigung zum 31. Dezember 2022 dem Mitarbeiter spätestens zugegangen sein muss, damit die Kündigung wirksam ist.\n\nAuszug aus dem Bürgerlichen Gesetzbuch (BGB):\n§ 622 Kündigungsfristen bei Arbeitsverhältnissen\n(1) Das Arbeitsverhältnis eines Arbeiters oder eines Angestellten (Arbeitnehmers) kann mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden.\n(2) Für eine Kündigung durch den Arbeitgeber beträgt die Kündigungsfrist, wenn das Arbeitsverhältnis in dem Betrieb oder Unternehmen\n1. zwei Jahre bestanden hat, einen Monat zum Ende eines Kalendermonats,\n2. fünf Jahre bestanden hat, zwei Monate zum Ende eines Kalendermonats,\n3. acht Jahre bestanden hat, drei Monate zum Ende eines Kalendermonats,\n4. zehn Jahre bestanden hat, vier Monate zum Ende eines Kalendermonats,\n5. zwölf Jahre bestanden hat, fünf Monate zum Ende eines Kalendermonats,\n6. 15 Jahre bestanden hat, sechs Monate zum Ende eines Kalendermonats,\n7. 20 Jahre bestanden hat, sieben Monate zum Ende eines Kalendermonats." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "accepted": ["31.10.2022", "31.10.22", "31. Oktober 2022"],
+        "trim": true,
+        "caseSensitive": false
+      }
+    },
+    {
+      "id": "6",
+      "type": "multiChoice",
+      "prompt": { "text": "6. Aufgabe\nDer Betriebsrat der Data IT GmbH will mit dem Arbeitgeber eine Betriebsvereinbarung abschließen.\nWelche der folgenden Sachverhalte können durch eine entsprechende Betriebsvereinbarung geregelt werden?\nTragen Sie die Ziffern vor den zwei zutreffenden Sachverhalten in die Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Dauer der Entgeltfortzahlung im Krankheitsfall" },
+          { "id": "2", "text": "Aufstellung des Urlaubsplans" },
+          { "id": "3", "text": "Einführung einer neuen Pausenregelung" },
+          { "id": "4", "text": "Die Höhe der Arbeitsentgelte nach Gehaltsgruppen" },
+          { "id": "5", "text": "Die Reduzierung der Urlaubstage gemäß Tarifvertrag" },
+          { "id": "6", "text": "Erhöhung der regelmäßigen täglichen Arbeitszeit auf 12 Stunden" }
+        ],
+        "correctOptionIds": ["2", "3"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "7",
+      "type": "singleChoice",
+      "prompt": { "text": "7. Aufgabe\nIn der IT-Solutions GmbH, einem Kunden der Data IT GmbH, arbeiten der Arbeitgeber und der Betriebsrat einen Sozialplan aus.\nIn welchem der folgenden Fälle ist ein Sozialplan auszuarbeiten?\nTragen Sie die Ziffer vor dem zutreffenden Fall in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Massenentlassungen" },
+          { "id": "2", "text": "Regelungen für mobiles Arbeiten" },
+          { "id": "3", "text": "Einführung von Sozialmaßnahmen" },
+          { "id": "4", "text": "Betriebserweiterung" },
+          { "id": "5", "text": "Kurzarbeit" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "8",
+      "type": "singleChoice",
+      "prompt": { "text": "8. Aufgabe\nArbeitgeberverbände und Gewerkschaften werden in der Wirtschaftsordnung der sozialen Marktwirtschaft in der Bundesrepublik Deutschland als Sozialpartner bezeichnet.\nWelches der folgenden Rechte steht den beiden Sozialpartnern zu?\nTragen Sie die Ziffer vor dem zutreffenden Recht in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Festlegung der Versicherungspflichtgrenze in der gesetzlichen Krankenversicherung" },
+          { "id": "2", "text": "Verabschiedung von Änderungen des Berufsbildungsgesetzes" },
+          { "id": "3", "text": "Festlegung der Anzahl der Betriebsratsmitglieder" },
+          { "id": "4", "text": "Entgeltfortzahlung im Krankheitsfall" },
+          { "id": "5", "text": "Abschluss von Tarifverträgen" }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "9",
+      "type": "singleChoice",
+      "prompt": { "text": "9. Aufgabe\nIn der Data IT GmbH werden die Interessen der Mitarbeiter durch den gewählten Betriebsrat vertreten.\nIn welcher der folgenden Angelegenheiten hat der Betriebsrat laut Betriebsverfassungsgesetz ein Mitbestimmungsrecht?\nTragen Sie die Ziffer vor der zutreffenden Angelegenheit in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einführung eines elektronischen Zeiterfassungssystems" },
+          { "id": "2", "text": "Aufnahme eines neuen Gesellschafters in die GmbH" },
+          { "id": "3", "text": "Einführung eines neuen Warenwirtschaftssystems" },
+          { "id": "4", "text": "Errichten einer neuen Lagerhalle" },
+          { "id": "5", "text": "Erhöhung des Stammkapitals der GmbH" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "10",
+      "type": "singleChoice",
+      "prompt": { "text": "10. Aufgabe\nIm Rahmen der Tarifverhandlungen wird zwischen Lohn- und Gehaltstarifvertrag und dem normalerweise längerfristig geltenden Manteltarifvertrag unterschieden.\nWelcher der folgenden Inhalte wird typischerweise in einem Lohn- und Gehaltstarifvertrag geregelt?\nTragen Sie die Ziffer vor dem typischen Inhalt in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Kündigungsfristen" },
+          { "id": "2", "text": "Tägliche und wöchentliche Arbeitszeit" },
+          { "id": "3", "text": "Mindesturlaubstage" },
+          { "id": "4", "text": "Zuschlagssätze für Mehrarbeit" },
+          { "id": "5", "text": "Gleitzeitregelung" }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "11",
+      "type": "singleChoice",
+      "prompt": { "text": "11. Aufgabe\nDie Data IT GmbH überträgt dem neuen Filialleiter Lukas Winter Prokura. Welche der folgenden Aussagen trifft auf die Prokura zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein.\n\nDer Prokurist..." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "kann ohne besondere Vollmacht Grundstücke verkaufen." },
+          { "id": "2", "text": "unterschreibt die Steuererklärung der Data IT GmbH." },
+          { "id": "3", "text": "kann das Unternehmen veräußern." },
+          { "id": "4", "text": "unterschreibt Geschäftsbriefe mit ppa. Lukas Winter." },
+          { "id": "5", "text": "unterschreibt die jährliche Bilanz." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "12",
+      "type": "singleChoice",
+      "prompt": { "text": "12. Aufgabe\nNach der Abschlussprüfung informieren Sie sich über Möglichkeiten der beruflichen Fortbildung.\nWelcher der folgenden Sachverhalte ist ein Beispiel für eine berufliche Fortbildung?\nTragen Sie die Ziffer vor dem zutreffenden Sachverhalt in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Lars Ruschmeyer besucht nach dem Realschulabschluss (MSA) die Berufsfachschule für Kaufmännische Assistenten." },
+          { "id": "2", "text": "Jonas Meffert, Auszubildender der Data IT GmbH, nimmt in einer überbetrieblichen Ausbildungsstätte an einem Lehrgang zum Thema IT-Sicherheit teil." },
+          { "id": "3", "text": "Die Mitarbeiterin Lena Hellmers nimmt nach der Ausbildung zur IT-Systemkauffrau an einem Lehrgang für Warenwirtschaftssysteme teil." },
+          { "id": "4", "text": "Anna Voss beginnt nach dem Abitur eine Ausbildung zur Fachinformatikerin Anwendungsentwicklung." },
+          { "id": "5", "text": "Sie besuchen an der Volkshochschule einen Segelkurs." }
+        ],
+        "correctOptionId": "3",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "13",
+      "type": "order",
+      "prompt": { "text": "13. Aufgabe\nDie Auszubildende Paula Gerster erfährt im Berufsschulunterricht, welche Risiken von der gesetzlichen Sozialversicherung gedeckt werden.\nOrdnen Sie die folgenden Fälle den nachstehenden Sozialversicherungszweigen zu.\nBringen Sie die Fälle (1 bis 5) in die Reihenfolge der korrespondierenden Zweige (a bis e):\na) Rentenversicherung\nb) Krankenversicherung\nc) Arbeitslosenversicherung\nd) Pflegeversicherung\ne) Gesetzliche Unfallversicherung" },
+      "score": { "max": 3.33333 },
+      "data": {
+        "items": [
+          { "id": "1", "text": "1. Die Mitarbeiterin Claudia Peters stolpert im Büro und verstaucht sich den Fuß." },
+          { "id": "2", "text": "2. Dem Mitarbeiter Heinz Klein wurde wegen Auftragsmangel zum 1. Oktober 2022 gekündigt." },
+          { "id": "3", "text": "3. Der Mitarbeiter Josef Müller geht wegen einer Grippeerkrankung zu seinem Arzt." },
+          { "id": "4", "text": "4. Die an Demenz erkrankte Großmutter von Stefanie Meyer benötigt eine häusliche Pflegekraft." },
+          { "id": "5", "text": "5. Die Buchhalterin Simone Schmitz scheidet zum 1. November 2022 mit Vollendung des 66. Lebensjahres aus dem Berufsleben aus." }
+        ],
+        "correctOrder": ["5", "3", "2", "4", "1"],
+        "shuffle": false
+      }
+    },
+    {
+      "id": "14",
+      "type": "singleChoice",
+      "prompt": { "text": "14. Aufgabe\nDie Data IT GmbH ist gesetzlich verpflichtet, für die Mitarbeiter Einkommensteuer abzuführen.\nWelche der folgenden Aussagen trifft auf die Einkommensteuer zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Einkommensteuer zahlen nur sozialversicherungspflichtige Arbeitnehmerinnen und Arbeitnehmer." },
+          { "id": "2", "text": "Die Einkommenssteuer wird zwischen Bund, Ländern und Gemeinden aufgeteilt." },
+          { "id": "3", "text": "Die Einkommensteuer wird unabhängig vom Familienstand berechnet." },
+          { "id": "4", "text": "Verheiratete Mitarbeiter werden in die Steuerklasse I eingruppiert." },
+          { "id": "5", "text": "Die Einkommensteuersätze sind in jedem Bundesland unterschiedlich." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "15",
+      "type": "singleChoice",
+      "prompt": { "text": "15. Aufgabe\nEine Mitarbeiterin der Data IT GmbH erwartet in Kürze ihr erstes Kind. Sie möchte Elterngeld beantragen.\nWelche der folgenden Aussagen stimmt mit dem Bundeselterngeld- und Elternzeitgesetz (BEEG) überein?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Elternzeit kann nur dann in Anspruch genommen werden, wenn während der Elternzeit Regeln für mobiles Arbeiten mit dem Arbeitgeber vereinbart werden." },
+          { "id": "2", "text": "Elternzeit kann nur von Müttern in Anspruch genommen werden." },
+          { "id": "3", "text": "Elternzeit kann entweder nur vom Vater oder nur von der Mutter in Anspruch genommen werden." },
+          { "id": "4", "text": "Elterngeld kann für maximal 14 Monate beantragt werden." },
+          { "id": "5", "text": "Elterngeld wird einheitlich und einkommensunabhängig gewährt." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "16",
+      "type": "singleChoice",
+      "prompt": { "text": "16. Aufgabe\nKunden der Data IT GmbH sind sowohl öffentlich-rechtliche Unternehmen, die nach dem Kostendeckungsprinzip arbeiten, als auch erwerbswirtschaftiche Unternehmen, die gewinnorientiert arbeiten.\nWelches der folgenden Unternehmen arbeitet nach dem erwerbswirtschaftlichen Prinzip?\nTragen Sie die Ziffer vor dem zutreffenden Unternehmen in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "SAP AG" },
+          { "id": "2", "text": "Humboldt-Universität zu Berlin" },
+          { "id": "3", "text": "IHK Potsdam" },
+          { "id": "4", "text": "Berufliche Schule für Wirtschaft und Verwaltung" },
+          { "id": "5", "text": "Kassenärztliche Vereinigung" }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "17",
+      "type": "singleChoice",
+      "prompt": { "text": "17. Aufgabe\nDie Data IT GmbH verfolgt unterschiedliche Zielsetzungen. Einige Ziele lassen sich gut miteinander verbinden (komplementäre Ziele). Andere Ziele schließen sich jedoch gegenseitig aus (konkurrierende Ziele).\nIn welcher der folgenden Aussagen handelt es sich um komplementäre Ziele?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Senkung der Transportkosten und Erhöhung der Exportquote" },
+          { "id": "2", "text": "Senkung der Gemeinkosten und Verringerung der Bürofläche" },
+          { "id": "3", "text": "Umsetzung von Rationalisierungsmaßnahmen und Einrichtung einer neuen Betriebskantine" },
+          { "id": "4", "text": "Abbau von Arbeitsplätzen und Eröffnung einer zweiten Betriebsstätte in München" },
+          { "id": "5", "text": "Erhöhung der Sozialleistungen und Senkung der Lohnnebenkosten" }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "18",
+      "type": "numberInput",
+      "prompt": { "text": "18. Aufgabe\nFür die Data IT GmbH liegen zum Geschäftsjahr 2021 folgende Daten vor:\nStammkapital: 2.500.000 EUR\nGewinn: 225.000 EUR\nEin Gesellschafter der Data IT GmbH besitzt eine Stammeinlage von 600.000 EUR. Er erhält für das Geschäftsjahr 2021 einen Gewinnanteil von 75.000 EUR.\nErmitteln Sie die Eigenkapitalrentabilität der Stammeinlage des Gesellschafters in Prozent.\nRunden Sie das Ergebnis gegebenenfalls kaufmännisch auf eine Stelle nach dem Komma.\nTragen Sie das Ergebnis in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "correct": 12.5,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "19",
+      "type": "singleChoice",
+      "prompt": { "text": "19. Aufgabe\nDie Data IT GmbH will mit der Cashsystems GmbH fusionieren. Die Cashsystems GmbH verliert ihre wirtschaftliche und rechtliche Selbständigkeit.\nWelchen der folgenden Aussagen trifft auf eine Fusion zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Durch eine Fusion lassen sich immer Preissteigerungen durchsetzen." },
+          { "id": "2", "text": "Die Data IT GmbH erhofft sich höhere Gewinne durch Erweiterung des Portfolios." },
+          { "id": "3", "text": "Eine Fusion führt immer zur Sicherung der Arbeitsplätze." },
+          { "id": "4", "text": "Durch die Fusion wird der internationalen Wettbewerb gefördert." },
+          { "id": "5", "text": "Die Fusion führt immer zu kostengünstigerer Produktion durch Eröffnung neuer Standorte." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "20",
+      "type": "multiChoice",
+      "prompt": { "text": "20. Aufgabe\nDie Data IT GmbH plant, eine Servicegesellschaft in der Rechtsform einer GmbH mit vorerst fünf Mitarbeitern zu gründen.\nWelche der folgenden Vorschriften sind dabei zu beachten?\nTragen Sie die Ziffern vor den zwei zutreffenden Aussagen in die Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Data IT GmbH kann nicht Gesellschafter einer neu gegründeten GmbH werden." },
+          { "id": "2", "text": "Die Gründung der Servicegesellschaft muss vom Kartellamt genehmigt werden." },
+          { "id": "3", "text": "Das Stammkapital muss mindestens 25.000 EUR betragen." },
+          { "id": "4", "text": "Ein Gesellschafter der Data IT GmbH kann auch Gesellschafter der neu gegründeten GmbH werden." },
+          { "id": "5", "text": "Die Gründung darf nur durch den Geschäftsführer der Data IT GmbH erfolgen." },
+          { "id": "6", "text": "Die Data IT GmbH haftet unmittelbar, unbeschränkt und solidarisch für das Tochterunternehmen." }
+        ],
+        "correctOptionIds": ["3", "4"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "21",
+      "type": "singleChoice",
+      "prompt": { "text": "21. Aufgabe\nDie Geschäftsleitung der Data IT GmbH hat für das neue Geschäftsjahr die Marktentwicklung analysiert. Die Marktentwicklung hängt von verschiedenen Faktoren ab, die das Konsumverhalten beeinflussen.\nWelche der folgenden Aussagen trifft zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Eine erhöhte Nachfrage führt immer zu Preissenkungen." },
+          { "id": "2", "text": "Eine erhöhte Kaufkraft der Konsumenten kann zu einer erhöhten Nachfrage führen." },
+          { "id": "3", "text": "Bei einer erhöhten Kaufkraft der Konsumenten muss das Angebot reduziert werden." },
+          { "id": "4", "text": "Ein verringertes Angebot führt immer zu Preissenkungen." },
+          { "id": "5", "text": "Änderungen der Kaufkraft beeinflussen nicht die Marktsituation." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "22",
+      "type": "multiChoice",
+	  "media": "media/q22.png",
+      "prompt": { "text": "22. Aufgabe\nDie folgende Grafik zeigt die Marktsituation auf dem Markt für ein von der Data IT GmbH vertriebenes Karten-Lesegerät:\n(Grafik: Angebots- und Nachfragekurve)\nWelche der folgenden Aussagen können aus der Grafik abgeleitet werden?\nTragen Sie die Ziffern vor den zwei zutreffenden Aussagen in die Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Bei einem Preis von 55 EUR beträgt der Nachfrageüberhang 20 Stück." },
+          { "id": "2", "text": "Bei einem Preis von 55 EUR beträgt der Angebotsüberhang 20 Stück." },
+          { "id": "3", "text": "Bei einem Preis von 50 EUR beträgt die Produzentenrente 50 EUR." },
+          { "id": "4", "text": "Bei einem Preis von 45 EUR beträgt der Umsatz 4.050 EUR." },
+          { "id": "5", "text": "Der Absatz zum Gleichgewichtspreis beträgt 35 Stück." },
+          { "id": "6", "text": "Der Umsatz zum Gleichgewichtspreis beträgt 1.225 EUR." }
+        ],
+        "correctOptionIds": ["5", "6"],
+        "shuffleOptions": false,
+        "scoring": { "penalizeWrong": false }
+      }
+    },
+    {
+      "id": "23",
+      "type": "singleChoice",
+      "prompt": { "text": "23. Aufgabe\nIn einem Arbeitstreffen analysieren Sie verschiedene Marktsituationen.\nWelcher der folgenden Indikatoren weist auf einen Käufermarkt hin?\nTragen Sie die Ziffer vor dem zutreffenden Indikator in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Auf dem Markt für USB Sticks gibt es nur noch wenige Anbieter." },
+          { "id": "2", "text": "Einem großen Angebot an Laptops steht eine relativ geringe Nachfrage gegenüber." },
+          { "id": "3", "text": "In der IT Branche herrscht geringer Wettbewerb." },
+          { "id": "4", "text": "Das Nachfrage nach Laptops übersteigt das Angebot." },
+          { "id": "5", "text": "Die Nachfrage nach USB Sticks ist größer als das Angebot." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "24",
+      "type": "singleChoice",
+      "prompt": { "text": "24. Aufgabe\nDer Staat möchte durch geeignete wirtschaftspolitische Maßnahmen die Kaufkraft der Verbraucher stärken, um die Konjunktur zu beleben.\nWelche der folgenden Maßnahmen erhöht die Kaufkraft der Verbraucher?\nTragen Sie die Ziffer vor der zutreffenden Maßnahme in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Der Staat erhöht den steuerfreien Grundbetrag in der Einkommensteuer." },
+          { "id": "2", "text": "Die Abschreibungsmöglichkeiten für Unternehmen werden eingeschränkt." },
+          { "id": "3", "text": "Die Steuersätze für die Erbschaftssteuer werden erhöht." },
+          { "id": "4", "text": "Die Beitragsbemessungsgrenzen in der Sozialversicherung werden erhöht." },
+          { "id": "5", "text": "Die Zuschüsse zur Wohnungsbauförderung werden reduziert." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "25",
+      "type": "textInput",
+      "prompt": { "text": "25. Aufgabe\nDie Data IT GmbH hat der Fresh GmbH ein Kassensystem verkauft:\n— Rechnungsbetrag: 12.500,00 EUR\n— Rechnungsdatum: 24.01.2022\n— Zahlungsziel: 10.02.2022\nZahlungsbedingung: fällig ohne Abzug\n— Lieferung am: 24.01.2022\nDie Fresh GmbH hat das Kassensystem bisher nicht bezahlt.\nAn welchem Tag um 00:00 Uhr verjährt der Anspruch der Data IT GmbH auf die Zahlung der Fresh GmbH?\nTragen Sie das Datum des entsprechenden Tages in die Kästchen ein.\n\n§ 195 (BGB) Regelmäßige Verjährungsfrist:\nDie regelmäßige Verjährungsfrist beträgt drei Jahre\n§ 199 (BGB) Beginn der regelmäßigen Verjährungsfrist und Verjährungshöchstfristen:\n(1) Die regelmäßige Verjährungsfrist beginnt, soweit nicht ein anderer Verjährungsbeginn bestimmt ist, mit dem Schluss des Jahres, in dem\n1. der Anspruch entstanden ist und\n2. der Gläubiger von den den Anspruch begründenden Umständen und der Person des Schuldners Kenntnis erlangt oder ohne grobe Fahrlässigkeit erlangen müsste." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "accepted": ["01.01.2026", "01.01.26", "1.1.2026", "1.1.26"],
+        "trim": true,
+        "caseSensitive": false
+      }
+    },
+    {
+      "id": "26",
+      "type": "singleChoice",
+      "prompt": { "text": "26. Aufgabe\nDie 19-jährige Auszubildende Petra Müller kauft einen Motorroller im Wert von 2.299,00 EUR.\nWelche der folgenden Aussagen trifft auf dieses Rechtsgeschäft zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein.\n\nDas Rechtsgeschäft ist..." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "nichtig, weil Petra Müller beschränkt geschäftsfähig ist." },
+          { "id": "2", "text": "anfechtbar, weil die Zustimmung der gesetzlichen Vertreter fehlt." },
+          { "id": "3", "text": "ungültig, weil Petra Müller nicht rechtsfähig ist." },
+          { "id": "4", "text": "gültig, weil Petra Müller unbeschränkt geschäftsfähig ist." },
+          { "id": "5", "text": "schwebend unwirksam, solange Petra Müller noch in Ausbildung ist." }
+        ],
+        "correctOptionId": "4",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "27",
+      "type": "singleChoice",
+      "prompt": { "text": "27. Aufgabe\nHeinz Müller und Petra Schmitz, die mehrere Jahre in der Data IT GmbH beschäftigt waren, wollen sich mit einem IT-Unternehmen selbständig machen. Die finanzierende Bank erwartet von den Existenzgründern die Vorlage eines Businessplans.\nWelche der folgenden Aussagen über einen Businessplan trifft zu?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Im Businessplan werden die unternehmerischen Ziele festgelegt." },
+          { "id": "2", "text": "Ein Businessplan kann nur nach erfolgreicher Gründung einer Kapitalgesellschaft erstellt werden." },
+          { "id": "3", "text": "Ein Businessplan muss von der IHK genehmigt werden." },
+          { "id": "4", "text": "Ein Businessplan muss notariell beurkundet werden." },
+          { "id": "5", "text": "Ein Businessplan ist nur bei der Aufnahme von Darlehen notwendig." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "28",
+      "type": "singleChoice",
+      "prompt": { "text": "28. Aufgabe\nDie Data IT GmbH handelt mit Waren, die in weltweiter Arbeitsteilung hergestellt werden.\nWelche der folgenden Aussagen zur Auswirkung auf die weltweite Arbeitsteilung ist zutreffend?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Durch die weltweite Arbeitsteilung werden in allen Ländern gleich hohe soziale und ökologische Standards garantiert." },
+          { "id": "2", "text": "Die Umweltbelastung durch den Transport der Waren nimmt zu." },
+          { "id": "3", "text": "Auf den weltweiten Arbeitsmarkt herrscht eine allgemeine Arbeitnehmerfreizügigkeit." },
+          { "id": "4", "text": "Durch die weltweite Arbeitsteilung nimmt die Menge der transportierten Waren stetig ab." },
+          { "id": "5", "text": "Die Produktion erfolgt jeweils in den Ländern mit den ökologisch besten Standards." }
+        ],
+        "correctOptionId": "2",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "29",
+      "type": "singleChoice",
+      "prompt": { "text": "29. Aufgabe\nDie Volkswirtschaft der Bundesrepublik Deutschland profitiert von der Globalisierung.\nWelche der folgenden Maßnahmen fördert die Globalisierung?\nTragen Sie die Ziffer vor der zutreffenden Maßnahme in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Die Senkung der Importzölle." },
+          { "id": "2", "text": "Die Erhöhung von Steuern für Transportdienstleistungen." },
+          { "id": "3", "text": "Die Einführung von Exporthemnissen." },
+          { "id": "4", "text": "Ein deutsches Unternehmen produziert ausschließlich in Deutschland." },
+          { "id": "5", "text": "Ein ausländisches Unternehmen schließt die Fertigung in Deutschland." }
+        ],
+        "correctOptionId": "1",
+        "shuffleOptions": false
+      }
+    },
+    {
+      "id": "30",
+      "type": "singleChoice",
+      "prompt": { "text": "30. Aufgabe\nDie Soziale Marktwirtschaft ist in Deutschland ein gesellschafts- und wirtschaftspolitisches Leitbild.\nWelche der folgenden Aussagen zur Sozialen Marktwirtschaft ist zutreffend?\nTragen Sie die Ziffer vor der zutreffenden Aussage in das Kästchen ein." },
+      "score": { "max": 3.33333 },
+      "data": {
+        "options": [
+          { "id": "1", "text": "Der Staat fördert Monopole und Kartelle, um einen Leistungswettbewerb zu verhindern." },
+          { "id": "2", "text": "Der Staat greift regulierend in Märkte ein, indem er für Waren Mindest- und Höchstpreise sowie Angebotsmengen festsetzt." },
+          { "id": "3", "text": "Alle von Insolvenz bedrohten Unternehmen werden auf Antrag durch staatliche Subventionen gestützt." },
+          { "id": "4", "text": "Durch die Gesetzgebung werden alle Wettbewerbshemmnisse vermieden, so dass auf den Märkten eine vollständige Konkurrenz erreicht wird." },
+          { "id": "5", "text": "Durch soziale Sicherungssysteme sollen durch marktwirtschaftliche Ereignisse verursachte Härten abgemildert werden." }
+        ],
+        "correctOptionId": "5",
+        "shuffleOptions": false
+      }
+    }
+  ]
+}
